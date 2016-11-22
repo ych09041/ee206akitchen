@@ -122,7 +122,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib;/home/cc/ee106a/fa16/class/ee106a-acu/ros_workspaces/zumy_workspace/devel/lib;/scratch/shared/baxter_ws/devel/lib;/opt/ros/indigo/lib)
+    foreach(path /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib;/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib;/home/cc/ee106a/fa16/class/ee106a-acu/ros_workspaces/zumy_workspace/devel/lib;/scratch/shared/baxter_ws/devel/lib;/opt/ros/indigo/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -145,7 +145,7 @@ foreach(library ${libraries})
   endif()
 endforeach()
 
-set(baxterkitchen_EXPORTED_TARGETS "")
+set(baxterkitchen_EXPORTED_TARGETS "baxterkitchen_generate_messages_cpp;baxterkitchen_generate_messages_lisp;baxterkitchen_generate_messages_py")
 # create dummy targets for exported code generation targets to make life of users easier
 foreach(t ${baxterkitchen_EXPORTED_TARGETS})
   if(NOT TARGET ${t})
@@ -182,7 +182,7 @@ foreach(depend ${depends})
   list(APPEND baxterkitchen_EXPORTED_TARGETS ${${baxterkitchen_dep}_EXPORTED_TARGETS})
 endforeach()
 
-set(pkg_cfg_extras "")
+set(pkg_cfg_extras "baxterkitchen-msg-extras.cmake")
 foreach(extra ${pkg_cfg_extras})
   if(NOT IS_ABSOLUTE ${extra})
     set(extra ${baxterkitchen_DIR}/${extra})

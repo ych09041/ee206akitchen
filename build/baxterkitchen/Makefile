@@ -150,104 +150,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-baxterkitchen/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_catkin_empty_exported_target.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/_catkin_empty_exported_target.dir/rule
-
-# Convenience name for target.
-_catkin_empty_exported_target: baxterkitchen/CMakeFiles/_catkin_empty_exported_target.dir/rule
-.PHONY : _catkin_empty_exported_target
-
-# fast build rule for target.
-_catkin_empty_exported_target/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_catkin_empty_exported_target.dir/build.make baxterkitchen/CMakeFiles/_catkin_empty_exported_target.dir/build
-.PHONY : _catkin_empty_exported_target/fast
-
-# Convenience name for target.
-baxterkitchen/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_cpp: baxterkitchen/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
-.PHONY : actionlib_generate_messages_cpp
-
-# fast build rule for target.
-actionlib_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make baxterkitchen/CMakeFiles/actionlib_generate_messages_cpp.dir/build
-.PHONY : actionlib_generate_messages_cpp/fast
-
-# Convenience name for target.
-baxterkitchen/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_lisp: baxterkitchen/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
-.PHONY : actionlib_generate_messages_lisp
-
-# fast build rule for target.
-actionlib_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make baxterkitchen/CMakeFiles/actionlib_generate_messages_lisp.dir/build
-.PHONY : actionlib_generate_messages_lisp/fast
-
-# Convenience name for target.
-baxterkitchen/CMakeFiles/actionlib_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/actionlib_generate_messages_py.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/actionlib_generate_messages_py.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_py: baxterkitchen/CMakeFiles/actionlib_generate_messages_py.dir/rule
-.PHONY : actionlib_generate_messages_py
-
-# fast build rule for target.
-actionlib_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/actionlib_generate_messages_py.dir/build.make baxterkitchen/CMakeFiles/actionlib_generate_messages_py.dir/build
-.PHONY : actionlib_generate_messages_py/fast
-
-# Convenience name for target.
-baxterkitchen/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_cpp: baxterkitchen/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
-.PHONY : actionlib_msgs_generate_messages_cpp
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make baxterkitchen/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
-.PHONY : actionlib_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-baxterkitchen/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_lisp: baxterkitchen/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
-.PHONY : actionlib_msgs_generate_messages_lisp
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make baxterkitchen/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
-.PHONY : actionlib_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-baxterkitchen/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_py: baxterkitchen/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
-.PHONY : actionlib_msgs_generate_messages_py
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make baxterkitchen/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
-.PHONY : actionlib_msgs_generate_messages_py/fast
-
-# Convenience name for target.
 baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_cpp.dir/rule:
 	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_cpp.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_cpp.dir/rule
@@ -360,6 +262,104 @@ baxter_maintenance_msgs_generate_messages_py/fast:
 .PHONY : baxter_maintenance_msgs_generate_messages_py/fast
 
 # Convenience name for target.
+baxterkitchen/CMakeFiles/baxterkitchen_gencpp.dir/rule:
+	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxterkitchen_gencpp.dir/rule
+.PHONY : baxterkitchen/CMakeFiles/baxterkitchen_gencpp.dir/rule
+
+# Convenience name for target.
+baxterkitchen_gencpp: baxterkitchen/CMakeFiles/baxterkitchen_gencpp.dir/rule
+.PHONY : baxterkitchen_gencpp
+
+# fast build rule for target.
+baxterkitchen_gencpp/fast:
+	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxterkitchen_gencpp.dir/build.make baxterkitchen/CMakeFiles/baxterkitchen_gencpp.dir/build
+.PHONY : baxterkitchen_gencpp/fast
+
+# Convenience name for target.
+baxterkitchen/CMakeFiles/baxterkitchen_generate_messages.dir/rule:
+	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxterkitchen_generate_messages.dir/rule
+.PHONY : baxterkitchen/CMakeFiles/baxterkitchen_generate_messages.dir/rule
+
+# Convenience name for target.
+baxterkitchen_generate_messages: baxterkitchen/CMakeFiles/baxterkitchen_generate_messages.dir/rule
+.PHONY : baxterkitchen_generate_messages
+
+# fast build rule for target.
+baxterkitchen_generate_messages/fast:
+	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxterkitchen_generate_messages.dir/build.make baxterkitchen/CMakeFiles/baxterkitchen_generate_messages.dir/build
+.PHONY : baxterkitchen_generate_messages/fast
+
+# Convenience name for target.
+baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp.dir/rule:
+	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp.dir/rule
+.PHONY : baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+baxterkitchen_generate_messages_cpp: baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp.dir/rule
+.PHONY : baxterkitchen_generate_messages_cpp
+
+# fast build rule for target.
+baxterkitchen_generate_messages_cpp/fast:
+	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp.dir/build.make baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp.dir/build
+.PHONY : baxterkitchen_generate_messages_cpp/fast
+
+# Convenience name for target.
+baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_lisp.dir/rule:
+	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_lisp.dir/rule
+.PHONY : baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+baxterkitchen_generate_messages_lisp: baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_lisp.dir/rule
+.PHONY : baxterkitchen_generate_messages_lisp
+
+# fast build rule for target.
+baxterkitchen_generate_messages_lisp/fast:
+	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_lisp.dir/build.make baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_lisp.dir/build
+.PHONY : baxterkitchen_generate_messages_lisp/fast
+
+# Convenience name for target.
+baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_py.dir/rule:
+	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_py.dir/rule
+.PHONY : baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_py.dir/rule
+
+# Convenience name for target.
+baxterkitchen_generate_messages_py: baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_py.dir/rule
+.PHONY : baxterkitchen_generate_messages_py
+
+# fast build rule for target.
+baxterkitchen_generate_messages_py/fast:
+	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_py.dir/build.make baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_py.dir/build
+.PHONY : baxterkitchen_generate_messages_py/fast
+
+# Convenience name for target.
+baxterkitchen/CMakeFiles/baxterkitchen_genlisp.dir/rule:
+	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxterkitchen_genlisp.dir/rule
+.PHONY : baxterkitchen/CMakeFiles/baxterkitchen_genlisp.dir/rule
+
+# Convenience name for target.
+baxterkitchen_genlisp: baxterkitchen/CMakeFiles/baxterkitchen_genlisp.dir/rule
+.PHONY : baxterkitchen_genlisp
+
+# fast build rule for target.
+baxterkitchen_genlisp/fast:
+	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxterkitchen_genlisp.dir/build.make baxterkitchen/CMakeFiles/baxterkitchen_genlisp.dir/build
+.PHONY : baxterkitchen_genlisp/fast
+
+# Convenience name for target.
+baxterkitchen/CMakeFiles/baxterkitchen_genpy.dir/rule:
+	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxterkitchen_genpy.dir/rule
+.PHONY : baxterkitchen/CMakeFiles/baxterkitchen_genpy.dir/rule
+
+# Convenience name for target.
+baxterkitchen_genpy: baxterkitchen/CMakeFiles/baxterkitchen_genpy.dir/rule
+.PHONY : baxterkitchen_genpy
+
+# fast build rule for target.
+baxterkitchen_genpy/fast:
+	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxterkitchen_genpy.dir/build.make baxterkitchen/CMakeFiles/baxterkitchen_genpy.dir/build
+.PHONY : baxterkitchen_genpy/fast
+
+# Convenience name for target.
 baxterkitchen/CMakeFiles/control_msgs_generate_messages_cpp.dir/rule:
 	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/control_msgs_generate_messages_cpp.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/control_msgs_generate_messages_cpp.dir/rule
@@ -400,272 +400,6 @@ control_msgs_generate_messages_py: baxterkitchen/CMakeFiles/control_msgs_generat
 control_msgs_generate_messages_py/fast:
 	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/control_msgs_generate_messages_py.dir/build.make baxterkitchen/CMakeFiles/control_msgs_generate_messages_py.dir/build
 .PHONY : control_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-baxterkitchen/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_gencfg: baxterkitchen/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-.PHONY : dynamic_reconfigure_gencfg
-
-# fast build rule for target.
-dynamic_reconfigure_gencfg/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make baxterkitchen/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
-.PHONY : dynamic_reconfigure_gencfg/fast
-
-# Convenience name for target.
-baxterkitchen/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_cpp: baxterkitchen/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-.PHONY : dynamic_reconfigure_generate_messages_cpp
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make baxterkitchen/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_cpp/fast
-
-# Convenience name for target.
-baxterkitchen/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_lisp: baxterkitchen/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-.PHONY : dynamic_reconfigure_generate_messages_lisp
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make baxterkitchen/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_lisp/fast
-
-# Convenience name for target.
-baxterkitchen/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_py: baxterkitchen/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-.PHONY : dynamic_reconfigure_generate_messages_py
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make baxterkitchen/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_py/fast
-
-# Convenience name for target.
-baxterkitchen/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_cpp: baxterkitchen/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make baxterkitchen/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-.PHONY : geometry_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-baxterkitchen/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_lisp: baxterkitchen/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make baxterkitchen/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-.PHONY : geometry_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-baxterkitchen/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_py: baxterkitchen/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : geometry_msgs_generate_messages_py
-
-# fast build rule for target.
-geometry_msgs_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make baxterkitchen/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-.PHONY : geometry_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-baxterkitchen/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_cpp: baxterkitchen/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : roscpp_generate_messages_cpp
-
-# fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make baxterkitchen/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
-
-# Convenience name for target.
-baxterkitchen/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_lisp: baxterkitchen/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : roscpp_generate_messages_lisp
-
-# fast build rule for target.
-roscpp_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make baxterkitchen/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-.PHONY : roscpp_generate_messages_lisp/fast
-
-# Convenience name for target.
-baxterkitchen/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_py: baxterkitchen/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : roscpp_generate_messages_py
-
-# fast build rule for target.
-roscpp_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/roscpp_generate_messages_py.dir/build.make baxterkitchen/CMakeFiles/roscpp_generate_messages_py.dir/build
-.PHONY : roscpp_generate_messages_py/fast
-
-# Convenience name for target.
-baxterkitchen/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: baxterkitchen/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make baxterkitchen/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-baxterkitchen/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: baxterkitchen/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make baxterkitchen/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-baxterkitchen/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_py: baxterkitchen/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_py
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make baxterkitchen/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-.PHONY : rosgraph_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-baxterkitchen/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_cpp: baxterkitchen/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-.PHONY : sensor_msgs_generate_messages_cpp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make baxterkitchen/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-.PHONY : sensor_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-baxterkitchen/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_lisp: baxterkitchen/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-.PHONY : sensor_msgs_generate_messages_lisp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make baxterkitchen/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-.PHONY : sensor_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-baxterkitchen/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_py: baxterkitchen/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-.PHONY : sensor_msgs_generate_messages_py
-
-# fast build rule for target.
-sensor_msgs_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make baxterkitchen/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-.PHONY : sensor_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-baxterkitchen/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_cpp: baxterkitchen/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : std_msgs_generate_messages_cpp
-
-# fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make baxterkitchen/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-baxterkitchen/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: baxterkitchen/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : std_msgs_generate_messages_lisp
-
-# fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make baxterkitchen/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-baxterkitchen/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : baxterkitchen/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_py: baxterkitchen/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : std_msgs_generate_messages_py
-
-# fast build rule for target.
-std_msgs_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/std_msgs_generate_messages_py.dir/build.make baxterkitchen/CMakeFiles/std_msgs_generate_messages_py.dir/build
-.PHONY : std_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule:
@@ -715,13 +449,6 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... _catkin_empty_exported_target"
-	@echo "... actionlib_generate_messages_cpp"
-	@echo "... actionlib_generate_messages_lisp"
-	@echo "... actionlib_generate_messages_py"
-	@echo "... actionlib_msgs_generate_messages_cpp"
-	@echo "... actionlib_msgs_generate_messages_lisp"
-	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... baxter_core_msgs_generate_messages_cpp"
 	@echo "... baxter_core_msgs_generate_messages_lisp"
 	@echo "... baxter_core_msgs_generate_messages_py"
@@ -730,34 +457,22 @@ help:
 	@echo "... baxter_maintenance_msgs_generate_messages_cpp"
 	@echo "... baxter_maintenance_msgs_generate_messages_lisp"
 	@echo "... baxter_maintenance_msgs_generate_messages_py"
+	@echo "... baxterkitchen_gencpp"
+	@echo "... baxterkitchen_generate_messages"
+	@echo "... baxterkitchen_generate_messages_cpp"
+	@echo "... baxterkitchen_generate_messages_lisp"
+	@echo "... baxterkitchen_generate_messages_py"
+	@echo "... baxterkitchen_genlisp"
+	@echo "... baxterkitchen_genpy"
 	@echo "... control_msgs_generate_messages_cpp"
 	@echo "... control_msgs_generate_messages_lisp"
 	@echo "... control_msgs_generate_messages_py"
-	@echo "... dynamic_reconfigure_gencfg"
-	@echo "... dynamic_reconfigure_generate_messages_cpp"
-	@echo "... dynamic_reconfigure_generate_messages_lisp"
-	@echo "... dynamic_reconfigure_generate_messages_py"
 	@echo "... edit_cache"
-	@echo "... geometry_msgs_generate_messages_cpp"
-	@echo "... geometry_msgs_generate_messages_lisp"
-	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... install"
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... roscpp_generate_messages_cpp"
-	@echo "... roscpp_generate_messages_lisp"
-	@echo "... roscpp_generate_messages_py"
-	@echo "... rosgraph_msgs_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_lisp"
-	@echo "... rosgraph_msgs_generate_messages_py"
-	@echo "... sensor_msgs_generate_messages_cpp"
-	@echo "... sensor_msgs_generate_messages_lisp"
-	@echo "... sensor_msgs_generate_messages_py"
-	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... std_msgs_generate_messages_py"
 	@echo "... test"
 	@echo "... trajectory_msgs_generate_messages_cpp"
 	@echo "... trajectory_msgs_generate_messages_lisp"
