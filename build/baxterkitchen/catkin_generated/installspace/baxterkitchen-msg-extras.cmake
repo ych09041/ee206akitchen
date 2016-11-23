@@ -1,2 +1,2 @@
-set(baxterkitchen_MESSAGE_FILES "")
+set(baxterkitchen_MESSAGE_FILES "msg/FibonacciAction.msg;msg/FibonacciActionGoal.msg;msg/FibonacciActionResult.msg;msg/FibonacciActionFeedback.msg;msg/FibonacciGoal.msg;msg/FibonacciResult.msg;msg/FibonacciFeedback.msg;msg/PickAction.msg;msg/PickActionGoal.msg;msg/PickActionResult.msg;msg/PickActionFeedback.msg;msg/PickGoal.msg;msg/PickResult.msg;msg/PickFeedback.msg")
 set(baxterkitchen_SERVICE_FILES "")
