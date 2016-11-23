@@ -3,6 +3,6 @@ prefix=/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/install
 Name: baxterkitchen
 Description: Description of baxterkitchen
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/install/include
 Libs: -L/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/install/lib 
-Requires: 
+Requires: baxter_examples baxter_tools roscpp rospy std_msgs actionlib_msgs

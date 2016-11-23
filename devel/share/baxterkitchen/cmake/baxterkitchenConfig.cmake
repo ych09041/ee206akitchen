@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(baxterkitchen_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT " " STREQUAL " ")
+if(NOT "/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include " STREQUAL " ")
   set(baxterkitchen_INCLUDE_DIRS "")
-  set(_include_dirs "")
+  set(_include_dirs "/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include")
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
       set(include ${idir})
@@ -153,7 +153,7 @@ foreach(t ${baxterkitchen_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "")
+set(depends "baxter_examples;baxter_tools;roscpp;rospy;std_msgs;actionlib_msgs")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls

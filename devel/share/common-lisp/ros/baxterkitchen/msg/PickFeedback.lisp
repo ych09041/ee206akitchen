@@ -1,0 +1,119 @@
+; Auto-generated. Do not edit!
+
+
+(cl:in-package baxterkitchen-msg)
+
+
+;//! \htmlinclude PickFeedback.msg.html
+
+(cl:defclass <PickFeedback> (roslisp-msg-protocol:ros-message)
+  ((fb_x
+    :reader fb_x
+    :initarg :fb_x
+    :type cl:float
+    :initform 0.0)
+   (fb_y
+    :reader fb_y
+    :initarg :fb_y
+    :type cl:float
+    :initform 0.0)
+   (fb_z
+    :reader fb_z
+    :initarg :fb_z
+    :type cl:float
+    :initform 0.0))
+)
+
+(cl:defclass PickFeedback (<PickFeedback>)
+  ())
+
+(cl:defmethod cl:initialize-instance :after ((m <PickFeedback>) cl:&rest args)
+  (cl:declare (cl:ignorable args))
+  (cl:unless (cl:typep m 'PickFeedback)
+    (roslisp-msg-protocol:msg-deprecation-warning "using old message class name baxterkitchen-msg:<PickFeedback> is deprecated: use baxterkitchen-msg:PickFeedback instead.")))
+
+(cl:ensure-generic-function 'fb_x-val :lambda-list '(m))
+(cl:defmethod fb_x-val ((m <PickFeedback>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader baxterkitchen-msg:fb_x-val is deprecated.  Use baxterkitchen-msg:fb_x instead.")
+  (fb_x m))
+
+(cl:ensure-generic-function 'fb_y-val :lambda-list '(m))
+(cl:defmethod fb_y-val ((m <PickFeedback>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader baxterkitchen-msg:fb_y-val is deprecated.  Use baxterkitchen-msg:fb_y instead.")
+  (fb_y m))
+
+(cl:ensure-generic-function 'fb_z-val :lambda-list '(m))
+(cl:defmethod fb_z-val ((m <PickFeedback>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader baxterkitchen-msg:fb_z-val is deprecated.  Use baxterkitchen-msg:fb_z instead.")
+  (fb_z m))
+(cl:defmethod roslisp-msg-protocol:serialize ((msg <PickFeedback>) ostream)
+  "Serializes a message object of type '<PickFeedback>"
+  (cl:let ((bits (roslisp-utils:encode-single-float-bits (cl:slot-value msg 'fb_x))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream))
+  (cl:let ((bits (roslisp-utils:encode-single-float-bits (cl:slot-value msg 'fb_y))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream))
+  (cl:let ((bits (roslisp-utils:encode-single-float-bits (cl:slot-value msg 'fb_z))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream))
+)
+(cl:defmethod roslisp-msg-protocol:deserialize ((msg <PickFeedback>) istream)
+  "Deserializes a message object of type '<PickFeedback>"
+    (cl:let ((bits 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
+    (cl:setf (cl:slot-value msg 'fb_x) (roslisp-utils:decode-single-float-bits bits)))
+    (cl:let ((bits 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
+    (cl:setf (cl:slot-value msg 'fb_y) (roslisp-utils:decode-single-float-bits bits)))
+    (cl:let ((bits 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
+    (cl:setf (cl:slot-value msg 'fb_z) (roslisp-utils:decode-single-float-bits bits)))
+  msg
+)
+(cl:defmethod roslisp-msg-protocol:ros-datatype ((msg (cl:eql '<PickFeedback>)))
+  "Returns string type for a message object of type '<PickFeedback>"
+  "baxterkitchen/PickFeedback")
+(cl:defmethod roslisp-msg-protocol:ros-datatype ((msg (cl:eql 'PickFeedback)))
+  "Returns string type for a message object of type 'PickFeedback"
+  "baxterkitchen/PickFeedback")
+(cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql '<PickFeedback>)))
+  "Returns md5sum for a message object of type '<PickFeedback>"
+  "1613636c8d5e62b8a3874c510f01dbb3")
+(cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql 'PickFeedback)))
+  "Returns md5sum for a message object of type 'PickFeedback"
+  "1613636c8d5e62b8a3874c510f01dbb3")
+(cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<PickFeedback>)))
+  "Returns full string definition for message of type '<PickFeedback>"
+  (cl:format cl:nil "# ====== DO NOT MODIFY! AUTOGENERATED FROM AN ACTION DEFINITION ======~%#feedback~%float32 fb_x~%float32 fb_y~%float32 fb_z~%~%~%~%"))
+(cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'PickFeedback)))
+  "Returns full string definition for message of type 'PickFeedback"
+  (cl:format cl:nil "# ====== DO NOT MODIFY! AUTOGENERATED FROM AN ACTION DEFINITION ======~%#feedback~%float32 fb_x~%float32 fb_y~%float32 fb_z~%~%~%~%"))
+(cl:defmethod roslisp-msg-protocol:serialization-length ((msg <PickFeedback>))
+  (cl:+ 0
+     4
+     4
+     4
+))
+(cl:defmethod roslisp-msg-protocol:ros-message-to-list ((msg <PickFeedback>))
+  "Converts a ROS message object to a list"
+  (cl:list 'PickFeedback
+    (cl:cons ':fb_x (fb_x msg))
+    (cl:cons ':fb_y (fb_y msg))
+    (cl:cons ':fb_z (fb_z msg))
+))
