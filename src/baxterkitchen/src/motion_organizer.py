@@ -20,7 +20,7 @@ def pick_client():
     client.wait_for_server()
 
     # Creates a goal to send to the action server.
-    goal = baxterkitchen.msg.PickGoal(p_x = 0.123, p_y = 0.234, p_z = 0.345)
+    goal = baxterkitchen.msg.PickGoal(p_x = 0.4, p_y = 0.0, p_z = 0.0)
 
     # Sends the goal to the action server.
     client.send_goal(goal)

@@ -140,5 +140,6 @@ class PickAction(object):
       
 if __name__ == '__main__':
   rospy.init_node('pick_server')
+  print 'pick server running...'
   PickAction(rospy.get_name())
   rospy.spin()
