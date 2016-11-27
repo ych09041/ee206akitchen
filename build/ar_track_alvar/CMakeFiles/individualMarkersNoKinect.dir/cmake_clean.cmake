@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/individualMarkersNoKinect.dir/nodes/IndividualMarkersNoKinect.cpp.o"
-  "/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/individualMarkersNoKinect.pdb"
-  "/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/individualMarkersNoKinect"
+  "/home/team15/ee206akitchen/devel/lib/ar_track_alvar/individualMarkersNoKinect.pdb"
+  "/home/team15/ee206akitchen/devel/lib/ar_track_alvar/individualMarkersNoKinect"
 )
 
 # Per-language clean rules from dependency scanning.

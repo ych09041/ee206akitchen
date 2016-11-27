@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src
+CMAKE_SOURCE_DIR = /home/team15/ee206akitchen/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build
+CMAKE_BINARY_DIR = /home/team15/ee206akitchen/build
 
 # Include any dependencies generated for this target.
 include ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/depend.make
@@ -50,18 +50,18 @@ include ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/progress.make
 include ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/flags.make
 
 ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/nodes/TrainMarkerBundle.cpp.o: ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/flags.make
-ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/nodes/TrainMarkerBundle.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/nodes/TrainMarkerBundle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_1)
+ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/nodes/TrainMarkerBundle.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/nodes/TrainMarkerBundle.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/nodes/TrainMarkerBundle.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/trainMarkerBundle.dir/nodes/TrainMarkerBundle.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/nodes/TrainMarkerBundle.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/trainMarkerBundle.dir/nodes/TrainMarkerBundle.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/nodes/TrainMarkerBundle.cpp
 
 ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/nodes/TrainMarkerBundle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trainMarkerBundle.dir/nodes/TrainMarkerBundle.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/nodes/TrainMarkerBundle.cpp > CMakeFiles/trainMarkerBundle.dir/nodes/TrainMarkerBundle.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/nodes/TrainMarkerBundle.cpp > CMakeFiles/trainMarkerBundle.dir/nodes/TrainMarkerBundle.cpp.i
 
 ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/nodes/TrainMarkerBundle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trainMarkerBundle.dir/nodes/TrainMarkerBundle.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/nodes/TrainMarkerBundle.cpp -o CMakeFiles/trainMarkerBundle.dir/nodes/TrainMarkerBundle.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/nodes/TrainMarkerBundle.cpp -o CMakeFiles/trainMarkerBundle.dir/nodes/TrainMarkerBundle.cpp.s
 
 ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/nodes/TrainMarkerBundle.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/nodes/TrainMarkerBundle.cpp.o.requires
@@ -79,129 +79,129 @@ trainMarkerBundle_OBJECTS = \
 # External object files for target trainMarkerBundle
 trainMarkerBundle_EXTERNAL_OBJECTS =
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/nodes/TrainMarkerBundle.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/build.make
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libimage_transport.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libresource_retriever.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libcv_bridge.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libpcl_ros_filters.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libpcl_ros_io.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libpcl_ros_tf.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_common.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_octree.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_io.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_kdtree.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_search.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_sample_consensus.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_filters.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_features.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_keypoints.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_segmentation.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_visualization.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_outofcore.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_registration.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_recognition.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_surface.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_people.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_tracking.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_apps.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libqhull.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libOpenNI.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libvtkCommon.so.5.8.0
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libvtkRendering.so.5.8.0
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libvtkHybrid.so.5.8.0
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libvtkCharts.so.5.8.0
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libnodeletlib.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libbondcpp.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libclass_loader.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libPocoFoundation.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libroslib.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/librosbag.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/librosbag_storage.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libroslz4.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/liblz4.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libtopic_tools.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libtf.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libtf2_ros.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libactionlib.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libmessage_filters.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libtf2.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libroscpp.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/librosconsole.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/librosconsole_log4cxx.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/librosconsole_backend_interface.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/liblog4cxx.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libxmlrpcpp.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libroscpp_serialization.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/librostime.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libcpp_common.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/trainMarkerBundle.dir/link.txt --verbose=$(VERBOSE)
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/nodes/TrainMarkerBundle.cpp.o
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/build.make
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /home/team15/ee206akitchen/devel/lib/libar_track_alvar.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libimage_transport.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libresource_retriever.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libcv_bridge.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libpcl_ros_filters.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libpcl_ros_io.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libpcl_ros_tf.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_common.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_octree.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_io.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_kdtree.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_search.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_sample_consensus.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_filters.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_features.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_keypoints.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_segmentation.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_visualization.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_outofcore.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_registration.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_recognition.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_surface.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_people.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_tracking.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libpcl_apps.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libqhull.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libOpenNI.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libvtkCommon.so.5.8.0
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libvtkRendering.so.5.8.0
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libvtkHybrid.so.5.8.0
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libvtkCharts.so.5.8.0
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libnodeletlib.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libbondcpp.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libclass_loader.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/libPocoFoundation.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libroslib.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/librosbag.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/librosbag_storage.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libroslz4.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/liblz4.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libtopic_tools.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libtf.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libtf2_ros.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libactionlib.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libmessage_filters.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libtf2.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libroscpp.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/librosconsole.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/librosconsole_log4cxx.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/librosconsole_backend_interface.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/liblog4cxx.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libxmlrpcpp.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libroscpp_serialization.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/librostime.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /opt/ros/indigo/lib/libcpp_common.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle: ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle"
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/trainMarkerBundle.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/build: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle
+ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/build: /home/team15/ee206akitchen/devel/lib/ar_track_alvar/trainMarkerBundle
 .PHONY : ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/build
 
 ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/requires: ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/nodes/TrainMarkerBundle.cpp.o.requires
 .PHONY : ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/requires
 
 ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/clean:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && $(CMAKE_COMMAND) -P CMakeFiles/trainMarkerBundle.dir/cmake_clean.cmake
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && $(CMAKE_COMMAND) -P CMakeFiles/trainMarkerBundle.dir/cmake_clean.cmake
 .PHONY : ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/clean
 
 ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/depend:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/team15/ee206akitchen/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/team15/ee206akitchen/src /home/team15/ee206akitchen/src/ar_track_alvar /home/team15/ee206akitchen/build /home/team15/ee206akitchen/build/ar_track_alvar /home/team15/ee206akitchen/build/ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/depend
 

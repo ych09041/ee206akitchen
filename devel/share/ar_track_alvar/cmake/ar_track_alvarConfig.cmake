@@ -67,14 +67,14 @@ set(ar_track_alvar_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(ar_track_alvar_SOURCE_PREFIX /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar)
-  set(ar_track_alvar_DEVEL_PREFIX /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel)
+  set(ar_track_alvar_SOURCE_PREFIX /home/team15/ee206akitchen/src/ar_track_alvar)
+  set(ar_track_alvar_DEVEL_PREFIX /home/team15/ee206akitchen/devel)
   set(ar_track_alvar_INSTALL_PREFIX "")
   set(ar_track_alvar_PREFIX ${ar_track_alvar_DEVEL_PREFIX})
 else()
   set(ar_track_alvar_SOURCE_PREFIX "")
   set(ar_track_alvar_DEVEL_PREFIX "")
-  set(ar_track_alvar_INSTALL_PREFIX /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/install)
+  set(ar_track_alvar_INSTALL_PREFIX /home/team15/ee206akitchen/install)
   set(ar_track_alvar_PREFIX ${ar_track_alvar_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(ar_track_alvar_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include;/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include " STREQUAL " ")
+if(NOT "/home/team15/ee206akitchen/devel/include;/home/team15/ee206akitchen/src/ar_track_alvar/include " STREQUAL " ")
   set(ar_track_alvar_INCLUDE_DIRS "")
-  set(_include_dirs "/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include;/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include")
+  set(_include_dirs "/home/team15/ee206akitchen/devel/include;/home/team15/ee206akitchen/src/ar_track_alvar/include")
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
       set(include ${idir})
@@ -103,7 +103,7 @@ if(NOT "/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include;/home/
         message(FATAL_ERROR "Project 'ar_track_alvar' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  Ask the maintainer 'Scott Niekum <sniekum@cs.umass.edu>, Isaac I.Y. Saito <130s@2000.jukuin.keio.ac.jp>' to fix it.")
       endif()
     else()
-      message(FATAL_ERROR "Project 'ar_track_alvar' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/${idir}'.  Ask the maintainer 'Scott Niekum <sniekum@cs.umass.edu>, Isaac I.Y. Saito <130s@2000.jukuin.keio.ac.jp>' to fix it.")
+      message(FATAL_ERROR "Project 'ar_track_alvar' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/team15/ee206akitchen/src/ar_track_alvar/${idir}'.  Ask the maintainer 'Scott Niekum <sniekum@cs.umass.edu>, Isaac I.Y. Saito <130s@2000.jukuin.keio.ac.jp>' to fix it.")
     endif()
     _list_append_unique(ar_track_alvar_INCLUDE_DIRS ${include})
   endforeach()
@@ -122,7 +122,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib;/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib;/home/cc/ee106a/fa16/class/ee106a-acu/ros_workspaces/zumy_workspace/devel/lib;/scratch/shared/baxter_ws/devel/lib;/opt/ros/indigo/lib)
+    foreach(path /home/team15/ee206akitchen/devel/lib;/home/team15/ee206akitchen/devel/lib;/scratch/shared/baxter_ws/devel/lib;/opt/ros/indigo/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -7,6 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH="/opt/ros/indigo/lib/x86_64-linux-gnu:/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib:/home/cc/ee106a/fa16/class/ee106a-acu/ros_workspaces/lab6/devel/lib:/home/cc/ee106a/fa16/class/ee106a-acu/ros_workspaces/lab5/devel/lib:/home/cc/ee106a/fa16/class/ee106a-acu/ros_workspaces/zumy_workspace/devel/lib:/scratch/shared/baxter_ws/devel/lib:/opt/ros/indigo/lib:/usr/sww/lib"
-export PKG_CONFIG_PATH="/opt/ros/indigo/lib/x86_64-linux-gnu/pkgconfig:/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/pkgconfig:/home/cc/ee106a/fa16/class/ee106a-acu/ros_workspaces/lab6/devel/lib/pkgconfig:/home/cc/ee106a/fa16/class/ee106a-acu/ros_workspaces/lab5/devel/lib/pkgconfig:/home/cc/ee106a/fa16/class/ee106a-acu/ros_workspaces/zumy_workspace/devel/lib/pkgconfig:/scratch/shared/baxter_ws/devel/lib/pkgconfig:/opt/ros/indigo/lib/pkgconfig"
-export PWD="/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build"
+export PWD="/home/team15/ee206akitchen/build"
+export ROS_PACKAGE_PATH="/home/team15/ee206akitchen/src:/scratch/shared/baxter_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks"
