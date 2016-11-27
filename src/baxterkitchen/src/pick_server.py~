@@ -63,7 +63,7 @@ class PickAction(object):
     #Initialize moveit_commander
     moveit_commander.roscpp_initialize(sys.argv)
     #Set up the left gripper
-    left_gripper = baxter_gripper.Gripper('left')
+    #left_gripper = baxter_gripper.Gripper('left')
 
 
     #Initialize both arms
@@ -102,11 +102,16 @@ class PickAction(object):
 
     #Execute the plan
     left_arm.execute(left_plan)
-
-    #Second goal pose -----------------------------------------------------
     rospy.sleep(2.0)
     
     
+    ## grab stuff
+    # calibrate first
+    #left_gripper.calibrate()
+    #rospy.sleep(2.0)
+    #Close the left gripper
+    #left_gripper.close(block=True)
+    #rospy.sleep(1.0)
     
     
     
@@ -135,5 +140,6 @@ class PickAction(object):
       
 if __name__ == '__main__':
   rospy.init_node('pick_server')
+  print 'pick server running...'
   PickAction(rospy.get_name())
   rospy.spin()
