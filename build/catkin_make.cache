@@ -1,2 +1,0 @@
-ar_track_alvar:baxterkitchen
--DCATKIN_DEVEL_PREFIX=/home/team15/ee206akitchen/devel -DCMAKE_INSTALL_PREFIX=/home/team15/ee206akitchen/install -G Unix Makefiles

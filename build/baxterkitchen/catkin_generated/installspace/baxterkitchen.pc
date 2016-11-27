@@ -1,8 +1,0 @@
-prefix=/home/team15/ee206akitchen/install
-
-Name: baxterkitchen
-Description: Description of baxterkitchen
-Version: 0.0.0
-Cflags: -I/home/team15/ee206akitchen/install/include
-Libs: -L/home/team15/ee206akitchen/install/lib 
-Requires: baxter_examples baxter_tools roscpp rospy std_msgs actionlib_msgs message_runtime
