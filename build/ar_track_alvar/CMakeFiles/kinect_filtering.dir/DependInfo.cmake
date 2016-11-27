@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/kinect_filtering.cpp" "/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar/CMakeFiles/kinect_filtering.dir/src/kinect_filtering.cpp.o"
+  "/home/team15/ee206akitchen/src/ar_track_alvar/src/kinect_filtering.cpp" "/home/team15/ee206akitchen/build/ar_track_alvar/CMakeFiles/kinect_filtering.dir/src/kinect_filtering.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,9 +21,9 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include"
+  "/home/team15/ee206akitchen/devel/include"
   "/usr/include/opencv"
-  "/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include"
+  "/home/team15/ee206akitchen/src/ar_track_alvar/include"
   "/opt/ros/indigo/include"
   "/usr/include/eigen3"
   "/usr/include/pcl-1.7"

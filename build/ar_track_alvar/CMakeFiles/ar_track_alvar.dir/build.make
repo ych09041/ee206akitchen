@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src
+CMAKE_SOURCE_DIR = /home/team15/ee206akitchen/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build
+CMAKE_BINARY_DIR = /home/team15/ee206akitchen/build
 
 # Include any dependencies generated for this target.
 include ar_track_alvar/CMakeFiles/ar_track_alvar.dir/depend.make
@@ -50,18 +50,18 @@ include ar_track_alvar/CMakeFiles/ar_track_alvar.dir/progress.make
 include ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Camera.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_1)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/Camera.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Camera.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/Camera.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Camera.cpp > CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/Camera.cpp > CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Camera.cpp -o CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/Camera.cpp -o CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o.requires
@@ -73,18 +73,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o.provides: ar_track
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/CaptureDevice.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_2)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/CaptureDevice.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/CaptureDevice.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/CaptureDevice.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/CaptureDevice.cpp > CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/CaptureDevice.cpp > CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/CaptureDevice.cpp -o CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/CaptureDevice.cpp -o CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.o.requires
@@ -96,18 +96,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.o.provides: a
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Pose.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_3)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/Pose.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Pose.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/Pose.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Pose.cpp > CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/Pose.cpp > CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Pose.cpp -o CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/Pose.cpp -o CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.o.requires
@@ -119,18 +119,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.o.provides: ar_track_a
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Marker.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_4)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/Marker.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Marker.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/Marker.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Marker.cpp > CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/Marker.cpp > CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Marker.cpp -o CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/Marker.cpp -o CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.o.requires
@@ -142,18 +142,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.o.provides: ar_track
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/MarkerDetector.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_5)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/MarkerDetector.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/MarkerDetector.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/MarkerDetector.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/MarkerDetector.cpp > CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/MarkerDetector.cpp > CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/MarkerDetector.cpp -o CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/MarkerDetector.cpp -o CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.o.requires
@@ -165,18 +165,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.o.provides: 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Bitset.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_6)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/Bitset.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Bitset.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/Bitset.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Bitset.cpp > CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/Bitset.cpp > CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Bitset.cpp -o CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/Bitset.cpp -o CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.o.requires
@@ -188,18 +188,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.o.provides: ar_track
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Rotation.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_7)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/Rotation.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Rotation.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/Rotation.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Rotation.cpp > CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/Rotation.cpp > CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Rotation.cpp -o CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/Rotation.cpp -o CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.o.requires
@@ -211,18 +211,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.o.provides: ar_tra
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/CvTestbed.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_8)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/CvTestbed.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/CvTestbed.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/CvTestbed.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/CvTestbed.cpp > CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/CvTestbed.cpp > CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/CvTestbed.cpp -o CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/CvTestbed.cpp -o CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.o.requires
@@ -234,18 +234,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.o.provides: ar_tr
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/CaptureFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_9)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/CaptureFactory.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/CaptureFactory.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/CaptureFactory.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/CaptureFactory.cpp > CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/CaptureFactory.cpp > CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/CaptureFactory.cpp -o CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/CaptureFactory.cpp -o CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.o.requires
@@ -257,18 +257,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.o.provides: 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/CaptureFactory_unix.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_10)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/CaptureFactory_unix.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/CaptureFactory_unix.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/CaptureFactory_unix.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/CaptureFactory_unix.cpp > CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/CaptureFactory_unix.cpp > CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/CaptureFactory_unix.cpp -o CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/CaptureFactory_unix.cpp -o CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.o.requires
@@ -280,18 +280,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.o.provi
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/FileFormatUtils.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_11)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/FileFormatUtils.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/FileFormatUtils.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/FileFormatUtils.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/FileFormatUtils.cpp > CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/FileFormatUtils.cpp > CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/FileFormatUtils.cpp -o CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/FileFormatUtils.cpp -o CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.o.requires
@@ -303,18 +303,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.o.provides:
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Threads.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_12)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/Threads.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Threads.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/Threads.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Threads.cpp > CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/Threads.cpp > CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Threads.cpp -o CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/Threads.cpp -o CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.o.requires
@@ -326,18 +326,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.o.provides: ar_trac
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Threads_unix.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_13)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/Threads_unix.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Threads_unix.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/Threads_unix.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Threads_unix.cpp > CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/Threads_unix.cpp > CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Threads_unix.cpp -o CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/Threads_unix.cpp -o CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.o.requires
@@ -349,18 +349,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.o.provides: ar
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Mutex.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_14)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/Mutex.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Mutex.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/Mutex.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Mutex.cpp > CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/Mutex.cpp > CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Mutex.cpp -o CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/Mutex.cpp -o CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.o.requires
@@ -372,18 +372,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.o.provides: ar_track_
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Mutex_unix.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_15)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/Mutex_unix.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Mutex_unix.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/Mutex_unix.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Mutex_unix.cpp > CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/Mutex_unix.cpp > CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Mutex_unix.cpp -o CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/Mutex_unix.cpp -o CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.o.requires
@@ -395,18 +395,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.o.provides: ar_t
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/ConnectedComponents.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_16)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/ConnectedComponents.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/ConnectedComponents.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/ConnectedComponents.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/ConnectedComponents.cpp > CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/ConnectedComponents.cpp > CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/ConnectedComponents.cpp -o CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/ConnectedComponents.cpp -o CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.o.requires
@@ -418,18 +418,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.o.provi
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Line.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Line.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Line.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_17)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Line.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/Line.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Line.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Line.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Line.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Line.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/Line.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Line.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Line.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Line.cpp > CMakeFiles/ar_track_alvar.dir/src/Line.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/Line.cpp > CMakeFiles/ar_track_alvar.dir/src/Line.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Line.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Line.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Line.cpp -o CMakeFiles/ar_track_alvar.dir/src/Line.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/Line.cpp -o CMakeFiles/ar_track_alvar.dir/src/Line.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Line.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Line.cpp.o.requires
@@ -441,18 +441,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Line.cpp.o.provides: ar_track_a
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Line.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Line.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Plugin.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_18)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/Plugin.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Plugin.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/Plugin.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Plugin.cpp > CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/Plugin.cpp > CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Plugin.cpp -o CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/Plugin.cpp -o CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.o.requires
@@ -464,18 +464,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.o.provides: ar_track
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Plugin_unix.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_19)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/Plugin_unix.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Plugin_unix.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/Plugin_unix.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Plugin_unix.cpp > CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/Plugin_unix.cpp > CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Plugin_unix.cpp -o CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/Plugin_unix.cpp -o CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.o.requires
@@ -487,18 +487,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.o.provides: ar_
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/DirectoryIterator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_20)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/DirectoryIterator.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/DirectoryIterator.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/DirectoryIterator.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/DirectoryIterator.cpp > CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/DirectoryIterator.cpp > CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/DirectoryIterator.cpp -o CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/DirectoryIterator.cpp -o CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.o.requires
@@ -510,18 +510,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.o.provide
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/DirectoryIterator_unix.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_21)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/DirectoryIterator_unix.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/DirectoryIterator_unix.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/DirectoryIterator_unix.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/DirectoryIterator_unix.cpp > CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/DirectoryIterator_unix.cpp > CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/DirectoryIterator_unix.cpp -o CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/DirectoryIterator_unix.cpp -o CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.o.requires
@@ -533,18 +533,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.o.pr
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Draw.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_22)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/Draw.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Draw.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/Draw.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Draw.cpp > CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/Draw.cpp > CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Draw.cpp -o CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/Draw.cpp -o CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.o.requires
@@ -556,18 +556,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.o.provides: ar_track_a
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Util.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Util.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Util.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_23)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Util.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/Util.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Util.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Util.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Util.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Util.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/Util.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Util.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Util.cpp > CMakeFiles/ar_track_alvar.dir/src/Util.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/Util.cpp > CMakeFiles/ar_track_alvar.dir/src/Util.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Util.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Util.cpp -o CMakeFiles/ar_track_alvar.dir/src/Util.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/Util.cpp -o CMakeFiles/ar_track_alvar.dir/src/Util.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Util.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Util.cpp.o.requires
@@ -579,18 +579,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Util.cpp.o.provides: ar_track_a
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Util.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Util.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Filter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_24)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/Filter.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Filter.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/Filter.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Filter.cpp > CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/Filter.cpp > CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Filter.cpp -o CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/Filter.cpp -o CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.o.requires
@@ -602,18 +602,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.o.provides: ar_track
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Kalman.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_25)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/Kalman.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Kalman.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/Kalman.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Kalman.cpp > CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/Kalman.cpp > CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Kalman.cpp -o CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/Kalman.cpp -o CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.o.requires
@@ -625,18 +625,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.o.provides: ar_track
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/kinect_filtering.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/kinect_filtering.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/kinect_filtering.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_26)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/kinect_filtering.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/kinect_filtering.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/kinect_filtering.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/kinect_filtering.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/kinect_filtering.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/kinect_filtering.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/kinect_filtering.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/kinect_filtering.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/kinect_filtering.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/kinect_filtering.cpp > CMakeFiles/ar_track_alvar.dir/src/kinect_filtering.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/kinect_filtering.cpp > CMakeFiles/ar_track_alvar.dir/src/kinect_filtering.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/kinect_filtering.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/kinect_filtering.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/kinect_filtering.cpp -o CMakeFiles/ar_track_alvar.dir/src/kinect_filtering.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/kinect_filtering.cpp -o CMakeFiles/ar_track_alvar.dir/src/kinect_filtering.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/kinect_filtering.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/kinect_filtering.cpp.o.requires
@@ -648,18 +648,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/kinect_filtering.cpp.o.provides
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/kinect_filtering.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/kinect_filtering.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Optimization.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_27)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/Optimization.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Optimization.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/Optimization.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Optimization.cpp > CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/Optimization.cpp > CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/Optimization.cpp -o CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/Optimization.cpp -o CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.o.requires
@@ -671,18 +671,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.o.provides: ar
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/MultiMarker.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_28)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/MultiMarker.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/MultiMarker.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/MultiMarker.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/MultiMarker.cpp > CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/MultiMarker.cpp > CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/MultiMarker.cpp -o CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/MultiMarker.cpp -o CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.o.requires
@@ -694,18 +694,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.o.provides: ar_
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/MultiMarkerBundle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_29)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/MultiMarkerBundle.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/MultiMarkerBundle.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/MultiMarkerBundle.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/MultiMarkerBundle.cpp > CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/MultiMarkerBundle.cpp > CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/MultiMarkerBundle.cpp -o CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/MultiMarkerBundle.cpp -o CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.o.requires
@@ -717,18 +717,18 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.o.provide
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.o.provides.build: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.o
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.o: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.o: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/MultiMarkerInitializer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_30)
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.o: /home/team15/ee206akitchen/src/ar_track_alvar/src/MultiMarkerInitializer.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.o"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.o -c /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/MultiMarkerInitializer.cpp
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.o -c /home/team15/ee206akitchen/src/ar_track_alvar/src/MultiMarkerInitializer.cpp
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.i"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/MultiMarkerInitializer.cpp > CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.i
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/team15/ee206akitchen/src/ar_track_alvar/src/MultiMarkerInitializer.cpp > CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.i
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.s"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/src/MultiMarkerInitializer.cpp -o CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.s
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/team15/ee206akitchen/src/ar_track_alvar/src/MultiMarkerInitializer.cpp -o CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.s
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.o.requires:
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.o.requires
@@ -775,245 +775,245 @@ ar_track_alvar_OBJECTS = \
 # External object files for target ar_track_alvar
 ar_track_alvar_EXTERNAL_OBJECTS =
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Line.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Util.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/kinect_filtering.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.o
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/build.make
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libimage_transport.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libresource_retriever.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libcv_bridge.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libpcl_ros_filters.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libpcl_ros_io.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libpcl_ros_tf.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_common.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_octree.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_io.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_kdtree.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_search.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_sample_consensus.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_filters.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_features.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_keypoints.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_segmentation.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_visualization.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_outofcore.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_registration.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_recognition.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_surface.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_people.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_tracking.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_apps.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libqhull.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libOpenNI.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libvtkCommon.so.5.8.0
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libvtkRendering.so.5.8.0
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libvtkHybrid.so.5.8.0
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libvtkCharts.so.5.8.0
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libnodeletlib.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libbondcpp.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libclass_loader.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libPocoFoundation.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libroslib.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/librosbag.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/librosbag_storage.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libroslz4.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/liblz4.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libtopic_tools.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libtf.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libtf2_ros.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libactionlib.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libmessage_filters.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libtf2.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libroscpp.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/librosconsole.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/librosconsole_log4cxx.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/librosconsole_backend_interface.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/liblog4cxx.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libxmlrpcpp.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libroscpp_serialization.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/librostime.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libcpp_common.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libimage_transport.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libresource_retriever.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libcv_bridge.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libpcl_ros_filters.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libpcl_ros_io.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libpcl_ros_tf.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_common.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_octree.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_io.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_kdtree.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_search.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_sample_consensus.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_filters.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_features.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_keypoints.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_segmentation.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_visualization.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_outofcore.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_registration.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_recognition.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_surface.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_people.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_tracking.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_apps.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libqhull.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libOpenNI.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libvtkCommon.so.5.8.0
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libvtkRendering.so.5.8.0
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libvtkHybrid.so.5.8.0
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libvtkCharts.so.5.8.0
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libnodeletlib.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libbondcpp.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libclass_loader.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libPocoFoundation.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libroslib.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/librosbag.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/librosbag_storage.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libroslz4.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/liblz4.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libtopic_tools.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libtf.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libtf2_ros.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libactionlib.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libmessage_filters.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libtf2.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libroscpp.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/librosconsole.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/librosconsole_log4cxx.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/librosconsole_backend_interface.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/liblog4cxx.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libxmlrpcpp.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libroscpp_serialization.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/librostime.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libcpp_common.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ar_track_alvar.dir/link.txt --verbose=$(VERBOSE)
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Line.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Util.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/kinect_filtering.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.o
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/build.make
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libimage_transport.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libresource_retriever.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libcv_bridge.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libpcl_ros_filters.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libpcl_ros_io.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libpcl_ros_tf.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_common.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_octree.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_io.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_kdtree.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_search.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_sample_consensus.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_filters.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_features.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_keypoints.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_segmentation.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_visualization.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_outofcore.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_registration.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_recognition.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_surface.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_people.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_tracking.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_apps.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libqhull.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libOpenNI.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libvtkCommon.so.5.8.0
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libvtkRendering.so.5.8.0
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libvtkHybrid.so.5.8.0
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libvtkCharts.so.5.8.0
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libnodeletlib.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libbondcpp.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libclass_loader.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libPocoFoundation.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libroslib.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/librosbag.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/librosbag_storage.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libroslz4.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/liblz4.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libtopic_tools.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libtf.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libtf2_ros.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libactionlib.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libmessage_filters.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libtf2.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libroscpp.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/librosconsole.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/librosconsole_log4cxx.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/librosconsole_backend_interface.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/liblog4cxx.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libxmlrpcpp.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libroscpp_serialization.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/librostime.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libcpp_common.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libimage_transport.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libresource_retriever.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libcv_bridge.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libpcl_ros_filters.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libpcl_ros_io.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libpcl_ros_tf.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_common.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_octree.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_io.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_kdtree.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_search.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_sample_consensus.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_filters.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_features.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_keypoints.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_segmentation.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_visualization.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_outofcore.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_registration.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_recognition.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_surface.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_people.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_tracking.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libpcl_apps.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libqhull.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libOpenNI.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libvtkCommon.so.5.8.0
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libvtkRendering.so.5.8.0
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libvtkHybrid.so.5.8.0
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libvtkCharts.so.5.8.0
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libnodeletlib.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libbondcpp.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libclass_loader.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/libPocoFoundation.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libroslib.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/librosbag.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/librosbag_storage.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libroslz4.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/liblz4.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libtopic_tools.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libtf.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libtf2_ros.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libactionlib.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libmessage_filters.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libtf2.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libroscpp.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/librosconsole.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/librosconsole_log4cxx.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/librosconsole_backend_interface.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/liblog4cxx.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libxmlrpcpp.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libroscpp_serialization.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/librostime.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /opt/ros/indigo/lib/libcpp_common.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library /home/team15/ee206akitchen/devel/lib/libar_track_alvar.so"
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ar_track_alvar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-ar_track_alvar/CMakeFiles/ar_track_alvar.dir/build: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so
+ar_track_alvar/CMakeFiles/ar_track_alvar.dir/build: /home/team15/ee206akitchen/devel/lib/libar_track_alvar.so
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/build
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/requires: ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o.requires
@@ -1049,10 +1049,10 @@ ar_track_alvar/CMakeFiles/ar_track_alvar.dir/requires: ar_track_alvar/CMakeFiles
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/requires
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/clean:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && $(CMAKE_COMMAND) -P CMakeFiles/ar_track_alvar.dir/cmake_clean.cmake
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && $(CMAKE_COMMAND) -P CMakeFiles/ar_track_alvar.dir/cmake_clean.cmake
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/clean
 
 ar_track_alvar/CMakeFiles/ar_track_alvar.dir/depend:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/team15/ee206akitchen/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/team15/ee206akitchen/src /home/team15/ee206akitchen/src/ar_track_alvar /home/team15/ee206akitchen/build /home/team15/ee206akitchen/build/ar_track_alvar /home/team15/ee206akitchen/build/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ar_track_alvar/CMakeFiles/ar_track_alvar.dir/depend
 

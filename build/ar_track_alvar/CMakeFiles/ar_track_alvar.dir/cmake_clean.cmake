@@ -29,8 +29,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.o"
   "CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.o"
   "CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.o"
-  "/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.pdb"
-  "/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib/libar_track_alvar.so"
+  "/home/team15/ee206akitchen/devel/lib/libar_track_alvar.pdb"
+  "/home/team15/ee206akitchen/devel/lib/libar_track_alvar.so"
 )
 
 # Per-language clean rules from dependency scanning.

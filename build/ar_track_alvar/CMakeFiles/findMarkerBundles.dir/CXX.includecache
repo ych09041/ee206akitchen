@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/AlvarException.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/AlvarException.h
 stdexcept
 -
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Bitset.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Bitset.h
 Alvar.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
 iostream
 -
 deque
@@ -26,15 +26,15 @@ sstream
 iomanip
 -
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Camera.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Camera.h
 Alvar.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
 Pose.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Pose.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Pose.h
 Util.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Util.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Util.h
 FileFormat.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/FileFormat.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/FileFormat.h
 vector
 -
 ros/ros.h
@@ -54,73 +54,73 @@ visualization_msgs/Marker.h
 resource_retriever/retriever.h
 -
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Capture.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Capture.h
 Alvar.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
 CaptureDevice.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/CaptureDevice.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/CaptureDevice.h
 Util.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Util.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Util.h
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/CaptureDevice.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/CaptureDevice.h
 Alvar.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
 string
 -
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/CaptureFactory.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/CaptureFactory.h
 Alvar.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
 Capture.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Capture.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Capture.h
 CaptureDevice.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/CaptureDevice.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/CaptureDevice.h
 Platform.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Platform.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Platform.h
 Util.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Util.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Util.h
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/ConnectedComponents.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/ConnectedComponents.h
 Alvar.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
 Util.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Util.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Util.h
 Line.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Line.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Line.h
 Camera.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Camera.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Camera.h
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/CvTestbed.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/CvTestbed.h
 Alvar.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
 vector
 -
 string
 -
 cv.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/cv.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/cv.h
 highgui.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/highgui.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/highgui.h
 CaptureFactory.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/CaptureFactory.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/CaptureFactory.h
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Draw.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Draw.h
 Alvar.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
 Util.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Util.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Util.h
 Camera.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Camera.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Camera.h
 Line.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Line.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Line.h
 sstream
 -
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/FileFormat.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/FileFormat.h
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Filter.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Filter.h
 Alvar.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
 algorithm
 -
 deque
@@ -130,59 +130,59 @@ vector
 cmath
 -
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Line.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Line.h
 Alvar.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
 Util.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Util.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Util.h
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Lock.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Lock.h
 Alvar.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
 Mutex.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Mutex.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Mutex.h
 Uncopyable.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Uncopyable.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Uncopyable.h
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Marker.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Marker.h
 Alvar.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
 iostream
 -
 algorithm
 -
 Util.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Util.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Util.h
 Camera.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Camera.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Camera.h
 Pose.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Pose.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Pose.h
 Bitset.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Bitset.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Bitset.h
 vector
 -
 filter/kinect_filtering.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/filter/kinect_filtering.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/filter/kinect_filtering.h
 Eigen/StdVector
 -
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/MarkerDetector.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/MarkerDetector.h
 Alvar.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
 Util.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Util.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Util.h
 ConnectedComponents.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/ConnectedComponents.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/ConnectedComponents.h
 Draw.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Draw.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Draw.h
 Camera.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Camera.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Camera.h
 Marker.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Marker.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Marker.h
 Rotation.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Rotation.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Rotation.h
 Line.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Line.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Line.h
 algorithm
 -
 list
@@ -196,97 +196,97 @@ cassert
 Eigen/StdVector
 -
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/MultiMarker.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/MultiMarker.h
 Alvar.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
 Rotation.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Rotation.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Rotation.h
 MarkerDetector.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/MarkerDetector.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/MarkerDetector.h
 Camera.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Camera.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Camera.h
 Filter.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Filter.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Filter.h
 FileFormat.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/FileFormat.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/FileFormat.h
 tf/LinearMath/Vector3.h
 -
 Eigen/StdVector
 -
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/MultiMarkerBundle.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/MultiMarkerBundle.h
 MultiMarker.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/MultiMarker.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/MultiMarker.h
 Optimization.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Optimization.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Optimization.h
 Eigen/StdVector
 -
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/MultiMarkerInitializer.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/MultiMarkerInitializer.h
 MultiMarker.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/MultiMarker.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/MultiMarker.h
 Eigen/StdVector
 -
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Mutex.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Mutex.h
 Alvar.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Optimization.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Optimization.h
 Alvar.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
 cxcore.h
 -
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Platform.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Platform.h
 Alvar.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
 Lock.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Lock.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Lock.h
 Mutex.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Mutex.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Mutex.h
 Threads.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Threads.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Threads.h
 Timer.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Timer.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Timer.h
 Uncopyable.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Uncopyable.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Uncopyable.h
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Pose.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Pose.h
 Alvar.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
 Rotation.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Rotation.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Rotation.h
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Rotation.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Rotation.h
 iostream
 -
 Alvar.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
 Util.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Util.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Util.h
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Shared.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Shared.h
 CaptureFactory.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/CaptureFactory.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/CaptureFactory.h
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Threads.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Threads.h
 Alvar.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Timer.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Timer.h
 Alvar.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Uncopyable.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Uncopyable.h
 Alvar.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Util.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Util.h
 Alvar.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/Alvar.h
 AlvarException.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/AlvarException.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/AlvarException.h
 vector
 -
 iostream
@@ -304,7 +304,7 @@ cmath
 map
 -
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/filter/kinect_filtering.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/filter/kinect_filtering.h
 pcl_conversions/pcl_conversions.h
 -
 pcl/point_types.h
@@ -340,21 +340,21 @@ opencv2/core/core.hpp
 tf/LinearMath/Matrix3x3.h
 -
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/filter/medianFilter.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/filter/medianFilter.h
 ar_track_alvar/Pose.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/filter/ar_track_alvar/Pose.h
+/home/team15/ee206akitchen/src/ar_track_alvar/include/ar_track_alvar/filter/ar_track_alvar/Pose.h
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/nodes/FindMarkerBundles.cpp
+/home/team15/ee206akitchen/src/ar_track_alvar/nodes/FindMarkerBundles.cpp
 ar_track_alvar/CvTestbed.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/nodes/ar_track_alvar/CvTestbed.h
+/home/team15/ee206akitchen/src/ar_track_alvar/nodes/ar_track_alvar/CvTestbed.h
 ar_track_alvar/MarkerDetector.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/nodes/ar_track_alvar/MarkerDetector.h
+/home/team15/ee206akitchen/src/ar_track_alvar/nodes/ar_track_alvar/MarkerDetector.h
 ar_track_alvar/MultiMarkerBundle.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/nodes/ar_track_alvar/MultiMarkerBundle.h
+/home/team15/ee206akitchen/src/ar_track_alvar/nodes/ar_track_alvar/MultiMarkerBundle.h
 ar_track_alvar/MultiMarkerInitializer.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/nodes/ar_track_alvar/MultiMarkerInitializer.h
+/home/team15/ee206akitchen/src/ar_track_alvar/nodes/ar_track_alvar/MultiMarkerInitializer.h
 ar_track_alvar/Shared.h
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar/nodes/ar_track_alvar/Shared.h
+/home/team15/ee206akitchen/src/ar_track_alvar/nodes/ar_track_alvar/Shared.h
 cv_bridge/cv_bridge.h
 -
 ar_track_alvar_msgs/AlvarMarker.h
@@ -3479,6 +3479,8 @@ pcl/PointIndices.h
 -
 pcl/cloud_iterator.h
 -
+pcl/common/impl/accumulators.hpp
+-
 pcl/common/impl/centroid.hpp
 -
 
@@ -3494,12 +3496,18 @@ pcl/common/impl/common.hpp
 pcl/conversions.h
 -
 
+/usr/include/pcl-1.7/pcl/common/copy_point.h
+pcl/common/impl/copy_point.hpp
+-
+
 /usr/include/pcl-1.7/pcl/common/distances.h
 pcl/common/common.h
 -
 
 /usr/include/pcl-1.7/pcl/common/eigen.h
 cmath
+-
+pcl/ModelCoefficients.h
 -
 Eigen/StdVector
 -
@@ -3520,6 +3528,20 @@ Eigen/Eigenvalues
 pcl/common/impl/eigen.hpp
 -
 
+/usr/include/pcl-1.7/pcl/common/impl/accumulators.hpp
+map
+-
+boost/mpl/filter_view.hpp
+-
+boost/fusion/include/mpl.hpp
+-
+boost/fusion/include/for_each.hpp
+-
+boost/fusion/include/as_vector.hpp
+-
+pcl/point_types.h
+-
+
 /usr/include/pcl-1.7/pcl/common/impl/centroid.hpp
 pcl/common/centroid.h
 -
@@ -3534,12 +3556,24 @@ pcl/point_types.h
 pcl/common/common.h
 -
 
+/usr/include/pcl-1.7/pcl/common/impl/copy_point.hpp
+pcl/point_types.h
+-
+pcl/point_traits.h
+-
+pcl/for_each_type.h
+-
+pcl/common/concatenate.h
+-
+
 /usr/include/pcl-1.7/pcl/common/impl/eigen.hpp
-pcl/pcl_macros.h
+pcl/console/print.h
 -
 
 /usr/include/pcl-1.7/pcl/common/impl/io.hpp
 pcl/common/concatenate.h
+-
+pcl/common/copy_point.h
 -
 pcl/point_types.h
 -
@@ -3554,6 +3588,8 @@ pcl/pcl_base.h
 pcl/PointIndices.h
 -
 pcl/conversions.h
+-
+pcl/exceptions.h
 -
 locale
 -
@@ -3869,11 +3905,15 @@ pcl/point_representation.h
 -
 pcl/common/io.h
 -
+pcl/common/copy_point.h
+-
 
 /usr/include/pcl-1.7/pcl/kdtree/kdtree_flann.h
 pcl/kdtree/kdtree.h
 -
 pcl/kdtree/flann.h
+-
+boost/shared_array.hpp
 -
 pcl/kdtree/impl/kdtree_flann.hpp
 -
@@ -3959,6 +3999,10 @@ boost/mpl/assert.hpp
 -
 boost/mpl/bool.hpp
 -
+Eigen/Core
+-
+Eigen/src/StlSupport/details.h
+-
 
 /usr/include/pcl-1.7/pcl/point_types.h
 pcl/pcl_macros.h
@@ -3966,6 +4010,12 @@ pcl/pcl_macros.h
 bitset
 -
 pcl/register_point_struct.h
+-
+boost/mpl/contains.hpp
+-
+boost/mpl/fold.hpp
+-
+boost/mpl/vector.hpp
 -
 pcl/impl/point_types.hpp
 -
@@ -4097,9 +4147,9 @@ pcl/registration/impl/icp.hpp
 -
 
 /usr/include/pcl-1.7/pcl/registration/impl/correspondence_estimation.hpp
-pcl/common/concatenate.h
--
 pcl/common/io.h
+-
+pcl/common/copy_point.h
 -
 
 /usr/include/pcl-1.7/pcl/registration/impl/correspondence_rejection.hpp
@@ -4228,6 +4278,14 @@ pcl/sample_consensus/rransac.h
 pcl/sample_consensus/eigen.h
 -
 pcl/sample_consensus/sac_model_circle.h
+-
+pcl/common/concatenate.h
+-
+
+/usr/include/pcl-1.7/pcl/sample_consensus/impl/sac_model_circle3d.hpp
+pcl/sample_consensus/eigen.h
+-
+pcl/sample_consensus/sac_model_circle3d.h
 -
 pcl/common/concatenate.h
 -
@@ -4425,6 +4483,8 @@ pcl/sample_consensus/sac_model.h
 -
 pcl/sample_consensus/model_types.h
 -
+pcl/sample_consensus/impl/sac_model_circle3d.hpp
+-
 
 /usr/include/pcl-1.7/pcl/sample_consensus/sac_model_cone.h
 pcl/sample_consensus/sac_model.h
@@ -4463,11 +4523,7 @@ pcl/sample_consensus/impl/sac_model_line.hpp
 -
 
 /usr/include/pcl-1.7/pcl/sample_consensus/sac_model_normal_parallel_plane.h
-pcl/sample_consensus/sac_model.h
--
-pcl/sample_consensus/sac_model_plane.h
--
-pcl/sample_consensus/sac_model_perpendicular_plane.h
+pcl/sample_consensus/sac_model_normal_plane.h
 -
 pcl/sample_consensus/model_types.h
 -
@@ -4564,6 +4620,12 @@ pcl/common/eigen.h
 pcl/sample_consensus/impl/sac_model_stick.hpp
 -
 
+/usr/include/pcl-1.7/pcl/search/impl/kdtree.hpp
+pcl/search/kdtree.h
+-
+pcl/search/impl/search.hpp
+-
+
 /usr/include/pcl-1.7/pcl/search/impl/search.hpp
 pcl/search/search.h
 -
@@ -4573,6 +4635,8 @@ pcl/search/search.h
 -
 pcl/kdtree/kdtree_flann.h
 -
+pcl/search/impl/kdtree.hpp
+-
 
 /usr/include/pcl-1.7/pcl/search/search.h
 pcl/point_cloud.h
@@ -4580,6 +4644,8 @@ pcl/point_cloud.h
 pcl/for_each_type.h
 -
 pcl/common/concatenate.h
+-
+pcl/common/copy_point.h
 -
 pcl/search/impl/search.hpp
 -

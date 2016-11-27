@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src
+CMAKE_SOURCE_DIR = /home/team15/ee206akitchen/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build
+CMAKE_BINARY_DIR = /home/team15/ee206akitchen/build
 
 # Utility rule file for dynamic_reconfigure_gencfg.
 
@@ -56,10 +56,10 @@ ar_track_alvar/CMakeFiles/dynamic_reconfigure_gencfg.dir/build: dynamic_reconfig
 .PHONY : ar_track_alvar/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
 
 ar_track_alvar/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_gencfg.dir/cmake_clean.cmake
+	cd /home/team15/ee206akitchen/build/ar_track_alvar && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_gencfg.dir/cmake_clean.cmake
 .PHONY : ar_track_alvar/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
 
 ar_track_alvar/CMakeFiles/dynamic_reconfigure_gencfg.dir/depend:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/ar_track_alvar /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/ar_track_alvar/CMakeFiles/dynamic_reconfigure_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/team15/ee206akitchen/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/team15/ee206akitchen/src /home/team15/ee206akitchen/src/ar_track_alvar /home/team15/ee206akitchen/build /home/team15/ee206akitchen/build/ar_track_alvar /home/team15/ee206akitchen/build/ar_track_alvar/CMakeFiles/dynamic_reconfigure_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ar_track_alvar/CMakeFiles/dynamic_reconfigure_gencfg.dir/depend
 

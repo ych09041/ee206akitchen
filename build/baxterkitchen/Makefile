@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src
+CMAKE_SOURCE_DIR = /home/team15/ee206akitchen/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build
+CMAKE_BINARY_DIR = /home/team15/ee206akitchen/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/baxterkitchen/CMakeFiles/progress.marks
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles 0
+	cd /home/team15/ee206akitchen/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/team15/ee206akitchen/build/CMakeFiles /home/team15/ee206akitchen/build/baxterkitchen/CMakeFiles/progress.marks
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/team15/ee206akitchen/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/clean
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +136,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/preinstall
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/preinstall
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/team15/ee206akitchen/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciAction.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciAction.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciAction.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciAction.dir/rule
 
 # Convenience name for target.
@@ -160,12 +160,12 @@ _baxterkitchen_generate_messages_check_deps_FibonacciAction: baxterkitchen/CMake
 
 # fast build rule for target.
 _baxterkitchen_generate_messages_check_deps_FibonacciAction/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciAction.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciAction.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciAction.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciAction.dir/build
 .PHONY : _baxterkitchen_generate_messages_check_deps_FibonacciAction/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciActionFeedback.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciActionFeedback.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciActionFeedback.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciActionFeedback.dir/rule
 
 # Convenience name for target.
@@ -174,12 +174,12 @@ _baxterkitchen_generate_messages_check_deps_FibonacciActionFeedback: baxterkitch
 
 # fast build rule for target.
 _baxterkitchen_generate_messages_check_deps_FibonacciActionFeedback/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciActionFeedback.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciActionFeedback.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciActionFeedback.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciActionFeedback.dir/build
 .PHONY : _baxterkitchen_generate_messages_check_deps_FibonacciActionFeedback/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciActionGoal.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciActionGoal.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciActionGoal.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciActionGoal.dir/rule
 
 # Convenience name for target.
@@ -188,12 +188,12 @@ _baxterkitchen_generate_messages_check_deps_FibonacciActionGoal: baxterkitchen/C
 
 # fast build rule for target.
 _baxterkitchen_generate_messages_check_deps_FibonacciActionGoal/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciActionGoal.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciActionGoal.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciActionGoal.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciActionGoal.dir/build
 .PHONY : _baxterkitchen_generate_messages_check_deps_FibonacciActionGoal/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciActionResult.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciActionResult.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciActionResult.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciActionResult.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ _baxterkitchen_generate_messages_check_deps_FibonacciActionResult: baxterkitchen
 
 # fast build rule for target.
 _baxterkitchen_generate_messages_check_deps_FibonacciActionResult/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciActionResult.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciActionResult.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciActionResult.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciActionResult.dir/build
 .PHONY : _baxterkitchen_generate_messages_check_deps_FibonacciActionResult/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciFeedback.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciFeedback.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciFeedback.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciFeedback.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ _baxterkitchen_generate_messages_check_deps_FibonacciFeedback: baxterkitchen/CMa
 
 # fast build rule for target.
 _baxterkitchen_generate_messages_check_deps_FibonacciFeedback/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciFeedback.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciFeedback.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciFeedback.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciFeedback.dir/build
 .PHONY : _baxterkitchen_generate_messages_check_deps_FibonacciFeedback/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciGoal.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciGoal.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciGoal.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciGoal.dir/rule
 
 # Convenience name for target.
@@ -230,12 +230,12 @@ _baxterkitchen_generate_messages_check_deps_FibonacciGoal: baxterkitchen/CMakeFi
 
 # fast build rule for target.
 _baxterkitchen_generate_messages_check_deps_FibonacciGoal/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciGoal.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciGoal.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciGoal.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciGoal.dir/build
 .PHONY : _baxterkitchen_generate_messages_check_deps_FibonacciGoal/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciResult.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciResult.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciResult.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciResult.dir/rule
 
 # Convenience name for target.
@@ -244,12 +244,12 @@ _baxterkitchen_generate_messages_check_deps_FibonacciResult: baxterkitchen/CMake
 
 # fast build rule for target.
 _baxterkitchen_generate_messages_check_deps_FibonacciResult/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciResult.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciResult.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciResult.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_FibonacciResult.dir/build
 .PHONY : _baxterkitchen_generate_messages_check_deps_FibonacciResult/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickAction.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickAction.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickAction.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickAction.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ _baxterkitchen_generate_messages_check_deps_PickAction: baxterkitchen/CMakeFiles
 
 # fast build rule for target.
 _baxterkitchen_generate_messages_check_deps_PickAction/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickAction.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickAction.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickAction.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickAction.dir/build
 .PHONY : _baxterkitchen_generate_messages_check_deps_PickAction/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickActionFeedback.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickActionFeedback.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickActionFeedback.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickActionFeedback.dir/rule
 
 # Convenience name for target.
@@ -272,12 +272,12 @@ _baxterkitchen_generate_messages_check_deps_PickActionFeedback: baxterkitchen/CM
 
 # fast build rule for target.
 _baxterkitchen_generate_messages_check_deps_PickActionFeedback/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickActionFeedback.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickActionFeedback.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickActionFeedback.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickActionFeedback.dir/build
 .PHONY : _baxterkitchen_generate_messages_check_deps_PickActionFeedback/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickActionGoal.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickActionGoal.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickActionGoal.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickActionGoal.dir/rule
 
 # Convenience name for target.
@@ -286,12 +286,12 @@ _baxterkitchen_generate_messages_check_deps_PickActionGoal: baxterkitchen/CMakeF
 
 # fast build rule for target.
 _baxterkitchen_generate_messages_check_deps_PickActionGoal/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickActionGoal.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickActionGoal.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickActionGoal.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickActionGoal.dir/build
 .PHONY : _baxterkitchen_generate_messages_check_deps_PickActionGoal/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickActionResult.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickActionResult.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickActionResult.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickActionResult.dir/rule
 
 # Convenience name for target.
@@ -300,12 +300,12 @@ _baxterkitchen_generate_messages_check_deps_PickActionResult: baxterkitchen/CMak
 
 # fast build rule for target.
 _baxterkitchen_generate_messages_check_deps_PickActionResult/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickActionResult.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickActionResult.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickActionResult.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickActionResult.dir/build
 .PHONY : _baxterkitchen_generate_messages_check_deps_PickActionResult/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickFeedback.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickFeedback.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickFeedback.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickFeedback.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ _baxterkitchen_generate_messages_check_deps_PickFeedback: baxterkitchen/CMakeFil
 
 # fast build rule for target.
 _baxterkitchen_generate_messages_check_deps_PickFeedback/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickFeedback.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickFeedback.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickFeedback.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickFeedback.dir/build
 .PHONY : _baxterkitchen_generate_messages_check_deps_PickFeedback/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickGoal.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickGoal.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickGoal.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickGoal.dir/rule
 
 # Convenience name for target.
@@ -328,12 +328,12 @@ _baxterkitchen_generate_messages_check_deps_PickGoal: baxterkitchen/CMakeFiles/_
 
 # fast build rule for target.
 _baxterkitchen_generate_messages_check_deps_PickGoal/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickGoal.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickGoal.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickGoal.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickGoal.dir/build
 .PHONY : _baxterkitchen_generate_messages_check_deps_PickGoal/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickResult.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickResult.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickResult.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickResult.dir/rule
 
 # Convenience name for target.
@@ -342,12 +342,12 @@ _baxterkitchen_generate_messages_check_deps_PickResult: baxterkitchen/CMakeFiles
 
 # fast build rule for target.
 _baxterkitchen_generate_messages_check_deps_PickResult/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickResult.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickResult.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickResult.dir/build.make baxterkitchen/CMakeFiles/_baxterkitchen_generate_messages_check_deps_PickResult.dir/build
 .PHONY : _baxterkitchen_generate_messages_check_deps_PickResult/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_cpp.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_cpp.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -356,12 +356,12 @@ baxter_core_msgs_generate_messages_cpp: baxterkitchen/CMakeFiles/baxter_core_msg
 
 # fast build rule for target.
 baxter_core_msgs_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_cpp.dir/build.make baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_cpp.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_cpp.dir/build.make baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_cpp.dir/build
 .PHONY : baxter_core_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_lisp.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_lisp.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -370,12 +370,12 @@ baxter_core_msgs_generate_messages_lisp: baxterkitchen/CMakeFiles/baxter_core_ms
 
 # fast build rule for target.
 baxter_core_msgs_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_lisp.dir/build.make baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_lisp.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_lisp.dir/build.make baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_lisp.dir/build
 .PHONY : baxter_core_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_py.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_py.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -384,12 +384,12 @@ baxter_core_msgs_generate_messages_py: baxterkitchen/CMakeFiles/baxter_core_msgs
 
 # fast build rule for target.
 baxter_core_msgs_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_py.dir/build.make baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_py.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_py.dir/build.make baxterkitchen/CMakeFiles/baxter_core_msgs_generate_messages_py.dir/build
 .PHONY : baxter_core_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/baxter_examples_gencfg.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxter_examples_gencfg.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxter_examples_gencfg.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/baxter_examples_gencfg.dir/rule
 
 # Convenience name for target.
@@ -398,12 +398,12 @@ baxter_examples_gencfg: baxterkitchen/CMakeFiles/baxter_examples_gencfg.dir/rule
 
 # fast build rule for target.
 baxter_examples_gencfg/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxter_examples_gencfg.dir/build.make baxterkitchen/CMakeFiles/baxter_examples_gencfg.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxter_examples_gencfg.dir/build.make baxterkitchen/CMakeFiles/baxter_examples_gencfg.dir/build
 .PHONY : baxter_examples_gencfg/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/baxter_interface_gencfg.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxter_interface_gencfg.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxter_interface_gencfg.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/baxter_interface_gencfg.dir/rule
 
 # Convenience name for target.
@@ -412,12 +412,12 @@ baxter_interface_gencfg: baxterkitchen/CMakeFiles/baxter_interface_gencfg.dir/ru
 
 # fast build rule for target.
 baxter_interface_gencfg/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxter_interface_gencfg.dir/build.make baxterkitchen/CMakeFiles/baxter_interface_gencfg.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxter_interface_gencfg.dir/build.make baxterkitchen/CMakeFiles/baxter_interface_gencfg.dir/build
 .PHONY : baxter_interface_gencfg/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/baxter_maintenance_msgs_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxter_maintenance_msgs_generate_messages_cpp.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxter_maintenance_msgs_generate_messages_cpp.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/baxter_maintenance_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -426,12 +426,12 @@ baxter_maintenance_msgs_generate_messages_cpp: baxterkitchen/CMakeFiles/baxter_m
 
 # fast build rule for target.
 baxter_maintenance_msgs_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxter_maintenance_msgs_generate_messages_cpp.dir/build.make baxterkitchen/CMakeFiles/baxter_maintenance_msgs_generate_messages_cpp.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxter_maintenance_msgs_generate_messages_cpp.dir/build.make baxterkitchen/CMakeFiles/baxter_maintenance_msgs_generate_messages_cpp.dir/build
 .PHONY : baxter_maintenance_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/baxter_maintenance_msgs_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxter_maintenance_msgs_generate_messages_lisp.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxter_maintenance_msgs_generate_messages_lisp.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/baxter_maintenance_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -440,12 +440,12 @@ baxter_maintenance_msgs_generate_messages_lisp: baxterkitchen/CMakeFiles/baxter_
 
 # fast build rule for target.
 baxter_maintenance_msgs_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxter_maintenance_msgs_generate_messages_lisp.dir/build.make baxterkitchen/CMakeFiles/baxter_maintenance_msgs_generate_messages_lisp.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxter_maintenance_msgs_generate_messages_lisp.dir/build.make baxterkitchen/CMakeFiles/baxter_maintenance_msgs_generate_messages_lisp.dir/build
 .PHONY : baxter_maintenance_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/baxter_maintenance_msgs_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxter_maintenance_msgs_generate_messages_py.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxter_maintenance_msgs_generate_messages_py.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/baxter_maintenance_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -454,12 +454,12 @@ baxter_maintenance_msgs_generate_messages_py: baxterkitchen/CMakeFiles/baxter_ma
 
 # fast build rule for target.
 baxter_maintenance_msgs_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxter_maintenance_msgs_generate_messages_py.dir/build.make baxterkitchen/CMakeFiles/baxter_maintenance_msgs_generate_messages_py.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxter_maintenance_msgs_generate_messages_py.dir/build.make baxterkitchen/CMakeFiles/baxter_maintenance_msgs_generate_messages_py.dir/build
 .PHONY : baxter_maintenance_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/baxterkitchen_gencpp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxterkitchen_gencpp.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxterkitchen_gencpp.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/baxterkitchen_gencpp.dir/rule
 
 # Convenience name for target.
@@ -468,12 +468,12 @@ baxterkitchen_gencpp: baxterkitchen/CMakeFiles/baxterkitchen_gencpp.dir/rule
 
 # fast build rule for target.
 baxterkitchen_gencpp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxterkitchen_gencpp.dir/build.make baxterkitchen/CMakeFiles/baxterkitchen_gencpp.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxterkitchen_gencpp.dir/build.make baxterkitchen/CMakeFiles/baxterkitchen_gencpp.dir/build
 .PHONY : baxterkitchen_gencpp/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/baxterkitchen_generate_messages.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxterkitchen_generate_messages.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxterkitchen_generate_messages.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/baxterkitchen_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -482,12 +482,12 @@ baxterkitchen_generate_messages: baxterkitchen/CMakeFiles/baxterkitchen_generate
 
 # fast build rule for target.
 baxterkitchen_generate_messages/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxterkitchen_generate_messages.dir/build.make baxterkitchen/CMakeFiles/baxterkitchen_generate_messages.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxterkitchen_generate_messages.dir/build.make baxterkitchen/CMakeFiles/baxterkitchen_generate_messages.dir/build
 .PHONY : baxterkitchen_generate_messages/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -496,12 +496,12 @@ baxterkitchen_generate_messages_cpp: baxterkitchen/CMakeFiles/baxterkitchen_gene
 
 # fast build rule for target.
 baxterkitchen_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp.dir/build.make baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp.dir/build.make baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp.dir/build
 .PHONY : baxterkitchen_generate_messages_cpp/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_lisp.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_lisp.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -510,12 +510,12 @@ baxterkitchen_generate_messages_lisp: baxterkitchen/CMakeFiles/baxterkitchen_gen
 
 # fast build rule for target.
 baxterkitchen_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_lisp.dir/build.make baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_lisp.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_lisp.dir/build.make baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_lisp.dir/build
 .PHONY : baxterkitchen_generate_messages_lisp/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_py.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_py.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -524,12 +524,12 @@ baxterkitchen_generate_messages_py: baxterkitchen/CMakeFiles/baxterkitchen_gener
 
 # fast build rule for target.
 baxterkitchen_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_py.dir/build.make baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_py.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_py.dir/build.make baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_py.dir/build
 .PHONY : baxterkitchen_generate_messages_py/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/baxterkitchen_genlisp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxterkitchen_genlisp.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxterkitchen_genlisp.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/baxterkitchen_genlisp.dir/rule
 
 # Convenience name for target.
@@ -538,12 +538,12 @@ baxterkitchen_genlisp: baxterkitchen/CMakeFiles/baxterkitchen_genlisp.dir/rule
 
 # fast build rule for target.
 baxterkitchen_genlisp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxterkitchen_genlisp.dir/build.make baxterkitchen/CMakeFiles/baxterkitchen_genlisp.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxterkitchen_genlisp.dir/build.make baxterkitchen/CMakeFiles/baxterkitchen_genlisp.dir/build
 .PHONY : baxterkitchen_genlisp/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/baxterkitchen_genpy.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxterkitchen_genpy.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/baxterkitchen_genpy.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/baxterkitchen_genpy.dir/rule
 
 # Convenience name for target.
@@ -552,12 +552,12 @@ baxterkitchen_genpy: baxterkitchen/CMakeFiles/baxterkitchen_genpy.dir/rule
 
 # fast build rule for target.
 baxterkitchen_genpy/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxterkitchen_genpy.dir/build.make baxterkitchen/CMakeFiles/baxterkitchen_genpy.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/baxterkitchen_genpy.dir/build.make baxterkitchen/CMakeFiles/baxterkitchen_genpy.dir/build
 .PHONY : baxterkitchen_genpy/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/control_msgs_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/control_msgs_generate_messages_cpp.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/control_msgs_generate_messages_cpp.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/control_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -566,12 +566,12 @@ control_msgs_generate_messages_cpp: baxterkitchen/CMakeFiles/control_msgs_genera
 
 # fast build rule for target.
 control_msgs_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/control_msgs_generate_messages_cpp.dir/build.make baxterkitchen/CMakeFiles/control_msgs_generate_messages_cpp.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/control_msgs_generate_messages_cpp.dir/build.make baxterkitchen/CMakeFiles/control_msgs_generate_messages_cpp.dir/build
 .PHONY : control_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/control_msgs_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/control_msgs_generate_messages_lisp.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/control_msgs_generate_messages_lisp.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/control_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -580,12 +580,12 @@ control_msgs_generate_messages_lisp: baxterkitchen/CMakeFiles/control_msgs_gener
 
 # fast build rule for target.
 control_msgs_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/control_msgs_generate_messages_lisp.dir/build.make baxterkitchen/CMakeFiles/control_msgs_generate_messages_lisp.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/control_msgs_generate_messages_lisp.dir/build.make baxterkitchen/CMakeFiles/control_msgs_generate_messages_lisp.dir/build
 .PHONY : control_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/control_msgs_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/control_msgs_generate_messages_py.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/control_msgs_generate_messages_py.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/control_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -594,12 +594,12 @@ control_msgs_generate_messages_py: baxterkitchen/CMakeFiles/control_msgs_generat
 
 # fast build rule for target.
 control_msgs_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/control_msgs_generate_messages_py.dir/build.make baxterkitchen/CMakeFiles/control_msgs_generate_messages_py.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/control_msgs_generate_messages_py.dir/build.make baxterkitchen/CMakeFiles/control_msgs_generate_messages_py.dir/build
 .PHONY : control_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -608,12 +608,12 @@ trajectory_msgs_generate_messages_cpp: baxterkitchen/CMakeFiles/trajectory_msgs_
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make baxterkitchen/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make baxterkitchen/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
 .PHONY : trajectory_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -622,12 +622,12 @@ trajectory_msgs_generate_messages_lisp: baxterkitchen/CMakeFiles/trajectory_msgs
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make baxterkitchen/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make baxterkitchen/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
 .PHONY : trajectory_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 baxterkitchen/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f CMakeFiles/Makefile2 baxterkitchen/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
 .PHONY : baxterkitchen/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -636,7 +636,7 @@ trajectory_msgs_generate_messages_py: baxterkitchen/CMakeFiles/trajectory_msgs_g
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make baxterkitchen/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
+	cd /home/team15/ee206akitchen/build && $(MAKE) -f baxterkitchen/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make baxterkitchen/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
 .PHONY : trajectory_msgs_generate_messages_py/fast
 
 # Help Target
@@ -698,6 +698,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/team15/ee206akitchen/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

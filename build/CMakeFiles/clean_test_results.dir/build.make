@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src
+CMAKE_SOURCE_DIR = /home/team15/ee206akitchen/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build
+CMAKE_BINARY_DIR = /home/team15/ee206akitchen/build
 
 # Utility rule file for clean_test_results.
 
@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python /opt/ros/indigo/share/catkin/cmake/test/remove_test_results.py /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/test_results
+	/usr/bin/python /opt/ros/indigo/share/catkin/cmake/test/remove_test_results.py /home/team15/ee206akitchen/build/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -61,6 +61,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/team15/ee206akitchen/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/team15/ee206akitchen/src /home/team15/ee206akitchen/src /home/team15/ee206akitchen/build /home/team15/ee206akitchen/build /home/team15/ee206akitchen/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

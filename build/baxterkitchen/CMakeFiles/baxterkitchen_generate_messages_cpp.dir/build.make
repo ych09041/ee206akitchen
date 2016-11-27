@@ -35,184 +35,184 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src
+CMAKE_SOURCE_DIR = /home/team15/ee206akitchen/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build
+CMAKE_BINARY_DIR = /home/team15/ee206akitchen/build
 
 # Utility rule file for baxterkitchen_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp.dir/progress.make
 
-baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionGoal.h
-baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionFeedback.h
-baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciGoal.h
-baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickAction.h
-baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickGoal.h
-baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionFeedback.h
-baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionGoal.h
-baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h
-baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciResult.h
-baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionResult.h
-baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickResult.h
-baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionResult.h
-baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickFeedback.h
-baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciFeedback.h
+baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h
+baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionResult.h
+baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/PickGoal.h
+baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionGoal.h
+baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionResult.h
+baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionFeedback.h
+baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionFeedback.h
+baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/PickFeedback.h
+baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciFeedback.h
+baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/PickResult.h
+baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionGoal.h
+baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciGoal.h
+baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/PickAction.h
+baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciResult.h
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionGoal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionGoal.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciActionGoal.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionGoal.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionGoal.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionGoal.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciGoal.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionGoal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from baxterkitchen/FibonacciActionGoal.msg"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciActionGoal.msg -Ibaxterkitchen:/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionFeedback.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/PickActionFeedback.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionFeedback.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionFeedback.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionFeedback.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionFeedback.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/PickFeedback.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from baxterkitchen/PickActionFeedback.msg"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/PickActionFeedback.msg -Ibaxterkitchen:/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciGoal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciGoal.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciGoal.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciGoal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from baxterkitchen/FibonacciGoal.msg"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciGoal.msg -Ibaxterkitchen:/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickAction.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickAction.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/PickAction.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickAction.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/PickActionFeedback.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickAction.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/PickResult.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickAction.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/PickGoal.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickAction.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickAction.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickAction.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/PickActionResult.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickAction.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/PickActionGoal.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickAction.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickAction.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/PickFeedback.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickAction.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from baxterkitchen/PickAction.msg"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/PickAction.msg -Ibaxterkitchen:/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickGoal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickGoal.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/PickGoal.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickGoal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from baxterkitchen/PickGoal.msg"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/PickGoal.msg -Ibaxterkitchen:/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionFeedback.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciActionFeedback.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionFeedback.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionFeedback.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionFeedback.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionFeedback.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciFeedback.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_6)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from baxterkitchen/FibonacciActionFeedback.msg"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciActionFeedback.msg -Ibaxterkitchen:/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionGoal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionGoal.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/PickActionGoal.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionGoal.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/PickGoal.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionGoal.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionGoal.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionGoal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_7)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from baxterkitchen/PickActionGoal.msg"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/PickActionGoal.msg -Ibaxterkitchen:/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciAction.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciFeedback.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciGoal.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciActionGoal.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciActionResult.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciResult.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciActionFeedback.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_8)
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciAction.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciResult.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciActionResult.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciActionGoal.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciFeedback.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciGoal.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciActionFeedback.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from baxterkitchen/FibonacciAction.msg"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciAction.msg -Ibaxterkitchen:/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
+	cd /home/team15/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciAction.msg -Ibaxterkitchen:/home/team15/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/team15/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciResult.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciResult.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciResult.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciResult.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_9)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from baxterkitchen/FibonacciResult.msg"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciResult.msg -Ibaxterkitchen:/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionResult.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionResult.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/PickActionResult.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionResult.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionResult.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionResult.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionResult.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/PickResult.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionResult.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_10)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from baxterkitchen/PickActionResult.msg"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/PickActionResult.msg -Ibaxterkitchen:/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickResult.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickResult.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/PickResult.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickResult.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_11)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from baxterkitchen/PickResult.msg"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/PickResult.msg -Ibaxterkitchen:/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionResult.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionResult.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciActionResult.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionResult.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionResult.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionResult.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionResult.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciResult.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionResult.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_12)
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionResult.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionResult.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciActionResult.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionResult.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionResult.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionResult.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionResult.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciResult.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionResult.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from baxterkitchen/FibonacciActionResult.msg"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciActionResult.msg -Ibaxterkitchen:/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
+	cd /home/team15/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciActionResult.msg -Ibaxterkitchen:/home/team15/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/team15/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickFeedback.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/PickFeedback.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_13)
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickGoal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickGoal.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/PickGoal.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickGoal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from baxterkitchen/PickGoal.msg"
+	cd /home/team15/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/PickGoal.msg -Ibaxterkitchen:/home/team15/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/team15/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionGoal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionGoal.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciActionGoal.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionGoal.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciGoal.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionGoal.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionGoal.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionGoal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from baxterkitchen/FibonacciActionGoal.msg"
+	cd /home/team15/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciActionGoal.msg -Ibaxterkitchen:/home/team15/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/team15/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionResult.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionResult.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/PickActionResult.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionResult.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionResult.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionResult.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionResult.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/PickResult.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionResult.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from baxterkitchen/PickActionResult.msg"
+	cd /home/team15/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/PickActionResult.msg -Ibaxterkitchen:/home/team15/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/team15/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionFeedback.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/PickActionFeedback.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionFeedback.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionFeedback.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionFeedback.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionFeedback.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/PickFeedback.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from baxterkitchen/PickActionFeedback.msg"
+	cd /home/team15/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/PickActionFeedback.msg -Ibaxterkitchen:/home/team15/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/team15/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionFeedback.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciActionFeedback.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionFeedback.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionFeedback.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionFeedback.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionFeedback.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciFeedback.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from baxterkitchen/FibonacciActionFeedback.msg"
+	cd /home/team15/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciActionFeedback.msg -Ibaxterkitchen:/home/team15/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/team15/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickFeedback.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/PickFeedback.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from baxterkitchen/PickFeedback.msg"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/PickFeedback.msg -Ibaxterkitchen:/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
+	cd /home/team15/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/PickFeedback.msg -Ibaxterkitchen:/home/team15/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/team15/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciFeedback.h: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciFeedback.msg
-/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_14)
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciFeedback.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciFeedback.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from baxterkitchen/FibonacciFeedback.msg"
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciFeedback.msg -Ibaxterkitchen:/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
+	cd /home/team15/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciFeedback.msg -Ibaxterkitchen:/home/team15/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/team15/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickResult.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickResult.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/PickResult.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickResult.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from baxterkitchen/PickResult.msg"
+	cd /home/team15/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/PickResult.msg -Ibaxterkitchen:/home/team15/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/team15/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionGoal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionGoal.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/PickActionGoal.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionGoal.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionGoal.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/PickGoal.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionGoal.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionGoal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from baxterkitchen/PickActionGoal.msg"
+	cd /home/team15/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/PickActionGoal.msg -Ibaxterkitchen:/home/team15/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/team15/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciGoal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciGoal.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciGoal.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciGoal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from baxterkitchen/FibonacciGoal.msg"
+	cd /home/team15/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciGoal.msg -Ibaxterkitchen:/home/team15/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/team15/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickAction.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickAction.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/PickAction.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickAction.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/PickActionFeedback.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickAction.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/PickActionResult.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickAction.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickAction.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickAction.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/PickActionGoal.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickAction.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/PickGoal.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickAction.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickAction.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/PickResult.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickAction.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/PickFeedback.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/PickAction.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from baxterkitchen/PickAction.msg"
+	cd /home/team15/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/PickAction.msg -Ibaxterkitchen:/home/team15/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/team15/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciResult.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciResult.h: /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciResult.msg
+/home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciResult.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/team15/ee206akitchen/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from baxterkitchen/FibonacciResult.msg"
+	cd /home/team15/ee206akitchen/build/baxterkitchen && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/team15/ee206akitchen/devel/share/baxterkitchen/msg/FibonacciResult.msg -Ibaxterkitchen:/home/team15/ee206akitchen/devel/share/baxterkitchen/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p baxterkitchen -o /home/team15/ee206akitchen/devel/include/baxterkitchen -e /opt/ros/indigo/share/gencpp/cmake/..
 
 baxterkitchen_generate_messages_cpp: baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp
-baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionGoal.h
-baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionFeedback.h
-baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciGoal.h
-baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickAction.h
-baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickGoal.h
-baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionFeedback.h
-baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionGoal.h
-baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h
-baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciResult.h
-baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickActionResult.h
-baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickResult.h
-baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciActionResult.h
-baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/PickFeedback.h
-baxterkitchen_generate_messages_cpp: /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include/baxterkitchen/FibonacciFeedback.h
+baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciAction.h
+baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionResult.h
+baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/PickGoal.h
+baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionGoal.h
+baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionResult.h
+baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionFeedback.h
+baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciActionFeedback.h
+baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/PickFeedback.h
+baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciFeedback.h
+baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/PickResult.h
+baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/PickActionGoal.h
+baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciGoal.h
+baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/PickAction.h
+baxterkitchen_generate_messages_cpp: /home/team15/ee206akitchen/devel/include/baxterkitchen/FibonacciResult.h
 baxterkitchen_generate_messages_cpp: baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp.dir/build.make
 .PHONY : baxterkitchen_generate_messages_cpp
 
@@ -221,10 +221,10 @@ baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp.dir/build: baxterki
 .PHONY : baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp.dir/build
 
 baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp.dir/clean:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/baxterkitchen && $(CMAKE_COMMAND) -P CMakeFiles/baxterkitchen_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/team15/ee206akitchen/build/baxterkitchen && $(CMAKE_COMMAND) -P CMakeFiles/baxterkitchen_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp.dir/clean
 
 baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp.dir/depend:
-	cd /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/src/baxterkitchen /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/baxterkitchen /home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/build/baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/team15/ee206akitchen/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/team15/ee206akitchen/src /home/team15/ee206akitchen/src/baxterkitchen /home/team15/ee206akitchen/build /home/team15/ee206akitchen/build/baxterkitchen /home/team15/ee206akitchen/build/baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : baxterkitchen/CMakeFiles/baxterkitchen_generate_messages_cpp.dir/depend
 
