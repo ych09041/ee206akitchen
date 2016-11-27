@@ -7,58 +7,50 @@ import math
 import numpy as np
 from tf2_msgs.msg import TFMessage
 from geometry_msgs.msg import Transform, Vector3, Twist, TransformStamped
+import baxterkitchen.msg
 #import exp_quat_func as eqf
 #import ar_tag_subs as ar
-#import timeit
 
 
 listener = None
 
-def follow_ar_tag(zumy, ar_tags):
-    """
-    This function should obtain the rigid body transform between the Zumy and the AR ar_tag
-    Then compute and send the twist required to drive the Zumy to the AR ar_tag
-    """
-    # YOUR CODE HERE
+ar_tags = {}
+ar_tags['knife'] = 'ar_marker_12'
+ar_tags['board'] = 'ar_marker_2'
+ar_tags['cucumber'] = 'ar_marker_4'
+ar_tags['eye'] = 'usb_cam'
+ar_tags['naval'] = 'naval'
 
 
-    topic_name = zumy+'/cmd_vel'
-    pub = rospy.Publisher(topic_name, Twist, queue_size=10)
+
+
+def update_inventory(ar_tags):
+
+    pub = rospy.Publisher('inventory', Inventory, queue_size=10)
     listener = tf.TransformListener()
-    r = rospy.Rate(10.0) # 10hz
-    start = timeit.timeit()
+    r = rospy.Rate(5.0) # 10hz
     
     while not rospy.is_shutdown():
         print '==================='
-        try:
-            (trans, rot) = listener.lookupTransform(ar_tags['arZ'], ar_tags['ar1'], rospy.Time(0))
+        message = Inventory()
+        
+        (trans1, rot1) = listener.lookupTransform(ar_tags['knife'], ar_tags['naval'], rospy.Time(0))
+        message.knife_translation = trans1
+        message.knife_rotation = rot1
+        message.knife_seen = True
+        
+        (trans2, rot2) = listener.lookupTransform(ar_tags['cucumber'], ar_tags['naval'], rospy.Time(0))
+        message.cucumber_translation = trans2
+        message.cucumber_rotation = rot2
+        message.cucumber_seen = True
+        
 
-            rbt = ar.return_rbt(trans=trans, rot=rot)
-            (v,w) = ar.compute_twist(rbt=rbt)
-            thing = Transform()
-            thing.translation.x = trans[0]
-            thing.translation.y = trans[1]
-            thing.translation.z = trans[2]
-            
-            thing.rotation.x = rot[0]
-            thing.rotation.y = rot[1]
-            thing.rotation.z = rot[2]
-            thing.rotation.w = rot[3]
+        pub.publish(message)
 
-            handle = rospy.ServiceProxy('innovation', NuSrv)
-            resp1 = handle(thing,'usb_cam')
-
-            r.sleep()
-        except tf.LookupException or rospy.ServiceException as e:
-            print e
+        r.sleep()
+  
   
 if __name__=='__main__':
-    rospy.init_node('follow_ar_tag')
-    ar_tags = {}
-    zumy_name = sys.argv[1]
-    ar_tags['ar1'] = 'ar_marker_' + sys.argv[2]
-   # ar_tags['arZ'] = 'ar_marker_' + sys.argv[3]
-    ar_tags['arZ'] = 'usb_cam'
-
-    follow_ar_tag(zumy=zumy_name, ar_tags=ar_tags)
+    rospy.init_node('object_identifier')
+    update_inventory()
     rospy.spin()

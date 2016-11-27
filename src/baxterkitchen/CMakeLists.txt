@@ -13,6 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
   genmsg
   actionlib_msgs
   actionlib
+  message_generation
 )
 
 ## System dependencies are found with CMake's conventions
@@ -49,11 +50,10 @@ find_package(catkin REQUIRED COMPONENTS
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
 ## Generate messages in the 'msg' folder
-# add_message_files(
-#   FILES
-#   Message1.msg
-#   Message2.msg
-# )
+add_message_files(DIRECTORY msg
+  FILES
+  Inventory.msg
+)
 
 ## Generate services in the 'srv' folder
 # add_service_files(
@@ -109,7 +109,7 @@ generate_messages(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES baxterkitchen
- CATKIN_DEPENDS baxter_examples baxter_tools roscpp rospy std_msgs actionlib_msgs
+ CATKIN_DEPENDS baxter_examples baxter_tools roscpp rospy std_msgs actionlib_msgs message_runtime
 #  DEPENDS system_lib
 )
 

@@ -1,0 +1,8 @@
+geometry_msgs/Vector3 knife_translation
+geometry_msgs/Quaternion knife_rotation
+bool knife_seen
+geometry_msgs/Vector3 cucumber_translation
+geometry_msgs/Quaternion cucumber_rotation
+bool cucumber_seen
+
+
