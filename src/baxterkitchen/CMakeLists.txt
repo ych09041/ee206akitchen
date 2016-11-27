@@ -67,7 +67,7 @@ add_action_files(DIRECTORY action
  FILES
  Fibonacci.action
  Pick.action
-
+ Organize.action
 )
 
 ## Generate added messages and services with any dependencies listed here
