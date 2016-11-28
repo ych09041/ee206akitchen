@@ -69,7 +69,7 @@ if __name__ == '__main__':
         rospy.sleep(2.0)
 
         #############testing!!!!!!#############
-        left_gripper.close(block=True)
+        #left_gripper.close(block=True)
         rospy.sleep(1.0)
         #############testing!!!!!!#############
         result = pick_client()
