@@ -72,7 +72,7 @@ if __name__ == '__main__':
         left_gripper.close(block=True)
         rospy.sleep(1.0)
         #############testing!!!!!!#############
-        #result = pick_client()
+        result = pick_client()
         result = place_client()
         print "Result from client:", result
     except rospy.ROSInterruptException:

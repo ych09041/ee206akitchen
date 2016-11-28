@@ -63,7 +63,7 @@ class PickAction(object):
     #Initialize moveit_commander
     moveit_commander.roscpp_initialize(sys.argv)
     #Set up the left gripper
-    #left_gripper = baxter_gripper.Gripper('left')
+    left_gripper = baxter_gripper.Gripper('left')
 
 
     #Initialize both arms
@@ -92,16 +92,16 @@ class PickAction(object):
     goal_1.pose.orientation.w = 0.0
 
     #Set the goal state to the pose you just defined
-    left_arm.set_pose_target(goal_1)
+    right_arm.set_pose_target(goal_1)
 
     #Set the start state for the left arm
-    left_arm.set_start_state_to_current_state()
+    right_arm.set_start_state_to_current_state()
 
     #Plan a path
-    left_plan = left_arm.plan()
+    right_plan = right_arm.plan()
 
     #Execute the plan
-    left_arm.execute(left_plan)
+    right_arm.execute(right_plan)
     rospy.sleep(2.0)
     
     
@@ -110,8 +110,8 @@ class PickAction(object):
     #left_gripper.calibrate()
     #rospy.sleep(2.0)
     #Close the left gripper
-    #left_gripper.close(block=True)
-    #rospy.sleep(1.0)
+    right_gripper.close(block=True)
+    rospy.sleep(1.0)
     
     
     
