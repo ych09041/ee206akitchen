@@ -14,6 +14,7 @@ import moveit_commander
 from moveit_msgs.msg import OrientationConstraint, Constraints
 from geometry_msgs.msg import PoseStamped
 from baxter_interface import gripper as baxter_gripper
+import baxter_interface
 
 
 
@@ -57,8 +58,8 @@ class ScrubAction(object):
         print goal.p_z
 
         ##################################################################################
-
-
+        limb = baxter_interface.Limb('left')
+        '''
 
         #Initialize moveit_commander
         moveit_commander.roscpp_initialize(sys.argv)
@@ -77,7 +78,7 @@ class ScrubAction(object):
         right_arm.set_planner_id('RRTConnectkConfigDefault')
         right_arm.set_planning_time(10)
 
-        limb = baxter_interface.Limb('left')
+
 
         #First goal pose ------------------------------------------------------
         goal_1 = PoseStamped()
@@ -96,22 +97,22 @@ class ScrubAction(object):
 
         #Scrub is for left arm only
         #Set the goal state to the pose you just defined
-        left_arm.set_pose_target(goal_1)
+        #left_arm.set_pose_target(goal_1)
 
         #Set the start state for the left arm
-        left_arm.set_start_state_to_current_state()
+        #left_arm.set_start_state_to_current_state()
 
         #Plan a path
-        left_plan = left_arm.plan()
+        #left_plan = left_arm.plan()
 
         #Execute the plan
-        left_arm.execute(left_plan)
-        rospy.sleep(2.0)
+        #left_arm.execute(left_plan)
+        #rospy.sleep(2.0)
 
-
+        '''
         ## scrub stuff
         # extract current configuration
-        angles = limb.joing_angles()
+        angles = limb.joint_angles()
 
         # print current config
         print angles
@@ -126,14 +127,18 @@ class ScrubAction(object):
         a6 = angles['left_w2']
 
         #generate the wave patterns
-        delta_a5 = 0.2
+        delta_a5 = 0.1
         delta_a6 = 0.1
-        pos_1 = {'left_s0': a0, 'left_s1': a1, 'left_e0': a2, 'left_e1': a3, 'left_w0': a4, 'left_w1': a5+delta_a5, 'left_w2': a6+delta_a6}
-        pos_2 = {'left_s0': a0, 'left_s1': a1, 'left_e0': a2, 'left_e1': a3, 'left_w0': a4, 'left_w1': a5-delta_a5, 'left_w2': a6-delta_a6}
+        #pos_1 = {'left_s0': a0, 'left_s1': a1, 'left_e0': a2, 'left_e1': a3, 'left_w0': a4, 'left_w1': a5+delta_a5, 'left_w2': a6+delta_a6}
+        pos_1 = {'left_s0': 0, 'left_s1': 0, 'left_e0': 0, 'left_e1': 0, 'left_w0': 0, 'left_w1': -0.2, 'left_w2': -0.1}
+        #pos_2 = {'left_s0': a0, 'left_s1': a1, 'left_e0': a2, 'left_e1': a3, 'left_w0': a4, 'left_w1': a5-delta_a5, 'left_w2': a6-delta_a6}
+        pos_2 = {'left_s0': 0, 'left_s1': 0, 'left_e0': 0, 'left_e1': 0, 'left_w0': 0, 'left_w1': 0.2, 'left_w2': 0.1}
 
         # wipe three times
         for _move in range(3):
+            print 'trying to move to scrub pos_1'
             limb.move_to_joint_positions(pos_1)
+            print 'trying to move to scrub pos_2'
             limb.move_to_joint_positions(pos_2)
 
 

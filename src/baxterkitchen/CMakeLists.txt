@@ -68,6 +68,8 @@ add_action_files(DIRECTORY action
  Fibonacci.action
  Pick.action
  Place.action
+ Scrub.action
+ Move.action
 # Organize.action
 )
 
