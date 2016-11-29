@@ -17,8 +17,8 @@ listener = None
 
 ar_tags = {}
 
-ar_tags['knife'] =    'ar_marker_0'  # slave 1 and 2
-ar_tags['carrot'] =   'ar_marker_3'  # slave 4 and 5
+ar_tags['knife'] =    'ar_marker_2'  # slave 0 and 1
+ar_tags['carrot'] =   'ar_marker_5'  # slave 3 and 4
 ar_tags['cucumber'] = 'ar_marker_6'  # slave 7 and 8
 ar_tags['dish'] =     'ar_marker_9'  # slave 10 and 11
 ar_tags['sponge'] =   'ar_marker_12' # slave 13 and 14
