@@ -52,10 +52,10 @@ class ScrubAction(object):
 
 
         # start executing the action
-        print 'server received goal: '
-        print goal.p_x
-        print goal.p_y
-        print goal.p_z
+        print 'scrub server received goal: '
+        #print goal.p_x
+        #print goal.p_y
+        #print goal.p_z
 
         ##################################################################################
         limb = baxter_interface.Limb('left')
@@ -144,9 +144,11 @@ class ScrubAction(object):
             print 'trying to move to scrub pos_1'
             limb.set_joint_positions(pos_1)
             #limb.move_to_joint_positions(pos_1,timeout=5.0,threshold=0.1)
+            rospy.sleep(0.5)
             print 'trying to move to scrub pos_2'
             limb.set_joint_positions(pos_2)
             #limb.move_to_joint_positions(pos_2,timeout=5.0,threshold=0.1)
+            rospy.sleep(0.5)
 
         #rosrun baxter_examples joint_position_keyboard.py
 

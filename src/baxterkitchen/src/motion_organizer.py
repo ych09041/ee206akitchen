@@ -85,7 +85,7 @@ if __name__ == '__main__':
         #left_gripper.close(block=True)
         #rospy.sleep(1.0)
         #############testing!!!!!!#############
-      #  result = pick_client(0, 0.3, 0.3, 0.0)
+        result = pick_client(0, 0.3, 0.3, 0.0)
       #  result = move_client(0, 0.3, 0.4, 0.0)
         result = scrub_client(0, 0.3, 0.4, 0.1)
       #  result = place_client(0, 0.3, 0.5, 0.0)
