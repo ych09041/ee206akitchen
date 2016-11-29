@@ -1,0 +1,10 @@
+<launch>
+
+  <node name="pick_server" pkg="baxterkitchen" type="pick_server.py" respawn="false" output="screen" />
+  <node name="place_server" pkg="baxterkitchen" type="place_server.py" respawn="false" output="screen" />
+  
+
+  <node name="motion_org" pkg="baxterkitchen" type="motion_organizer.py" respawn="false" output="screen" />
+
+
+</launch>
