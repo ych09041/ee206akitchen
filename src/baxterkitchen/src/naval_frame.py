@@ -16,7 +16,7 @@ if __name__ == '__main__':
                          rospy.Time.now(),
                          'usb_cam',
                          'naval')
-        br_test.sendTransform((1.0, 1.0, 1.0),
+        br_test.sendTransform((3.4, 1.2, 1.0),
                          (0.0, 0.0, 0.0, 1.0),
                          rospy.Time.now(),
                          'test_frame',
