@@ -21,7 +21,7 @@ def pick_client():
     client.wait_for_server()
 
     # Creates a goal to send to the action server.
-    goal = baxterkitchen.msg.PickGoal(p_x = 0.4, p_y = 0.0, p_z = 0.0)
+    goal = baxterkitchen.msg.PickGoal(side = 0, p_x = 0.4, p_y = 0.0, p_z = 0.0)
 
     # Sends the goal to the action server.
     client.send_goal(goal)
@@ -42,7 +42,49 @@ def place_client():
     client.wait_for_server()
 
     # Creates a goal to send to the action server.
-    goal = baxterkitchen.msg.PlaceGoal(side = 1, p_x = 0.6, p_y = 0.0, p_z = 0.0) # side: 0 - left; 1- right
+    goal = baxterkitchen.msg.PlaceGoal(side = 0, p_x = 0.4, p_y = 0.0, p_z = 0.2) # side: 0 - left; 1- right
+
+    # Sends the goal to the action server.
+    client.send_goal(goal)
+
+    # Waits for the server to finish performing the action.
+    client.wait_for_result()
+
+    # Prints out the result of executing the action
+    return client.get_result()  # A PlaceResult
+
+def move_client():
+    # Creates the SimpleActionClient, passing the type of the action
+    # (PickAction) to the constructor.
+    client = actionlib.SimpleActionClient('move_server', baxterkitchen.msg.MoveAction)
+
+    # Waits until the action server has started up and started
+    # listening for goals.
+    client.wait_for_server()
+
+    # Creates a goal to send to the action server.
+    goal = baxterkitchen.msg.MoveGoal(side = 0, p_x = 0.2, p_y = 0.0, p_z = 0.0) # side: 0 - left; 1- right
+
+    # Sends the goal to the action server.
+    client.send_goal(goal)
+
+    # Waits for the server to finish performing the action.
+    client.wait_for_result()
+
+    # Prints out the result of executing the action
+    return client.get_result()  # A PlaceResult
+
+def scrub_client():
+    # Creates the SimpleActionClient, passing the type of the action
+    # (PickAction) to the constructor.
+    client = actionlib.SimpleActionClient('scrub_server', baxterkitchen.msg.ScrubAction)
+
+    # Waits until the action server has started up and started
+    # listening for goals.
+    client.wait_for_server()
+
+    # Creates a goal to send to the action server.
+    goal = baxterkitchen.msg.ScrubGoal(p_x = 0.6, p_y = 0.0, p_z = 0.0) # side: 0 - left; 1- right
 
     # Sends the goal to the action server.
     client.send_goal(goal)
@@ -73,6 +115,8 @@ if __name__ == '__main__':
         rospy.sleep(1.0)
         #############testing!!!!!!#############
         result = pick_client()
+        result = move_client()
+        result = scrub_client()
         result = place_client()
         print "Result from client:", result
     except rospy.ROSInterruptException:
