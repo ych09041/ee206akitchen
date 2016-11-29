@@ -6,7 +6,7 @@ import rospy
 import actionlib
 
 import baxterkitchen.msg
-
+import numpy as np
 
 import sys
 
@@ -127,19 +127,28 @@ class ScrubAction(object):
         a6 = angles['left_w2']
 
         #generate the wave patterns
-        delta_a5 = 0.1
-        delta_a6 = 0.1
-        #pos_1 = {'left_s0': a0, 'left_s1': a1, 'left_e0': a2, 'left_e1': a3, 'left_w0': a4, 'left_w1': a5+delta_a5, 'left_w2': a6+delta_a6}
-        pos_1 = {'left_s0': 0, 'left_s1': 0, 'left_e0': 0, 'left_e1': 0, 'left_w0': 0, 'left_w1': -0.2, 'left_w2': -0.1}
-        #pos_2 = {'left_s0': a0, 'left_s1': a1, 'left_e0': a2, 'left_e1': a3, 'left_w0': a4, 'left_w1': a5-delta_a5, 'left_w2': a6-delta_a6}
-        pos_2 = {'left_s0': 0, 'left_s1': 0, 'left_e0': 0, 'left_e1': 0, 'left_w0': 0, 'left_w1': 0.2, 'left_w2': 0.1}
+        if (np.absolute(a5) < 1.9 and np.absolute(a6)<2.9): 
+            delta_a5 = 0.1
+            delta_a6 = 0.1
+        else
+            delta_a5 = 0.01
+            delta_a6 = 0.01
+
+        pos_1 = {'left_s0': a0, 'left_s1': a1, 'left_e0': a2, 'left_e1': a3, 'left_w0': a4, 'left_w1': a5+delta_a5, 'left_w2': a6+delta_a6}
+        #pos_1 = {'left_s0': 0, 'left_s1': 0, 'left_e0': 0, 'left_e1': 0, 'left_w0': 0, 'left_w1': -0.2, 'left_w2': -0.1}
+        pos_2 = {'left_s0': a0, 'left_s1': a1, 'left_e0': a2, 'left_e1': a3, 'left_w0': a4, 'left_w1': a5-delta_a5, 'left_w2': a6-delta_a6}
+        #pos_2 = {'left_s0': 0, 'left_s1': 0, 'left_e0': 0, 'left_e1': 0, 'left_w0': 0, 'left_w1': 0.2, 'left_w2': 0.1}
 
         # wipe three times
         for _move in range(3):
             print 'trying to move to scrub pos_1'
-            limb.move_to_joint_positions(pos_1)
+            limb.set_joint_positions(pos_1)
+            #limb.move_to_joint_positions(pos_1,timeout=5.0,threshold=0.1)
             print 'trying to move to scrub pos_2'
-            limb.move_to_joint_positions(pos_2)
+            limb.set_joint_positions(pos_2)
+            #limb.move_to_joint_positions(pos_2,timeout=5.0,threshold=0.1)
+
+        #rosrun baxter_examples joint_position_keyboard.py
 
 
 
