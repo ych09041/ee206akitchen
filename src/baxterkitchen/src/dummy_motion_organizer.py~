@@ -43,13 +43,13 @@ class OrganizeAction(object):
     print goal.target
     print goal.reps
 
-    if goal.chore == 'wash':
+    if goal.chore == 'wash'
         print 'dummy org received wash request'
         # formulate pick dish request by calling pick client
         # formulate scrub request by calling client
         # formulate place dish request
 
-    if goal.chore == 'cut':
+    if goal.chore == 'cut'
         print 'dummy org received cut request'
         # formulate pick knife request
         # formulate pick target request

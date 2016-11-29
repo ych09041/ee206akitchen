@@ -17,13 +17,15 @@ listener = None
 
 ar_tags = {}
 
-ar_tags['knife'] = 'ar_marker_8'
-ar_tags['board'] = 'ar_marker_2'
-ar_tags['cucumber'] = 'ar_marker_4'
-ar_tags['usb_cam'] = 'usb_cam'
-ar_tags['naval'] = 'naval'
+ar_tags['knife'] =    'ar_marker_0'  # slave 1 and 2
+ar_tags['carrot'] =   'ar_marker_3'  # slave 4 and 5
+ar_tags['cucumber'] = 'ar_marker_6'  # slave 7 and 8
+ar_tags['dish'] =     'ar_marker_9'  # slave 10 and 11
+ar_tags['sponge'] =   'ar_marker_12' # slave 13 and 14
+ar_tags['usb_cam'] =  'usb_cam'
+#ar_tags['naval'] =    'naval'
+ar_tags['naval'] =    'ar_marker_16' # slave 17
 ar_tags['test_frame'] = 'test_frame'
-ar_tags['test_frame2'] = 'test_frame2'
 
 
 def sub_callback(data):

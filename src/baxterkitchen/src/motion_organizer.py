@@ -6,7 +6,6 @@ import rospy
 # Brings in the SimpleActionClient
 import actionlib
 
-# Brings in the messages used by the fibonacci action, including the
 # goal message and the result message.
 import baxterkitchen.msg
 from baxter_interface import gripper as baxter_gripper
@@ -17,7 +16,7 @@ def pick_client():
     goal = baxterkitchen.msg.PickGoal(side = 0, p_x = 0.4, p_y = 0.0, p_z = 0.0)
     client.send_goal(goal)
     client.wait_for_result()
-    return client.get_result()  # A PickResult
+    return client.get_result()
 
 def place_client():
     client = actionlib.SimpleActionClient('place_server', baxterkitchen.msg.PlaceAction)
@@ -25,7 +24,7 @@ def place_client():
     goal = baxterkitchen.msg.PlaceGoal(side = 0, p_x = 0.4, p_y = 0.0, p_z = 0.2) # side: 0 - left; 1- right
     client.send_goal(goal)
     client.wait_for_result()
-    return client.get_result()  # A PlaceResult
+    return client.get_result()
 
 def move_client():
     client = actionlib.SimpleActionClient('move_server', baxterkitchen.msg.MoveAction)
@@ -33,7 +32,7 @@ def move_client():
     goal = baxterkitchen.msg.MoveGoal(side = 0, p_x = 0.4, p_y = 0.2, p_z = 0.0) # side: 0 - left; 1- right
     client.send_goal(goal)
     client.wait_for_result()
-    return client.get_result()  # A PlaceResult
+    return client.get_result()
 
 def scrub_client():
     client = actionlib.SimpleActionClient('scrub_server', baxterkitchen.msg.ScrubAction)
@@ -41,7 +40,7 @@ def scrub_client():
     goal = baxterkitchen.msg.ScrubGoal(p_x = 0.3, p_y = 0.3, p_z = 0.0) # side: 0 - left; 1- right
     client.send_goal(goal)
     client.wait_for_result()
-    return client.get_result()  # A PlaceResult
+    return client.get_result()
 
 if __name__ == '__main__':
     try:
