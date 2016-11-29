@@ -91,27 +91,51 @@ class PickAction(object):
     goal_1.pose.orientation.z = 0.0
     goal_1.pose.orientation.w = 0.0
 
-    #Set the goal state to the pose you just defined
-    right_arm.set_pose_target(goal_1)
+    #Check left or right arm to move
+    if goal.side == 0: # for left arm
+        #Set the goal state to the pose you just defined
+        left_arm.set_pose_target(goal_1)
 
-    #Set the start state for the left arm
-    right_arm.set_start_state_to_current_state()
+        #Set the start state for the left arm
+        left_arm.set_start_state_to_current_state()
 
-    #Plan a path
-    right_plan = right_arm.plan()
+        #Plan a path
+        left_plan = left_arm.plan()
 
-    #Execute the plan
-    right_arm.execute(right_plan)
-    rospy.sleep(2.0)
-    
-    
-    ## grab stuff
-    # calibrate first
-    #left_gripper.calibrate()
-    #rospy.sleep(2.0)
-    #Close the left gripper
-    right_gripper.close(block=True)
-    rospy.sleep(1.0)
+        #Execute the plan
+        left_arm.execute(left_plan)
+        rospy.sleep(2.0)
+
+
+        ## grab stuff
+        # calibrate first
+        print('Opening...')
+        left_gripper.close(block=True)
+        rospy.sleep(1.0)
+        print('Done!')
+    elif goal.side == 1: # for right arm
+        #Set the goal state to the pose you just defined
+        right_arm.set_pose_target(goal_1)
+
+        #Set the start state for the left arm
+        right_arm.set_start_state_to_current_state()
+
+        #Plan a path
+        right_plan = right_arm.plan()
+
+        #Execute the plan
+        right_arm.execute(right_plan)
+        rospy.sleep(2.0)
+
+
+        ## grab stuff
+        # calibrate first
+        print('Opening...')
+        right_gripper.close(block=True)
+        rospy.sleep(1.0)
+        print('Done!')
+    else:
+        print('ERROR: Define left(0) or right(1)!')
     
     
     
