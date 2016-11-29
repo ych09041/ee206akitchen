@@ -8,6 +8,7 @@ import numpy as np
 from tf2_msgs.msg import TFMessage
 from geometry_msgs.msg import Transform, Vector3, Twist, TransformStamped
 import baxterkitchen.msg
+from baxterkitchen.msg import Inventory
 #import exp_quat_func as eqf
 #import ar_tag_subs as ar
 
@@ -31,6 +32,13 @@ def update_inventory():
     listener = tf.TransformListener()
     r = rospy.Rate(5.0) # 10hz
     
+    # initialize the inventory
+    imsg = Inventory()
+    imsg.knife_translation = (0,0,0)
+    imsg.knife_rotation = (0,0,0,0)
+    
+    
+    
     while not rospy.is_shutdown():
         print '==================='
         message = Inventory()
@@ -39,7 +47,7 @@ def update_inventory():
             message.knife_translation = trans1
             message.knife_rotation = rot1
             message.knife_seen = True
-        
+            print 'published knife'
            # (trans2, rot2) = listener.lookupTransform(ar_tags['cucumber'], ar_tags['naval'], rospy.Time(0))
            # message.cucumber_translation = trans2
            # message.cucumber_rotation = rot2
