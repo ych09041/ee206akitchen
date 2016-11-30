@@ -94,23 +94,23 @@ if __name__ == '__main__':
         #rospy.sleep(1.0)
         #############testing!!!!!!#############
         print "pick"
-        result = pick_client(0, 0.4, 0.0, 0.0)
-        #print 'pick knife'
-        #print knife_px
-        #print knife_py
-        #print knife_pz
-        #result = pick_client(0, knife_px, knife_py, knife_pz)
-        print "move1"
-        result = move_client(0, 0.4, 0.0, 0.1)
-        print "scrub"
-        result = scrub_client(0.4, 0.0, 0.1) # scrub should follow "move" with same input for complete performance/accuracy
-        print "move2"
-        result = move_client(0, 0.3, 0.1, 0.1)
-        print "cut"
-        result = cut_client(0.3, 0.1, 0.1) # cut should follow "move" with same input for complete performance/accuracy
-        print "place"
-        result = place_client(0, 0.3, 0.5, 0.0)
-        print "Result from client:", result
+        #result = pick_client(0, 0.4, 0.0, 0.0)
+        print 'pick knife'
+        print knife_px
+        print knife_py
+        print knife_pz
+        result = pick_client(0, knife_px, knife_py, knife_pz)
+        #print "move1"
+        #result = move_client(0, 0.4, 0.0, 0.1)
+        #print "scrub"
+        #result = scrub_client(0.4, 0.0, 0.1) # scrub should follow "move" with same input for complete performance/accuracy
+        #print "move2"
+        #result = move_client(0, 0.3, 0.1, 0.1)
+        #print "cut"
+        #result = cut_client(0.3, 0.1, 0.1) # cut should follow "move" with same input for complete performance/accuracy
+        #print "place"
+        #result = place_client(0, 0.3, 0.5, 0.0)
+        #print "Result from client:", result
     except rospy.ROSInterruptException:
         print "program interrupted before completion"
 

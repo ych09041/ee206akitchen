@@ -43,6 +43,14 @@ def scrub_client(px, py, pz):
     client.wait_for_result()
     return client.get_result()
 
+def cut_client(px, py, pz):
+    client = actionlib.SimpleActionClient('cut_server', baxterkitchen.msg.CutAction)
+    client.wait_for_server()
+    goal = baxterkitchen.msg.CutGoal(p_x = px, p_y = py, p_z = pz) # side: 0 - left; 1- right
+    client.send_goal(goal)
+    client.wait_for_result()
+    return client.get_result()
+
 # global variables for motion organizer to use
 knife_px = 0.0
 knife_py = 0.0

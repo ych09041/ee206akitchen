@@ -30,7 +30,7 @@ ar_tags['naval'] =    'ar_marker_16' # slave 17
 
 def sub_callback(data):
     print 'sub received data'
-    print data
+    #print data
 
 
 def update_inventory():
@@ -46,8 +46,10 @@ def update_inventory():
         print '==================='
         message = Inventory()
         try:
-            (trans1, rot1) = listener.lookupTransform(ar_tags['naval'], ar_tags['knife'], rospy.Time(0))
-
+            #(trans1, rot1) = listener.lookupTransform(ar_tags['naval'], ar_tags['knife'], rospy.Time(0))
+            (trans1, rot1) = listener.lookupTransform('ar_marker_16','ar_marker_2', rospy.Time(0))
+            print trans1
+            print rot1
             message.knife_px = trans1[0]
             message.knife_py = trans1[1]
             message.knife_pz = trans1[2]
