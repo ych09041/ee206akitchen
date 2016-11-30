@@ -70,7 +70,7 @@ add_action_files(DIRECTORY action
  Place.action
  Scrub.action
  Move.action
-# Organize.action
+ Organize.action
 )
 
 ## Generate added messages and services with any dependencies listed here
