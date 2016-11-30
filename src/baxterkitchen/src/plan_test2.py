@@ -24,7 +24,7 @@ def pick_client(si, px, py, pz):
 if __name__ == '__main__':
 	rospy.init_node("moveit_py")
 	print("here")
-	p = PlanningSceneInterface("torso")
+	p = PlanningSceneInterface("base")
 	p.addCube("my_cube", 0.1, 1, 0, 0.5)
 
 
