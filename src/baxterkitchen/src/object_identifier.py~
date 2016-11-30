@@ -26,7 +26,7 @@ ar_tags['usb_cam'] =  'usb_cam'
 #ar_tags['naval'] =    'naval'
 #ar_tags['naval'] =    'ar_marker_16' # slave 17
 ar_tags['knife'] = 'test_frame'
-ar_tags['naval'] = 'test_frame2' # slave 17
+ar_tags['naval'] = 'test_frame2'
 
 def sub_callback(data):
     print 'sub received data'
