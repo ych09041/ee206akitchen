@@ -43,6 +43,14 @@ def scrub_client(px, py, pz):
     client.wait_for_result()
     return client.get_result()
 
+def cut_client(px, py, pz):
+    client = actionlib.SimpleActionClient('cut_server', baxterkitchen.msg.CutAction)
+    client.wait_for_server()
+    goal = baxterkitchen.msg.CutGoal(p_x = px, p_y = py, p_z = pz) # side: 0 - left; 1- right
+    client.send_goal(goal)
+    client.wait_for_result()
+    return client.get_result()
+
 # global variables for motion organizer to use
 knife_px = 0.0
 knife_py = 0.0
@@ -85,10 +93,23 @@ if __name__ == '__main__':
         #left_gripper.close(block=True)
         #rospy.sleep(1.0)
         #############testing!!!!!!#############
-        result = pick_client(0, 0.3, 0.3, 0.0)
-      #  result = move_client(0, 0.3, 0.4, 0.0)
-        result = scrub_client(0, 0.3, 0.4, 0.1)
-      #  result = place_client(0, 0.3, 0.5, 0.0)
+        print "pick"
+        result = pick_client(0, 0.4, 0.0, 0.0)
+        #print 'pick knife'
+        #print knife_px
+        #print knife_py
+        #print knife_pz
+        #result = pick_client(0, knife_px, knife_py, knife_pz)
+        print "move1"
+        result = move_client(0, 0.4, 0.0, 0.1)
+        print "scrub"
+        result = scrub_client(0.4, 0.0, 0.1) # scrub should follow "move" with same input for complete performance/accuracy
+        print "move2"
+        result = move_client(0, 0.3, 0.1, 0.1)
+        print "cut"
+        result = cut_client(0.3, 0.1, 0.1) # cut should follow "move" with same input for complete performance/accuracy
+        print "place"
+        result = place_client(0, 0.3, 0.5, 0.0)
         print "Result from client:", result
     except rospy.ROSInterruptException:
         print "program interrupted before completion"
