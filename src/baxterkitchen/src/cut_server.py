@@ -19,14 +19,14 @@ from moveit_msgs.msg import MoveGroupAction, MoveGroupGoal, MoveGroupFeedback, M
 
 
 
-class ScrubAction(object):
+class CutAction(object):
     # create messages that are used to publish feedback/result
-    _feedback = baxterkitchen.msg.ScrubFeedback()
-    _result   = baxterkitchen.msg.ScrubResult()
+    _feedback = baxterkitchen.msg.CutFeedback()
+    _result   = baxterkitchen.msg.CutResult()
 
     def __init__(self, name):
         self._action_name = name
-        self._as = actionlib.SimpleActionServer(self._action_name, baxterkitchen.msg.ScrubAction, execute_cb=self.execute_cb, auto_start = False)
+        self._as = actionlib.SimpleActionServer(self._action_name, baxterkitchen.msg.CutAction, execute_cb=self.execute_cb, auto_start = False)
         self._as.start()
 
     def execute_cb(self, goal): ###################### do action in this execute_cb
@@ -41,7 +41,7 @@ class ScrubAction(object):
 
         # publish info to the console for the user
         #    rospy.loginfo('%s: Executing, creating fibonacci sequence of order %i with seeds %i, %i' % (self._action_name, goal.order, self._feedback.sequence[0], self._feedback.sequence[1]))
-        rospy.loginfo('scrubbing that dish')
+        rospy.loginfo('cutting up that cucumber')
 
         ##################################################################################
         #Initialize moveit_commander
@@ -61,80 +61,81 @@ class ScrubAction(object):
         right_arm.set_planner_id('RRTConnectkConfigDefault')
         right_arm.set_planning_time(10)
         
-        delta = 0.01
-        gap = 0.5
+        length = 0.02
+        gap = -0.02
+        height = 0.02
         
        
         for _move in range(0, 3):
-            #First goal pose ------------------------------------------------------
-            print "first scrub"
+            #Get ready ------------------------------------------------------
+            print "getting ready"
             goal_1 = PoseStamped()
             goal_1.header.frame_id = "base"
 
             #x, y, and z position
-            goal_1.pose.position.x = goal.p_x+delta
-            goal_1.pose.position.y = goal.p_y
-            goal_1.pose.position.z = goal.p_z+delta
+            goal_1.pose.position.x = goal.p_x+length
+            goal_1.pose.position.y = goal.p_y+gap
+            goal_1.pose.position.z = goal.p_z+height
 
             #Orientation as a quaternion
             goal_1.pose.orientation.x = 0.0
             goal_1.pose.orientation.y = -1.0
             goal_1.pose.orientation.z = 0.0
             goal_1.pose.orientation.w = 0.0
-
+        
             left_arm.set_pose_target(goal_1)
             left_arm.set_start_state_to_current_state()
             left_plan = left_arm.plan()
             left_arm.execute(left_plan)
             rospy.sleep(gap)
             
-            #Second goal pose ------------------------------------------------------
-            print "second scrub"
+            #Descend ------------------------------------------------------
+            print "descend the blade"
             goal_1 = PoseStamped()
             goal_1.header.frame_id = "base"
 
             #x, y, and z position
-            goal_1.pose.position.x = goal.p_x+delta
-            goal_1.pose.position.y = goal.p_y
-            goal_1.pose.position.z = goal.p_z-delta
+            goal_1.pose.position.x = goal.p_x+length
+            goal_1.pose.position.y = goal.p_y+gap
+            goal_1.pose.position.z = goal.p_z
 
+            #Orientation as a quaternion
+            goal_1.pose.orientation.x = 0.0
+            goal_1.pose.orientation.y = -1.0
+            goal_1.pose.orientation.z = 0.0
+            goal_1.pose.orientation.w = 0.0
+            
             left_arm.set_pose_target(goal_1)
             left_arm.set_start_state_to_current_state()
             left_plan = left_arm.plan()
             left_arm.execute(left_plan)
             rospy.sleep(gap)
             
-            #Third goal pose ------------------------------------------------------
-            print "third scrub"
+            #Slide ------------------------------------------------------
+            # how do we make sure it's a straight line? just use smaller increments? or should we do blade dropping type of cut
+            print "slide!!!"
             goal_1 = PoseStamped()
             goal_1.header.frame_id = "base"
 
             #x, y, and z position
-            goal_1.pose.position.x = goal.p_x-delta
-            goal_1.pose.position.y = goal.p_y
-            goal_1.pose.position.z = goal.p_z-delta
+            goal_1.pose.position.x = goal.p_x-length
+            goal_1.pose.position.y = goal.p_y+gap
+            goal_1.pose.position.z = goal.p_z
 
+            #Orientation as a quaternion
+            goal_1.pose.orientation.x = 0.0
+            goal_1.pose.orientation.y = -1.0
+            goal_1.pose.orientation.z = 0.0
+            goal_1.pose.orientation.w = 0.0
+            
             left_arm.set_pose_target(goal_1)
             left_arm.set_start_state_to_current_state()
             left_plan = left_arm.plan()
             left_arm.execute(left_plan)
             rospy.sleep(gap)
-
-            #Forth goal pose ------------------------------------------------------
-            print "forth scrub"
-            goal_1 = PoseStamped()
-            goal_1.header.frame_id = "base"
-
-            #x, y, and z position
-            goal_1.pose.position.x = goal.p_x-delta
-            goal_1.pose.position.y = goal.p_y
-            goal_1.pose.position.z = goal.p_z+delta
-
-            left_arm.set_pose_target(goal_1)
-            left_arm.set_start_state_to_current_state()
-            left_plan = left_arm.plan()
-            left_arm.execute(left_plan)
-            rospy.sleep(gap)
+            
+            
+            gap = gap + gap
 
 
         #####################################################################################
@@ -161,7 +162,7 @@ class ScrubAction(object):
             self._as.set_succeeded(self._result)
 
 if __name__ == '__main__':
-    rospy.init_node('scrub_server')
-    print 'scrub server running...'
-    ScrubAction(rospy.get_name())
+    rospy.init_node('cut_server')
+    print 'cut server running...'
+    CutAction(rospy.get_name())
     rospy.spin()

@@ -70,6 +70,7 @@ add_action_files(DIRECTORY action
  Place.action
  Scrub.action
  Move.action
+ Cut.action
  Organize.action
 )
 
