@@ -60,11 +60,12 @@ class ScrubAction(object):
         left_arm.set_planning_time(10)
         right_arm.set_planner_id('RRTConnectkConfigDefault')
         right_arm.set_planning_time(10)
-        
-        delta = 0.01
-        gap = 0.5
-        
+
         limb = baxter_interface.Limb('left')
+        delta_a5 = 0.02
+        delta_a6 = 0.2
+        time_gap = 0.5
+        
         angles = limb.joint_angles()
         a0 = angles['left_s0']
         a1 = angles['left_s1']
@@ -73,16 +74,32 @@ class ScrubAction(object):
         a4 = angles['left_w0']
         a5 = angles['left_w1']
         a6 = angles['left_w2']
-        
+
         for times in range(0,3):
-            left_arm.set_joint_value_target('left_w2',a6+0.2)
+            # first scrub
+            left_arm.set_joint_value_target('left_s0',a0)
+            left_arm.set_joint_value_target('left_s1',a1)
+            left_arm.set_joint_value_target('left_e0',a2)
+            left_arm.set_joint_value_target('left_e1',a3)
+            left_arm.set_joint_value_target('left_w0',a4)
+            left_arm.set_joint_value_target('left_w1',a5+delta_a5)
+            left_arm.set_joint_value_target('left_w2',a6+delta_a6)
             left_arm.execute(left_arm.plan())
-            print 'set left_w2 to +0.2'
-            rospy.sleep(0.5)
-            left_arm.set_joint_value_target('left_w2',a6-0.2)
+            print 'first scrub'
+            rospy.sleep(time_gap)
+
+            # second scrub
+            left_arm.set_joint_value_target('left_s0',a0)
+            left_arm.set_joint_value_target('left_s1',a1)
+            left_arm.set_joint_value_target('left_e0',a2)
+            left_arm.set_joint_value_target('left_e1',a3)
+            left_arm.set_joint_value_target('left_w0',a4)
+            left_arm.set_joint_value_target('left_w1',a5-delta_a5)
+            left_arm.set_joint_value_target('left_w2',a6-delta_a6)
             left_arm.execute(left_arm.plan())
-            print 'set left_w2 to -0.2'
-            rospy.sleep(0.5)
+            print 'second scrub'
+            rospy.sleep(time_gap)
+
        
        
         # check that preempt has not been requested by the client

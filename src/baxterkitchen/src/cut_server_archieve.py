@@ -60,64 +60,82 @@ class CutAction(object):
         left_arm.set_planning_time(10)
         right_arm.set_planner_id('RRTConnectkConfigDefault')
         right_arm.set_planning_time(10)
-
-        limb = baxter_interface.Limb('left')
-        # cut gap / recursively increasing
-        delta_a0 = 0
-        delta_a0_gap = 0.02
-        # cut
-        delta_a5 = 0.2
-        # time gap
-        time_gap = 0.5
         
-        angles = limb.joint_angles()
-        a0 = angles['left_s0']
-        a1 = angles['left_s1']
-        a2 = angles['left_e0']
-        a3 = angles['left_e1']
-        a4 = angles['left_w0']
-        a5 = angles['left_w1']
-        a6 = angles['left_w2']
+        length = 0.02
+        gap = -0.02
+        height = 0.02
+        
+       
+        for _move in range(0, 3):
+            #Get ready ------------------------------------------------------
+            print "getting ready"
+            goal_1 = PoseStamped()
+            goal_1.header.frame_id = "base"
 
-        for times in range(0,3):
-            # aim cut
-            left_arm.set_joint_value_target('left_s0',a0 + delta_a0)
-            left_arm.set_joint_value_target('left_s1',a1)
-            left_arm.set_joint_value_target('left_e0',a2)
-            left_arm.set_joint_value_target('left_e1',a3)
-            left_arm.set_joint_value_target('left_w0',a4)
-            left_arm.set_joint_value_target('left_w1',a5)
-            left_arm.set_joint_value_target('left_w2',a6)
-            left_arm.execute(left_arm.plan())
-            print 'aiming cut'
-            rospy.sleep(time_gap)
+            #x, y, and z position
+            goal_1.pose.position.x = goal.p_x+length
+            goal_1.pose.position.y = goal.p_y+gap
+            goal_1.pose.position.z = goal.p_z+height
 
-            # cut
-            left_arm.set_joint_value_target('left_s0',a0 + delta_a0)
-            left_arm.set_joint_value_target('left_s1',a1)
-            left_arm.set_joint_value_target('left_e0',a2)
-            left_arm.set_joint_value_target('left_e1',a3)
-            left_arm.set_joint_value_target('left_w0',a4)
-            left_arm.set_joint_value_target('left_w1',a5 + delta_a5)
-            left_arm.set_joint_value_target('left_w2',a6)
-            left_arm.execute(left_arm.plan())
-            print 'cut'
-            rospy.sleep(time_gap)
+            #Orientation as a quaternion
+            goal_1.pose.orientation.x = 0.0
+            goal_1.pose.orientation.y = -1.0
+            goal_1.pose.orientation.z = 0.0
+            goal_1.pose.orientation.w = 0.0
+        
+            left_arm.set_pose_target(goal_1)
+            left_arm.set_start_state_to_current_state()
+            left_plan = left_arm.plan()
+            left_arm.execute(left_plan)
+            rospy.sleep(gap)
+            
+            #Descend ------------------------------------------------------
+            print "descend the blade"
+            goal_1 = PoseStamped()
+            goal_1.header.frame_id = "base"
 
-            # lift up
-            left_arm.set_joint_value_target('left_s0',a0 + delta_a0)
-            left_arm.set_joint_value_target('left_s1',a1)
-            left_arm.set_joint_value_target('left_e0',a2)
-            left_arm.set_joint_value_target('left_e1',a3)
-            left_arm.set_joint_value_target('left_w0',a4)
-            left_arm.set_joint_value_target('left_w1',a5)
-            left_arm.set_joint_value_target('left_w2',a6)
-            left_arm.execute(left_arm.plan())
-            print 'lift up'
-            rospy.sleep(time_gap)
+            #x, y, and z position
+            goal_1.pose.position.x = goal.p_x+length
+            goal_1.pose.position.y = goal.p_y+gap
+            goal_1.pose.position.z = goal.p_z
 
-            delta_a0 = delta_a0 + delta_a0_gap
+            #Orientation as a quaternion
+            goal_1.pose.orientation.x = 0.0
+            goal_1.pose.orientation.y = -1.0
+            goal_1.pose.orientation.z = 0.0
+            goal_1.pose.orientation.w = 0.0
+            
+            left_arm.set_pose_target(goal_1)
+            left_arm.set_start_state_to_current_state()
+            left_plan = left_arm.plan()
+            left_arm.execute(left_plan)
+            rospy.sleep(gap)
+            
+            #Slide ------------------------------------------------------
+            # how do we make sure it's a straight line? just use smaller increments? or should we do blade dropping type of cut
+            print "slide!!!"
+            goal_1 = PoseStamped()
+            goal_1.header.frame_id = "base"
 
+            #x, y, and z position
+            goal_1.pose.position.x = goal.p_x-length
+            goal_1.pose.position.y = goal.p_y+gap
+            goal_1.pose.position.z = goal.p_z
+
+            #Orientation as a quaternion
+            goal_1.pose.orientation.x = 0.0
+            goal_1.pose.orientation.y = -1.0
+            goal_1.pose.orientation.z = 0.0
+            goal_1.pose.orientation.w = 0.0
+            
+            left_arm.set_pose_target(goal_1)
+            left_arm.set_start_state_to_current_state()
+            left_plan = left_arm.plan()
+            left_arm.execute(left_plan)
+            rospy.sleep(gap)
+            
+            
+            gap = gap + gap
 
 
         #####################################################################################
