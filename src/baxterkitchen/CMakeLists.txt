@@ -67,6 +67,10 @@ add_action_files(DIRECTORY action
  FILES
  Fibonacci.action
  Pick.action
+ Place.action
+ Scrub.action
+ Move.action
+ Cut.action
  Organize.action
 )
 
@@ -74,7 +78,8 @@ add_action_files(DIRECTORY action
 generate_messages(
   DEPENDENCIES
   std_msgs
-  actionlib_msgs   
+  actionlib_msgs
+  geometry_msgs   
 )
 
 ################################################

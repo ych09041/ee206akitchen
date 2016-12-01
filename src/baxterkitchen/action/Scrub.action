@@ -1,5 +1,4 @@
 #goal definition
-int32 side
 float32 p_x
 float32 p_y
 float32 p_z
@@ -8,7 +7,6 @@ float32 p_z
 int32 done
 ---
 #feedback
-int32 side
 float32 fb_x
 float32 fb_y
 float32 fb_z

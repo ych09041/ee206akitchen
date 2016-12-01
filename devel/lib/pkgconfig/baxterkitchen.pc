@@ -1,8 +1,0 @@
-prefix=/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel
-
-Name: baxterkitchen
-Description: Description of baxterkitchen
-Version: 0.0.0
-Cflags: -I/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/include
-Libs: -L/home/cc/ee106a/fa16/class/ee106a-acu/ee206akitchen/devel/lib 
-Requires: baxter_examples baxter_tools roscpp rospy std_msgs actionlib_msgs
