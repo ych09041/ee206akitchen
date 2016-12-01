@@ -72,9 +72,9 @@ class PickAction(object):
     left_arm = moveit_commander.MoveGroupCommander('left_arm')
     right_arm = moveit_commander.MoveGroupCommander('right_arm')
     left_arm.set_planner_id('RRTConnectkConfigDefault')
-    left_arm.set_planning_time(10)
+    left_arm.set_planning_time(20)
     right_arm.set_planner_id('RRTConnectkConfigDefault')
-    right_arm.set_planning_time(10)
+    right_arm.set_planning_time(20)
 
     #First goal pose ------------------------------------------------------
     goal_1 = PoseStamped()
