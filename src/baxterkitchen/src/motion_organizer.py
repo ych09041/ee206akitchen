@@ -93,17 +93,17 @@ if __name__ == '__main__':
         #left_gripper.close(block=True)
         #rospy.sleep(1.0)
         #############testing!!!!!!#############
-        print "pick"
+        #print "pick"
         #result = pick_client(0, 0.4, 0.0, 0.0)
-        print 'pick knife'
-        print knife_px
-        print knife_py
-        print knife_pz
-        result = pick_client(0, knife_px, knife_py, knife_pz)
-        #print "move1"
-        #result = move_client(0, 0.4, 0.0, 0.1)
-        #print "scrub"
-        #result = scrub_client(0.4, 0.0, 0.1) # scrub should follow "move" with same input for complete performance/accuracy
+        #print 'pick knife'
+        #print knife_px
+        #print knife_py
+        #print knife_pz
+        #result = pick_client(0, knife_px, knife_py, knife_pz)
+        print "move1"
+        result = move_client(0, 0.4, 0.0, 0.1)
+        print "scrub"
+        result = scrub_client(0.4, 0.0, 0.1) # scrub should follow "move" with same input for complete performance/accuracy
         #print "move2"
         #result = move_client(0, 0.3, 0.1, 0.1)
         #print "cut"

@@ -16,10 +16,11 @@
     <arg name="allow_trajectory_execution" value="true"/>
   </include>
 
-
+<!--
   <node name="object_identifier" pkg="baxterkitchen" type="object_identifier.py" respawn="false" output="screen" />
   <node name="pick_server" pkg="baxterkitchen" type="pick_server.py" respawn="false" output="screen" />
   <node name="place_server" pkg="baxterkitchen" type="place_server.py" respawn="false" output="screen" />
+-->
   <node name="move_server" pkg="baxterkitchen" type="move_server.py" respawn="false" output="screen" />
   <node name="scrub_server" pkg="baxterkitchen" type="scrub_server.py" respawn="false" output="screen" />
 
