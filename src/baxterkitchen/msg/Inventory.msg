@@ -1,8 +1,9 @@
-geometry_msgs/Vector3 knife_translation
-geometry_msgs/Quaternion knife_rotation
+float32 knife_px
+float32 knife_py
+float32 knife_pz
+float32 knife_ox
+float32 knife_oy
+float32 knife_oz
+float32 knife_ow
 bool knife_seen
-geometry_msgs/Vector3 cucumber_translation
-geometry_msgs/Quaternion cucumber_rotation
-bool cucumber_seen
-
 
