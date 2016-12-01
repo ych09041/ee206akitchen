@@ -11,6 +11,10 @@ import baxterkitchen.msg
 from baxterkitchen.msg import Inventory
 from baxter_interface import gripper as baxter_gripper
 
+from moveit_python import *
+
+
+
 def pick_client(si, px, py, pz):
     client = actionlib.SimpleActionClient('pick_server', baxterkitchen.msg.PickAction)
     client.wait_for_server()
@@ -89,27 +93,33 @@ if __name__ == '__main__':
         right_gripper.calibrate()
         rospy.sleep(1.0)
 
+        p = PlanningSceneInterface("base")
+        p.clear()
+
         #############testing!!!!!!#############
         #left_gripper.close(block=True)
         #rospy.sleep(1.0)
         #############testing!!!!!!#############
         print "pick"
-        #result = pick_client(0, 0.4, 0.0, 0.0)
-        print 'pick knife'
-        print knife_px
-        print knife_py
-        print knife_pz
-        result = pick_client(0, knife_px, knife_py, knife_pz)
-        print "move1"
-        result = move_client(0, 0.4, 0.0, 0.1)
-        print "scrub"
-        result = scrub_client(0.4, 0.0, 0.1) # scrub should follow "move" with same input for complete performance/accuracy
-        print "move2"
-        result = move_client(0, 0.3, 0.1, 0.1)
-        print "cut"
-        result = cut_client(0.3, 0.1, 0.1) # cut should follow "move" with same input for complete performance/accuracy
+        result = pick_client(0, 0.4, 0.7, 0.0)
+        p.addBox("tall", .1,.1,1, .5, .6, 0)
+
+        #print 'pick knife'
+        #print knife_px
+        #print knife_py
+        #print knife_pz
+        #result = pick_client(0, knife_px, knife_py, knife_pz)
+        #print "move1"
+        #result = move_client(0, 0.4, 0.0, 0.1)
+        #print "scrub"
+        #result = scrub_client(0.4, 0.0, 0.1) # scrub should follow "move" with same input for complete performance/accuracy
+        #print "move2"
+        #result = move_client(0, 0.3, 0.1, 0.1)
+        #print "cut"
+        #result = cut_client(0.3, 0.1, 0.1) # cut should follow "move" with same input for complete performance/accuracy
         print "place"
-        result = place_client(0, 0.3, 0.5, 0.0)
+        result = place_client(0, 0.4, 0.0, 0.0)
+        p.removeCollisionObject("tall")
         print "Result from client:", result
     except rospy.ROSInterruptException:
         print "program interrupted before completion"
