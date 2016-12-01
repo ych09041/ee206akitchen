@@ -47,7 +47,7 @@
     <param name="io_method" value="mmap" />
   </node>
 
-  <arg name="bundle_files" default="$(find ar_track_alvar)/bundles/knife_0_1_2.xml" />
+  <arg name="bundle_files" default="$(find ar_track_alvar)/bundles/knife_0_1_2.xml $(find ar_track_alvar)/bundles/carrot_3_4_5.xml $(find ar_track_alvar)/bundles/naval_16_17.xml" />
 
   <node name="ar_track_alvar" pkg="ar_track_alvar" type="findMarkerBundlesNoKinect" respawn="false" output="screen" args="$(arg marker_size) $(arg max_new_marker_error) $(arg max_track_error) $(arg cam_image_topic) $(arg cam_info_topic) $(arg output_frame) $(arg bundle_files)" />
 
