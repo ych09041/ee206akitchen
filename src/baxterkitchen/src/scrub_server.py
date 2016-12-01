@@ -64,103 +64,27 @@ class ScrubAction(object):
         delta = 0.01
         gap = 0.5
         
+        limb = baxter_interface.Limb('left')
+        angles = limb.joint_angles()
+        a0 = angles['left_s0']
+        a1 = angles['left_s1']
+        a2 = angles['left_e0']
+        a3 = angles['left_e1']
+        a4 = angles['left_w0']
+        a5 = angles['left_w1']
+        a6 = angles['left_w2']
+        
+        for times in range(0,3):
+            left_arm.set_joint_value_target('left_w2',a6+0.2)
+            left_arm.execute(left_arm.plan())
+            print 'set left_w2 to +0.2'
+            rospy.sleep(0.5)
+            left_arm.set_joint_value_target('left_w2',a6-0.2)
+            left_arm.execute(left_arm.plan())
+            print 'set left_w2 to -0.2'
+            rospy.sleep(0.5)
        
-        for _move in range(0, 3):
-            #First goal pose ------------------------------------------------------
-            print "first scrub"
-            goal_1 = PoseStamped()
-            goal_1.header.frame_id = "base"
-
-            #x, y, and z position
-            goal_1.pose.position.x = goal.p_x+delta
-            goal_1.pose.position.y = goal.p_y
-            goal_1.pose.position.z = goal.p_z+delta
-
-            #Orientation as a quaternion
-            goal_1.pose.orientation.x = 0.0
-            goal_1.pose.orientation.y = -1.0
-            goal_1.pose.orientation.z = 0.0
-            goal_1.pose.orientation.w = 0.0
-
-            left_arm.set_pose_target(goal_1)
-            left_arm.set_start_state_to_current_state()
-            left_plan = left_arm.plan()
-            left_arm.execute(left_plan)
-            rospy.sleep(gap)
-            
-            #Second goal pose ------------------------------------------------------
-            print "second scrub"
-            goal_1 = PoseStamped()
-            goal_1.header.frame_id = "base"
-
-            #x, y, and z position
-            goal_1.pose.position.x = goal.p_x+delta
-            goal_1.pose.position.y = goal.p_y
-            goal_1.pose.position.z = goal.p_z-delta
-
-            #Orientation as a quaternion
-            goal_1.pose.orientation.x = 0.0
-            goal_1.pose.orientation.y = -1.0
-            goal_1.pose.orientation.z = 0.0
-            goal_1.pose.orientation.w = 0.0
-            
-            left_arm.set_pose_target(goal_1)
-            left_arm.set_start_state_to_current_state()
-            left_plan = left_arm.plan()
-            left_arm.execute(left_plan)
-            rospy.sleep(gap)
-            
-            #Third goal pose ------------------------------------------------------
-            print "third scrub"
-            goal_1 = PoseStamped()
-            goal_1.header.frame_id = "base"
-
-            #x, y, and z position
-            goal_1.pose.position.x = goal.p_x-delta
-            goal_1.pose.position.y = goal.p_y
-            goal_1.pose.position.z = goal.p_z-delta
-
-            #Orientation as a quaternion
-            goal_1.pose.orientation.x = 0.0
-            goal_1.pose.orientation.y = -1.0
-            goal_1.pose.orientation.z = 0.0
-            goal_1.pose.orientation.w = 0.0
-            
-            left_arm.set_pose_target(goal_1)
-            left_arm.set_start_state_to_current_state()
-            left_plan = left_arm.plan()
-            left_arm.execute(left_plan)
-            rospy.sleep(gap)
-
-            #Forth goal pose ------------------------------------------------------
-            print "forth scrub"
-            goal_1 = PoseStamped()
-            goal_1.header.frame_id = "base"
-
-            #x, y, and z position
-            goal_1.pose.position.x = goal.p_x-delta
-            goal_1.pose.position.y = goal.p_y
-            goal_1.pose.position.z = goal.p_z+delta
-            
-            #Orientation as a quaternion
-            goal_1.pose.orientation.x = 0.0
-            goal_1.pose.orientation.y = -1.0
-            goal_1.pose.orientation.z = 0.0
-            goal_1.pose.orientation.w = 0.0
-
-            left_arm.set_pose_target(goal_1)
-            left_arm.set_start_state_to_current_state()
-            left_plan = left_arm.plan()
-            left_arm.execute(left_plan)
-            rospy.sleep(gap)
-
-
-        #####################################################################################
-
-
-
-
-
+       
         # check that preempt has not been requested by the client
         if self._as.is_preempt_requested():
             rospy.loginfo('%s: Preempted' % self._action_name)
