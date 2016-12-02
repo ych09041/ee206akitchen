@@ -65,7 +65,6 @@ add_message_files(DIRECTORY msg
 ## Generate actions in the 'action' folder
 add_action_files(DIRECTORY action
  FILES
- Fibonacci.action
  Pick.action
  Place.action
  Scrub.action
