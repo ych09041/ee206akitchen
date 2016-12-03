@@ -66,7 +66,7 @@ class CutAction(object):
         delta_a0 = 0
         delta_a0_gap = 0.02
         # cut
-        delta_a5 = 0.2
+        delta_a1 = 0.1
         # time gap
         time_gap = 0.5
         
@@ -94,11 +94,11 @@ class CutAction(object):
 
             # cut
             left_arm.set_joint_value_target('left_s0',a0 + delta_a0)
-            left_arm.set_joint_value_target('left_s1',a1)
+            left_arm.set_joint_value_target('left_s1',a1 + delta_a1)
             left_arm.set_joint_value_target('left_e0',a2)
             left_arm.set_joint_value_target('left_e1',a3)
             left_arm.set_joint_value_target('left_w0',a4)
-            left_arm.set_joint_value_target('left_w1',a5 + delta_a5)
+            left_arm.set_joint_value_target('left_w1',a5)
             left_arm.set_joint_value_target('left_w2',a6)
             left_arm.execute(left_arm.plan())
             print 'cut'
