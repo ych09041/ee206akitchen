@@ -65,6 +65,12 @@ class PickAction(object):
     #Set up the left gripper
     left_gripper = baxter_gripper.Gripper('left')
     right_gripper = baxter_gripper.Gripper('right')
+    # Set the force limit on the grippers
+    force_limit = 60 # approx 10N: 100 = 30N
+    left_gripper.set_moving_force(force_limit)
+    right_gripper.set_moving_force(force_limit)
+    left_gripper.set_holding_force(force_limit)
+    right_gripper.set_holding_force(force_limit)
 
     #Initialize both arms
     robot = moveit_commander.RobotCommander()
