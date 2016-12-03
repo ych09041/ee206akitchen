@@ -13,6 +13,16 @@ from baxter_interface import gripper as baxter_gripper
 
 from moveit_python import *
 
+objectSize = {}
+
+objectSize['knife'] =    (.3,.095,.095)  # slave 0 and 1
+objectSize['carrot'] =   (2,2,2)  # slave 3 and 4
+objectSize['cucumber'] = (2,2,2)  # slave 7 and 8
+objectSize['dish'] =     (2,2,2)  # slave 10 and 11
+objectSize['sponge'] =   (2,2,2) # slave 13 and 14
+
+objectOffset = {}
+objectOffset['knife'] = (objectSize['knife'][0]/2 + .03, 0, objectSize['knife'][2]/2)
 
 
 def pick_client(si, px, py, pz):
@@ -81,6 +91,8 @@ def sub_callback(data):
 
 
 class OrganizeAction(object):
+    rospy.init_node('motion_organizer')
+
     # create messages that are used to publish feedback/result
     _feedback = baxterkitchen.msg.OrganizeFeedback()
     _result   = baxterkitchen.msg.OrganizeResult()
@@ -92,9 +104,15 @@ class OrganizeAction(object):
     print('Calibrating...')
     left_gripper.calibrate()
     right_gripper.calibrate()
+    # Set the force limit on the grippers
+    force_limit = 60 # approx 10N: 100 = 30N
+    left_gripper.set_moving_force(force_limit)
+    right_gripper.set_moving_force(force_limit)
+    left_gripper.set_holding_force(force_limit)
+    right_gripper.set_holding_force(force_limit)
     # setup scene
     p = PlanningSceneInterface("base")
-    #addbox("name",lx,ly,lz,px,py,pz)
+    #p.addbox("name",lx,ly,lz,px,py,pz)
     #p.clear()
     
     rospy.sleep(1.0)
@@ -102,6 +120,8 @@ class OrganizeAction(object):
 
     def __init__(self, name):
         self._action_name = name
+        self.p.addBox("knife",objectSize['knife'][0],objectSize['knife'][1],objectSize['knife'][2],
+            knife_px+objectOffset['knife'][0],knife_py+objectOffset['knife'][1],knife_pz+objectOffset['knife'][2])
         self._as = actionlib.SimpleActionServer(self._action_name, baxterkitchen.msg.OrganizeAction, execute_cb=self.execute_cb, auto_start = False)
         self._as.start()
     
@@ -147,25 +167,33 @@ class OrganizeAction(object):
             try:       
                 print 'pick knife'
                 result = pick_client(0, knife_px, knife_py, knife_pz)
+                self.p.removeCollisionObject('knife')
+
+                # result = pick_client(0, 0.4, 0.5, 0.0)
                 #p.removeCollisionObject("tall")
                 print 'move knife'
                 result = move_client(0, 0.4, 0.3, 0.0)
                 print 'pick ', goal.target
                 if goal.target == 'carrot':
-                    result = pick_client(1, carrot_px, carrot_py, carrot_pz)
+                    print 'cut carrot'
+                    #result = pick_client(1, carrot_px, carrot_py, carrot_pz)
+                    # result = pick_client(1, 0.4, -0.3, 0.0)
                     #p.removeCollisionObject("tall")
                 else:
-                    result = pick_client(1, cucumber_px, cucumber_py, cucumber_pz)
+                    print 'cut cucumber'
+                    # result = pick_client(1, cucumber_px, cucumber_py, cucumber_pz)
                     #p.removeCollisionObject("tall")                    
                 print 'move ', goal.target
-                result = move_client(1, 0.4, 0.6, 0.0)
+                # result = move_client(1, 0.3, -0.4, 0.0)
                 print 'cut...'
                 result = cut_client(0.0, 0.0, 0.0) # position input doesnt matter...
                 print 'return ', goal.target
-                result = place_client(1, 0.3, 0.1, 0.1)
+                # result = place_client(1, 0.3, -0.1, 0.0)
                 #p.addbox("name",lx,ly,lz,px,py,pz)
                 print 'return knife'
                 result = place_client(0, 0.6, 0.4, 0.0)
+                self.p.addBox("knife",objectSize['knife'][0],objectSize['knife'][1],objectSize['knife'][2],
+                    knife_px+objectOffset['knife'][0],knife_py+objectOffset['knife'][1],knife_pz+objectOffset['knife'][2])
                 #p.addbox("name",lx,ly,lz,px,py,pz)
                 print "Finished cutting: ", result
             except rospy.ROSInterruptException:
@@ -200,7 +228,6 @@ class OrganizeAction(object):
 
 
 if __name__ == '__main__':
-    rospy.init_node('motion_organizer')
     OrganizeAction(rospy.get_name())
     rospy.spin()
 

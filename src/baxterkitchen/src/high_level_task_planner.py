@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+import sys
+
 import rospy
 import roslib
 import actionlib
@@ -26,7 +28,7 @@ def dummy_organize_client(ch, ta, re):
 
 
 def organize_client(ch, ta, re):
-    client = actionlib.SimpleActionClient('dummy_motion_org', baxterkitchen.msg.OrganizeAction)
+    client = actionlib.SimpleActionClient('motion_organizer', baxterkitchen.msg.OrganizeAction)
     client.wait_for_server()
     goal = baxterkitchen.msg.OrganizeGoal(chore = ch, target = ta, reps = re)
     client.send_goal(goal)
@@ -40,7 +42,7 @@ def high_level_planning():
 
     rospy.init_node('high_level_task_planner', anonymous=True)
 
-    recipe_file = open('src/baxterkitchen/src/recipe.txt', 'r')
+    recipe_file = open(sys.argv[1], 'r')
     for line in recipe_file:
         words = line.split()
         if words[0] == 'wash':

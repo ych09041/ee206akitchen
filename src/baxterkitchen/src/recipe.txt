@@ -1,6 +1,1 @@
-wash 3 bowls
-wash 5 dishes
-cut 20 slices of cucumber
-wash 2 dishes
-cut 2 slices of tomato
-cut 10 slices of cucumber
+cut 2 slices of carrot
