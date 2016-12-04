@@ -87,7 +87,7 @@ def sub_callback(data):
     cucumber_px = data.cucumber_px; cucumber_py = data.cucumber_py; cucumber_pz = data.cucumber_pz; cucumber_ox = data.cucumber_ox; cucumber_oy = data.cucumber_oy; cucumber_oz = data.cucumber_oz; cucumber_ow = data.cucumber_ow; cucumber_seen = data.cucumber_seen
     dish_px = data.dish_px; dish_py = data.dish_py; dish_pz = data.dish_pz; dish_ox = data.dish_ox; dish_oy = data.dish_oy; dish_oz = data.dish_oz; dish_ow = data.dish_ow; dish_seen = data.dish_seen
     sponge_px = data.sponge_px; sponge_py = data.sponge_py; sponge_pz = data.sponge_pz; sponge_ox = data.sponge_ox; sponge_oy = data.sponge_oy; sponge_oz = data.sponge_oz; sponge_ow = data.sponge_ow; sponge_seen = data.sponge_seen
-    print 'inventory_updated'
+    #print 'inventory_updated'
 
 
 class OrganizeAction(object):
@@ -120,6 +120,9 @@ class OrganizeAction(object):
 
     def __init__(self, name):
         self._action_name = name
+        # add table to scene
+        self.p.addBox("table", 0.75, 1.50, 0.94, 0.55, 0.0, -0.56)
+        self.p.setColor("table",1,1,1,0.2)
         self.p.addBox("knife",objectSize['knife'][0],objectSize['knife'][1],objectSize['knife'][2],
             knife_px+objectOffset['knife'][0],knife_py+objectOffset['knife'][1],knife_pz+objectOffset['knife'][2])
         self._as = actionlib.SimpleActionServer(self._action_name, baxterkitchen.msg.OrganizeAction, execute_cb=self.execute_cb, auto_start = False)
@@ -166,17 +169,23 @@ class OrganizeAction(object):
             print 'cutting...'
             try:       
                 print 'pick knife'
-                result = pick_client(0, knife_px, knife_py, knife_pz)
+                print knife_px
+                print knife_py
+                print knife_pz
+                result = move_client(0, knife_px-.03, knife_py, knife_pz+0.1)
                 self.p.removeCollisionObject('knife')
+                #self.p.clear()
+                result = pick_client(0, knife_px, knife_py, knife_pz)
+
 
                 # result = pick_client(0, 0.4, 0.5, 0.0)
                 #p.removeCollisionObject("tall")
                 print 'move knife'
-                result = move_client(0, 0.4, 0.3, 0.0)
+                result = move_client(0, 0.4, 0.3, 0.1)
                 print 'pick ', goal.target
                 if goal.target == 'carrot':
                     print 'cut carrot'
-                    #result = pick_client(1, carrot_px, carrot_py, carrot_pz)
+                    result = cut_client(0,0,0)
                     # result = pick_client(1, 0.4, -0.3, 0.0)
                     #p.removeCollisionObject("tall")
                 else:
@@ -186,16 +195,16 @@ class OrganizeAction(object):
                 print 'move ', goal.target
                 # result = move_client(1, 0.3, -0.4, 0.0)
                 print 'cut...'
-                result = cut_client(0.0, 0.0, 0.0) # position input doesnt matter...
+                #result = cut_client(0.0, 0.0, 0.0) # position input doesnt matter...
                 print 'return ', goal.target
                 # result = place_client(1, 0.3, -0.1, 0.0)
                 #p.addbox("name",lx,ly,lz,px,py,pz)
                 print 'return knife'
-                result = place_client(0, 0.6, 0.4, 0.0)
-                self.p.addBox("knife",objectSize['knife'][0],objectSize['knife'][1],objectSize['knife'][2],
-                    knife_px+objectOffset['knife'][0],knife_py+objectOffset['knife'][1],knife_pz+objectOffset['knife'][2])
+                #result = place_client(0, 0.6, 0.4, 0.0)
+                #self.p.addBox("knife",objectSize['knife'][0],objectSize['knife'][1],objectSize['knife'][2],
+                #    knife_px+objectOffset['knife'][0],knife_py+objectOffset['knife'][1],knife_pz+objectOffset['knife'][2])
                 #p.addbox("name",lx,ly,lz,px,py,pz)
-                print "Finished cutting: ", result
+                print "Finished cutting: "#, result
             except rospy.ROSInterruptException:
                 print "program interrupted before completion"
         
