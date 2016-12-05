@@ -1,9 +1,0 @@
-<launch>
-
-  <node name="pick_server" pkg="baxterkitchen" type="pick_server.py" respawn="false" output="screen" />
-  <node name="naval_frame" pkg="baxterkitchen" type="naval_frame.py" respawn="false" output="screen" />
-
-  <node name="motion_org" pkg="baxterkitchen" type="motion_organizer.py" respawn="false" output="screen" />
-
-
-</launch>
