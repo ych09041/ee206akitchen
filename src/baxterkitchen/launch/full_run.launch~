@@ -30,6 +30,8 @@
   
   <node name="motion_organizer" pkg="baxterkitchen" type="motion_organizer.py" respawn="false" output="screen" />
   
+  <!--
   <node name="high_level_task_planner" pkg="baxterkitchen" type="high_level_task_planner.py" args="$(find baxterkitchen)/src/recipe.txt" respawn="false" output="screen" />
-
+  -->
+  
 </launch>

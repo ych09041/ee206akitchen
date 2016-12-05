@@ -111,7 +111,7 @@ class OrganizeAction(object):
     left_gripper.set_holding_force(force_limit)
     right_gripper.set_holding_force(force_limit)
     # setup scene
-    p = PlanningSceneInterface("base")
+    #p = PlanningSceneInterface("base")
     #p.addbox("name",lx,ly,lz,px,py,pz)
     #p.clear()
     
@@ -121,10 +121,12 @@ class OrganizeAction(object):
     def __init__(self, name):
         self._action_name = name
         # add table to scene
+        '''
         self.p.addBox("table", 0.75, 1.50, 0.94, 0.55, 0.0, -0.56)
         self.p.setColor("table",1,1,1,0.2)
         self.p.addBox("knife",objectSize['knife'][0],objectSize['knife'][1],objectSize['knife'][2],
             knife_px+objectOffset['knife'][0],knife_py+objectOffset['knife'][1],knife_pz+objectOffset['knife'][2])
+        '''
         self._as = actionlib.SimpleActionServer(self._action_name, baxterkitchen.msg.OrganizeAction, execute_cb=self.execute_cb, auto_start = False)
         self._as.start()
     
@@ -172,10 +174,13 @@ class OrganizeAction(object):
                 print knife_px
                 print knife_py
                 print knife_pz
-                result = move_client(0, knife_px-.03, knife_py, knife_pz+0.1)
-                self.p.removeCollisionObject('knife')
+                #result = move_client(0, knife_px-.03, knife_py, knife_pz+0.1)
+                #self.p.removeCollisionObject('knife')
+                result = pick_client(0, 0.85, 0.25, -0.14)
+                result = pick_client(1, 0.85,-0.25, -0.14)
+                rospy.sleep(5)
                 #self.p.clear()
-                result = pick_client(0, knife_px, knife_py, knife_pz)
+                #result = pick_client(0, knife_px, knife_py, knife_pz)
 
 
                 # result = pick_client(0, 0.4, 0.5, 0.0)
