@@ -36,20 +36,20 @@ def sub_callback(data):
 def update_inventory():
 
     pub = rospy.Publisher('inventory', Inventory, queue_size=10)
-    sub = rospy.Subscriber('inventory', Inventory, sub_callback, queue_size=10)
+    #sub = rospy.Subscriber('inventory', Inventory, sub_callback, queue_size=10)
     listener = tf.TransformListener()
-    r = rospy.Rate(5.0) # 10hz
+    r = rospy.Rate(2.0) # 10hz
     
 
     
     while not rospy.is_shutdown():
-        print '==================='
+        #print '==================='
         message = Inventory()
         try:
             #(trans1, rot1) = listener.lookupTransform(ar_tags['naval'], ar_tags['knife'], rospy.Time(0))
             (trans1, rot1) = listener.lookupTransform('ar_marker_16','ar_marker_2', rospy.Time(0))
-            print trans1
-            print rot1
+            #print trans1
+            #print rot1
             message.knife_px = trans1[0]
             message.knife_py = trans1[1]
             message.knife_pz = trans1[2]
