@@ -62,10 +62,23 @@ class ScrubAction(object):
         right_arm.set_planning_time(10)
 
         limb = baxter_interface.Limb('left')
-        delta_a5 = 0.02
-        delta_a6 = 0.2
+        delta_w0 = 0.2
         time_gap = 0.5
         
+        left_arm.set_joint_value_target('left_s0',-0.73)
+        left_arm.set_joint_value_target('left_s1',-0.47)
+        left_arm.set_joint_value_target('left_e0',0.0157)
+        left_arm.set_joint_value_target('left_e1',2.05)
+        left_arm.set_joint_value_target('left_w0',-1.62)
+        left_arm.set_joint_value_target('left_w1',1.55)
+        left_arm.set_joint_value_target('left_w2',3.05)
+        print "going to scrub position"
+        left_arm.execute(left_arm.plan())
+        rospy.sleep(2.0)
+
+
+
+
         angles = limb.joint_angles()
         a0 = angles['left_s0']
         a1 = angles['left_s1']
@@ -81,9 +94,9 @@ class ScrubAction(object):
             left_arm.set_joint_value_target('left_s1',a1)
             left_arm.set_joint_value_target('left_e0',a2)
             left_arm.set_joint_value_target('left_e1',a3)
-            left_arm.set_joint_value_target('left_w0',a4)
-            left_arm.set_joint_value_target('left_w1',a5+delta_a5)
-            left_arm.set_joint_value_target('left_w2',a6+delta_a6)
+            left_arm.set_joint_value_target('left_w0',a4+delta_w0)
+            left_arm.set_joint_value_target('left_w1',a5)
+            left_arm.set_joint_value_target('left_w2',a6)
             left_arm.execute(left_arm.plan())
             print 'first scrub'
             rospy.sleep(time_gap)
@@ -93,9 +106,9 @@ class ScrubAction(object):
             left_arm.set_joint_value_target('left_s1',a1)
             left_arm.set_joint_value_target('left_e0',a2)
             left_arm.set_joint_value_target('left_e1',a3)
-            left_arm.set_joint_value_target('left_w0',a4)
-            left_arm.set_joint_value_target('left_w1',a5-delta_a5)
-            left_arm.set_joint_value_target('left_w2',a6-delta_a6)
+            left_arm.set_joint_value_target('left_w0',a4-delta_w0)
+            left_arm.set_joint_value_target('left_w1',a5)
+            left_arm.set_joint_value_target('left_w2',a6)
             left_arm.execute(left_arm.plan())
             print 'second scrub'
             rospy.sleep(time_gap)

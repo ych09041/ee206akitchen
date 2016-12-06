@@ -64,12 +64,28 @@ class CutAction(object):
         limb = baxter_interface.Limb('left')
         # cut gap / recursively increasing
         delta_a0 = 0
-        delta_a0_gap = 0.02
+        delta_a0_gap = -0.02
         # cut
-        delta_a1 = 0.1
+        delta_a1 = 0.05
         # time gap
         time_gap = 0.5
         
+
+
+        # aim cut
+        left_arm.set_joint_value_target('left_s0',-0.61)
+        left_arm.set_joint_value_target('left_s1',-1.08)
+        left_arm.set_joint_value_target('left_e0',-0.26)
+        left_arm.set_joint_value_target('left_e1',2.26)
+        left_arm.set_joint_value_target('left_w0',0.24)
+        left_arm.set_joint_value_target('left_w1',0.38)
+        left_arm.set_joint_value_target('left_w2',-0.27)
+        left_arm.execute(left_arm.plan())
+        print 'go to cut position'
+        rospy.sleep(time_gap)
+
+
+
         angles = limb.joint_angles()
         a0 = angles['left_s0']
         a1 = angles['left_s1']
@@ -78,6 +94,8 @@ class CutAction(object):
         a4 = angles['left_w0']
         a5 = angles['left_w1']
         a6 = angles['left_w2']
+
+
 
         for times in range(0,3):
             # aim cut

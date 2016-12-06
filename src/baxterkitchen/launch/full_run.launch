@@ -1,26 +1,16 @@
 <launch>
-  <!--include file="$(find baxterkitchen)/launch/vision.launch"/-->
+
   <node name="joint_trajectory_action_server" pkg="baxter_interface" type="joint_trajectory_action_server.py" />
 
 
 
-  <!--
-  <include file="$(find baxter_moveit_config)/launch/planning_context.launch">
-    <arg name="load_robot_description" value="true"/>
-  </include>
-  -->
-
-  <!--
-  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="true" output="screen" />
-  -->
-  
   <include file="$(find baxter_moveit_config)/launch/move_group.launch">
     <arg name="allow_trajectory_execution" value="true"/>
   </include>
 
-  <!--
+  
   <node name="object_identifier" pkg="baxterkitchen" type="object_identifier.py" respawn="false" output="screen" />
-  -->
+  
 
   <node name="pick_server" pkg="baxterkitchen" type="pick_server.py" respawn="false" output="screen" />
   <node name="place_server" pkg="baxterkitchen" type="place_server.py" respawn="false" output="screen" />
