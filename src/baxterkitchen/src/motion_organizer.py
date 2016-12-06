@@ -70,23 +70,26 @@ def cut_client(px, py, pz):
 # global variables for motion organizer to use
 knife_px = 0.0; knife_py = 0.0; knife_pz = 0.0; knife_ox = 0.0; knife_oy = 0.0; knife_oz = 0.0; knife_ow = 0.0; knife_seen = False
 carrot_px = 0.0; carrot_py = 0.0; carrot_pz = 0.0; carrot_ox = 0.0; carrot_oy = 0.0; carrot_oz = 0.0; carrot_ow = 0.0; carrot_seen = False
-cucumber_px = 0.0; cucumber_py = 0.0; cucumber_pz = 0.0; cucumber_ox = 0.0; cucumber_oy = 0.0; cucumber_oz = 0.0; cucumber_ow = 0.0; cucumber_seen = False
+corn_px = 0.0; corn_py = 0.0; corn_pz = 0.0; corn_ox = 0.0; corn_oy = 0.0; corn_oz = 0.0; corn_ow = 0.0; corn_seen = False
 dish_px = 0.0; dish_py = 0.0; dish_pz = 0.0; dish_ox = 0.0; dish_oy = 0.0; dish_oz = 0.0; dish_ow = 0.0; dish_seen = False
 sponge_px = 0.0; sponge_py = 0.0; sponge_pz = 0.0; sponge_ox = 0.0; sponge_oy = 0.0; sponge_oz = 0.0; sponge_ow = 0.0; sponge_seen = False
+rack_px = 0.0; rack_py = 0.0; rack_pz = 0.0; rack_ox = 0.0; rack_oy = 0.0; rack_oz = 0.0; rack_ow = 0.0; rack_seen = False
 
 
 
 def sub_callback(data):
     global knife_px, knife_py, knife_pz, knife_ox, knife_oy, knife_oz, knife_ow, knife_seen, \
         carrot_px, carrot_py, carrot_pz, carrot_ox, carrot_oy, carrot_oz, carrot_ow, carrot_seen, \
-        cucumber_px, cucumber_py, cucumber_pz, cucumber_ox, cucumber_oy, cucumber_oz, cucumber_ow, cucumber_seen, \
+        corn_px, corn_py, corn_pz, corn_ox, corn_oy, corn_oz, corn_ow, corn_seen, \
         dish_px, dish_py, dish_pz, dish_ox, dish_oy, dish_oz, dish_ow, dish_seen, \
-        sponge_px, sponge_py, sponge_pz, sponge_ox, sponge_oy, sponge_oz, sponge_ow, sponge_seen
+        sponge_px, sponge_py, sponge_pz, sponge_ox, sponge_oy, sponge_oz, sponge_ow, sponge_seen, \
+        rack_px, rack_py, rack_pz, rack_ox, rack_oy, rack_oz, rack_ow, rack_seen
     knife_px = data.knife_px; knife_py = data.knife_py; knife_pz = data.knife_pz; knife_ox = data.knife_ox; knife_oy = data.knife_oy; knife_oz = data.knife_oz; knife_ow = data.knife_ow; knife_seen = data.knife_seen
     carrot_px = data.carrot_px; carrot_py = data.carrot_py; carrot_pz = data.carrot_pz; carrot_ox = data.carrot_ox; carrot_oy = data.carrot_oy; carrot_oz = data.carrot_oz; carrot_ow = data.carrot_ow; carrot_seen = data.carrot_seen
-    cucumber_px = data.cucumber_px; cucumber_py = data.cucumber_py; cucumber_pz = data.cucumber_pz; cucumber_ox = data.cucumber_ox; cucumber_oy = data.cucumber_oy; cucumber_oz = data.cucumber_oz; cucumber_ow = data.cucumber_ow; cucumber_seen = data.cucumber_seen
+    corn_px = data.corn_px; corn_py = data.corn_py; corn_pz = data.corn_pz; corn_ox = data.corn_ox; corn_oy = data.corn_oy; corn_oz = data.corn_oz; corn_ow = data.corn_ow; corn_seen = data.corn_seen
     dish_px = data.dish_px; dish_py = data.dish_py; dish_pz = data.dish_pz; dish_ox = data.dish_ox; dish_oy = data.dish_oy; dish_oz = data.dish_oz; dish_ow = data.dish_ow; dish_seen = data.dish_seen
     sponge_px = data.sponge_px; sponge_py = data.sponge_py; sponge_pz = data.sponge_pz; sponge_ox = data.sponge_ox; sponge_oy = data.sponge_oy; sponge_oz = data.sponge_oz; sponge_ow = data.sponge_ow; sponge_seen = data.sponge_seen
+    rack_px = data.rack_px; rack_py = data.rack_py; rack_pz = data.rack_pz; rack_ox = data.rack_ox; rack_oy = data.rack_oy; rack_oz = data.rack_oz; rack_ow = data.rack_ow; rack_seen = data.rack_seen
     #print 'inventory_updated'
 
 
