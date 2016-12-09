@@ -32,9 +32,9 @@ def sub_callback(data):
 def if_visible(listener,naval,frame):
     isvisible = False
     t1 = 1
-    t2 = 2
-    r1 = 3
-    r2 = 4
+    t2 = 1
+    r1 = 1
+    r2 = 1
     try: 
         (t1, r1) = listener.lookupTransform(naval, frame, rospy.Time(0))
     except tf.LookupException or tf.ExtrapolationException or rospy.ServiceException as e:
