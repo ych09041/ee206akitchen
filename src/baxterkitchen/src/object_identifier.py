@@ -58,7 +58,7 @@ def update_inventory():
     pub = rospy.Publisher('inventory', Inventory, queue_size=10)
     #sub = rospy.Subscriber('inventory', Inventory, sub_callback, queue_size=10)
     listener = tf.TransformListener()
-    r = rospy.Rate(2.0) # 10hz
+    r = rospy.Rate(1.0) # 10hz
     
 
     
