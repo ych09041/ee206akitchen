@@ -36,15 +36,17 @@ def if_visible(listener,naval,frame):
     r1 = 1
     r2 = 1
     try: 
-        (t1, r1) = listener.lookupTransform(naval, frame, rospy.Time(0))
-    except tf.LookupException or tf.ExtrapolationException or rospy.ServiceException as e:
+        if (rospy.Time.now().to_sec() - listener.getLatestCommonTime(naval, frame).to_sec())<0.6:
+            (t1, r1) = listener.lookupTransform(naval, frame, rospy.Time(0))
+    except tf.Exception or tf.LookupException or tf.ExtrapolationException or rospy.ServiceException as e:
         pass
         
     rospy.sleep(0.1)
     
-    try: 
-        (t2, r2) = listener.lookupTransform(naval, frame, rospy.Time(0))
-    except tf.LookupException or tf.ExtrapolationException or rospy.ServiceException as e:
+    try:
+        if (rospy.Time.now().to_sec() - listener.getLatestCommonTime(naval, frame).to_sec())<0.6:     
+            (t2, r2) = listener.lookupTransform(naval, frame, rospy.Time(0))
+    except tf.Exception or tf.LookupException or tf.ExtrapolationException or rospy.ServiceException as e:
         pass
 
     if (t1 == t2 and r1 == r2):
@@ -70,18 +72,20 @@ def update_inventory():
         if if_visible(listener,ar_tags['naval'], ar_tags['knife']):
             Object_list[0] = 'knife'
             try:
-                (trans1, rot1) = listener.lookupTransform(ar_tags['naval'], ar_tags['knife'], rospy.Time(0))
-                m.knife_px = trans1[0]; m.knife_py = trans1[1]; m.knife_pz = trans1[2]; m.knife_ox = rot1[0]; m.knife_oy = rot1[1]; m.knife_oz = rot1[2]; m.knife_ow = rot1[3]; m.knife_seen = True
-            except tf.LookupException or tf.ExtrapolationException or rospy.ServiceException as e:
+                if (rospy.Time.now().to_sec() - listener.getLatestCommonTime(ar_tags['naval'], ar_tags['knife']).to_sec())<0.6:                
+                    (trans1, rot1) = listener.lookupTransform(ar_tags['naval'], ar_tags['knife'], rospy.Time(0))
+                    m.knife_px = trans1[0]; m.knife_py = trans1[1]; m.knife_pz = trans1[2]; m.knife_ox = rot1[0]; m.knife_oy = rot1[1]; m.knife_oz = rot1[2]; m.knife_ow = rot1[3]; m.knife_seen = True
+            except tf.Exception or tf.LookupException or tf.ExtrapolationException or rospy.ServiceException as e:
                 pass
         else:
             pass
         if if_visible(listener,ar_tags['naval'], ar_tags['carrot']):
             Object_list[1] = 'carrot'
             try:
-                (trans1, rot1) = listener.lookupTransform(ar_tags['naval'], ar_tags['carrot'], rospy.Time(0))
-                m.carrot_px = trans1[0]; m.carrot_py = trans1[1]; m.carrot_pz = trans1[2]; m.carrot_ox = rot1[0]; m.carrot_oy = rot1[1]; m.carrot_oz = rot1[2]; m.carrot_ow = rot1[3]; m.carrot_seen = True
-            except tf.LookupException or tf.ExtrapolationException or rospy.ServiceException as e:
+                if (rospy.Time.now().to_sec() - listener.getLatestCommonTime(ar_tags['naval'], ar_tags['carrot']).to_sec())<0.6:                      
+                    (trans1, rot1) = listener.lookupTransform(ar_tags['naval'], ar_tags['carrot'], rospy.Time(0))
+                    m.carrot_px = trans1[0]; m.carrot_py = trans1[1]; m.carrot_pz = trans1[2]; m.carrot_ox = rot1[0]; m.carrot_oy = rot1[1]; m.carrot_oz = rot1[2]; m.carrot_ow = rot1[3]; m.carrot_seen = True
+            except tf.Exception or tf.LookupException or tf.ExtrapolationException or rospy.ServiceException as e:
                 pass
         else:
             pass
@@ -89,36 +93,40 @@ def update_inventory():
         if if_visible(listener,ar_tags['naval'], ar_tags['corn']):
             Object_list[2] = 'corn'
             try:
-                (trans1, rot1) = listener.lookupTransform(ar_tags['naval'], ar_tags['corn'], rospy.Time(0))
-                m.corn_px = trans1[0]; m.corn_py = trans1[1]; m.corn_pz = trans1[2]; m.corn_ox = rot1[0]; m.corn_oy = rot1[1]; m.corn_oz = rot1[2]; m.corn_ow = rot1[3]; m.corn_seen = True
-            except tf.LookupException or tf.ExtrapolationException or rospy.ServiceException as e:
+                if (rospy.Time.now().to_sec() - listener.getLatestCommonTime(ar_tags['naval'], ar_tags['corn']).to_sec())<0.6:                      
+                    (trans1, rot1) = listener.lookupTransform(ar_tags['naval'], ar_tags['corn'], rospy.Time(0))
+                    m.corn_px = trans1[0]; m.corn_py = trans1[1]; m.corn_pz = trans1[2]; m.corn_ox = rot1[0]; m.corn_oy = rot1[1]; m.corn_oz = rot1[2]; m.corn_ow = rot1[3]; m.corn_seen = True
+            except tf.Exception or tf.LookupException or tf.ExtrapolationException or rospy.ServiceException as e:
                 pass
         else:
             pass
         if if_visible(listener,ar_tags['naval'], ar_tags['dish']):
             Object_list[3] = 'dish'
             try:
-                (trans1, rot1) = listener.lookupTransform(ar_tags['naval'], ar_tags['dish'], rospy.Time(0))
-                m.dish_px = trans1[0]; m.dish_py = trans1[1]; m.dish_pz = trans1[2]; m.dish_ox = rot1[0]; m.dish_oy = rot1[1]; m.dish_oz = rot1[2]; m.dish_ow = rot1[3]; m.dish_seen = True
-            except tf.LookupException or tf.ExtrapolationException or rospy.ServiceException as e:
+                if (rospy.Time.now().to_sec() - listener.getLatestCommonTime(ar_tags['naval'], ar_tags['dish']).to_sec())<0.6:                      
+                    (trans1, rot1) = listener.lookupTransform(ar_tags['naval'], ar_tags['dish'], rospy.Time(0))
+                    m.dish_px = trans1[0]; m.dish_py = trans1[1]; m.dish_pz = trans1[2]; m.dish_ox = rot1[0]; m.dish_oy = rot1[1]; m.dish_oz = rot1[2]; m.dish_ow = rot1[3]; m.dish_seen = True
+            except tf.Exception or tf.LookupException or tf.ExtrapolationException or rospy.ServiceException as e:
                 pass
         else:
             pass
         if if_visible(listener,ar_tags['naval'], ar_tags['sponge']):
             Object_list[4] = 'sponge'
             try:
-                (trans1, rot1) = listener.lookupTransform(ar_tags['naval'], ar_tags['sponge'], rospy.Time(0))
-                m.sponge_px = trans1[0]; m.sponge_py = trans1[1]; m.sponge_pz = trans1[2]; m.sponge_ox = rot1[0]; m.sponge_oy = rot1[1]; m.sponge_oz = rot1[2]; m.sponge_ow = rot1[3]; m.sponge_seen = True
-            except tf.LookupException or tf.ExtrapolationException or rospy.ServiceException as e:
+                if (rospy.Time.now().to_sec() - listener.getLatestCommonTime(ar_tags['naval'], ar_tags['sponge']).to_sec())<0.6:                      
+                    (trans1, rot1) = listener.lookupTransform(ar_tags['naval'], ar_tags['sponge'], rospy.Time(0))
+                    m.sponge_px = trans1[0]; m.sponge_py = trans1[1]; m.sponge_pz = trans1[2]; m.sponge_ox = rot1[0]; m.sponge_oy = rot1[1]; m.sponge_oz = rot1[2]; m.sponge_ow = rot1[3]; m.sponge_seen = True
+            except tf.Exception or tf.LookupException or tf.ExtrapolationException or rospy.ServiceException as e:
                 pass
         else:
             pass  
         if if_visible(listener,ar_tags['naval'], ar_tags['rack']):
             Object_list[5] = 'rack'
             try:
-                (trans1, rot1) = listener.lookupTransform(ar_tags['naval'], ar_tags['rack'], rospy.Time(0))
-                m.rack_px = trans1[0]; m.rack_py = trans1[1]; m.rack_pz = trans1[2]; m.rack_ox = rot1[0]; m.rack_oy = rot1[1]; m.rack_oz = rot1[2]; m.rack_ow = rot1[3]; m.rack_seen = True
-            except tf.LookupException or tf.ExtrapolationException or rospy.ServiceException as e:
+                if (rospy.Time.now().to_sec() - listener.getLatestCommonTime(ar_tags['naval'], ar_tags['rack']).to_sec())<0.6:                      
+                    (trans1, rot1) = listener.lookupTransform(ar_tags['naval'], ar_tags['rack'], rospy.Time(0))
+                    m.rack_px = trans1[0]; m.rack_py = trans1[1]; m.rack_pz = trans1[2]; m.rack_ox = rot1[0]; m.rack_oy = rot1[1]; m.rack_oz = rot1[2]; m.rack_ow = rot1[3]; m.rack_seen = True
+            except tf.Exception or tf.LookupException or tf.ExtrapolationException or rospy.ServiceException as e:
                 pass
         else:
             pass                

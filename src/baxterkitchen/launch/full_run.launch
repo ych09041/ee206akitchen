@@ -9,7 +9,7 @@
   </include>
 
   
-  <node name="object_identifier" pkg="baxterkitchen" type="object_identifier.py" respawn="false" output="screen" />
+  <node name="object_identifier" pkg="baxterkitchen" type="object_identifier.py" respawn="true" output="screen" />
   
 
   <node name="pick_server" pkg="baxterkitchen" type="pick_server.py" respawn="false" output="screen" />

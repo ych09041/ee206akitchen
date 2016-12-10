@@ -66,7 +66,7 @@ class CutAction(object):
         delta_a0 = 0
         delta_a0_gap = -0.02
         # cut
-        delta_a1 = 0.05
+        delta_a1 = 0.15
         # time gap
         time_gap = 0.5
         
@@ -74,12 +74,12 @@ class CutAction(object):
 
         # aim cut
         left_arm.set_joint_value_target('left_s0',-0.61)
-        left_arm.set_joint_value_target('left_s1',-1.08)
+        left_arm.set_joint_value_target('left_s1',-1.18)
         left_arm.set_joint_value_target('left_e0',-0.26)
         left_arm.set_joint_value_target('left_e1',2.26)
         left_arm.set_joint_value_target('left_w0',0.24)
         left_arm.set_joint_value_target('left_w1',0.38)
-        left_arm.set_joint_value_target('left_w2',-0.27)
+        left_arm.set_joint_value_target('left_w2',0.5)
         left_arm.execute(left_arm.plan())
         print 'go to cut position'
         rospy.sleep(time_gap)

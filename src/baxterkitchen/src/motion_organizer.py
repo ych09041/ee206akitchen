@@ -16,18 +16,18 @@ from moveit_python import *
 objectSize = {}
 # is the sequence y, x or -x ,-z?
 objectSize['knife'] =    (.3,.095,.095)  # slave 0 and 1
-objectSize['carrot'] =   (0.18,0.03,0.04)  # slave 3 and 4
-objectSize['corn'] = (0.18,0.04,0.05)  # slave 7 and 8
-objectSize['dish'] =     (0.2,0.02,0.2)  # slave 10 and 11
+objectSize['carrot'] =   (0.045,0.23,0.045)  # slave 3 and 4
+objectSize['corn'] =     (0.04,0.18,0.04)  # slave 7 and 8
+objectSize['dish'] =     (0.2,0.1,0.2)  # slave 10 and 11
 objectSize['sponge'] =   (0.24,0.06,0.12) # slave 13 and 14
 objectSize['rack'] =   (0.2,0.22,0.25) # slave 13 and 14
 
 objectOffset = {}
-objectOffset['knife'] = (objectSize['knife'][0]/2 + .03, 0, objectSize['knife'][2]/2)
-objectOffset['carrot'] = (objectSize['carrot'][0]/2 + .02, 0, objectSize['carrot'][2]/2)
-objectOffset['corn'] = (objectSize['corn'][0]/2 + .02, 0, objectSize['corn'][2]/2)
-objectOffset['dish'] = (0, -objectSize['dish'][1]/2, objectSize['dish'][2]/2)
-objectOffset['sponge'] = (objectSize['sponge'][0]/2 + .02, 0, objectSize['sponge'][2]/2)
+objectOffset['knife'] = (objectSize['knife'][0]/2 + .03, 0, -objectSize['knife'][2]/2)
+objectOffset['carrot'] = (0,objectSize['carrot'][1]/2 + .02, -objectSize['carrot'][2]/2)
+objectOffset['corn'] = (0,objectSize['corn'][1]/2 + .02, -objectSize['corn'][2]/2)
+objectOffset['dish'] = (0, -objectSize['dish'][1]/2, -objectSize['dish'][2]/2)
+objectOffset['sponge'] = (objectSize['sponge'][0]/2 + .02, 0, -objectSize['sponge'][2]/2)
 objectOffset['rack'] = (0, 0, -objectSize['rack'][2]/2)
 
 def pick_client(si, px, py, pz):
@@ -133,9 +133,9 @@ class OrganizeAction(object):
         self.p.addBox("knife",objectSize['knife'][0],objectSize['knife'][1],objectSize['knife'][2],knife_px+objectOffset['knife'][0],knife_py+objectOffset['knife'][1],knife_pz+objectOffset['knife'][2])
         self.p.addBox("carrot",objectSize['carrot'][0],objectSize['carrot'][1],objectSize['carrot'][2],carrot_px+objectOffset['carrot'][0],carrot_py+objectOffset['carrot'][1],carrot_pz+objectOffset['carrot'][2])
         self.p.addBox("corn",objectSize['corn'][0],objectSize['corn'][1],objectSize['corn'][2],corn_px+objectOffset['corn'][0],corn_py+objectOffset['corn'][1],corn_pz+objectOffset['corn'][2])
-        self.p.addBox("dish",objectSize['dish'][0],objectSize['dish'][1],objectSize['dish'][2],dish_px+objectOffset['dish'][0],dish_py+objectOffset['dish'][1],dish_pz+objectOffset['dish'][2])
-        self.p.addBox("sponge",objectSize['sponge'][0],objectSize['sponge'][1],objectSize['sponge'][2],sponge_px+objectOffset['sponge'][0],sponge_py+objectOffset['sponge'][1],sponge_pz+objectOffset['sponge'][2])
-        self.p.addBox("rack",objectSize['rack'][0],objectSize['rack'][1],objectSize['rack'][2],rack_px+objectOffset['rack'][0],rack_py+objectOffset['rack'][1],rack_pz+objectOffset['rack'][2])        
+        #self.p.addBox("dish",objectSize['dish'][0],objectSize['dish'][1],objectSize['dish'][2],dish_px+objectOffset['dish'][0],dish_py+objectOffset['dish'][1],dish_pz+objectOffset['dish'][2])
+        #self.p.addBox("sponge",objectSize['sponge'][0],objectSize['sponge'][1],objectSize['sponge'][2],sponge_px+objectOffset['sponge'][0],sponge_py+objectOffset['sponge'][1],sponge_pz+objectOffset['sponge'][2])
+        #self.p.addBox("rack",objectSize['rack'][0],objectSize['rack'][1],objectSize['rack'][2],rack_px+objectOffset['rack'][0],rack_py+objectOffset['rack'][1],rack_pz+objectOffset['rack'][2])        
         self._as = actionlib.SimpleActionServer(self._action_name, baxterkitchen.msg.OrganizeAction, execute_cb=self.execute_cb, auto_start = False)
         self._as.start()
     
@@ -197,7 +197,8 @@ class OrganizeAction(object):
                 if goal.target == 'carrot':
                     print 'cut carrot'
                     self.p.removeCollisionObject('carrot')
-                    result = pick_client(1, carrot_px, carrot_py, carrot_pz)
+                    result = move_client(1, carrot_px+0.01, carrot_py-0.02, carrot_pz+0.15)
+                    result = pick_client(1, carrot_px+0.01, carrot_py-0.02, carrot_pz+0.1)
                     #p.removeCollisionObject("tall")
                 else:
                     print 'cut corn'
@@ -205,7 +206,7 @@ class OrganizeAction(object):
                     result = pick_client(1, corn_px, corn_py, corn_pz)
                     #p.removeCollisionObject("tall")                    
                 print 'move ', goal.target
-                result = move_client(1, 0.3, -0.4, 0.0)
+                result = move_client(1, 0.683, -0.024, -0.04)
                 print 'cut...'
                 result = cut_client(0.0, 0.0, 0.0) # position input doesnt matter...
                 #result = scrub_client(0.0,0.0,0.0)
