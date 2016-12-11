@@ -27,10 +27,10 @@ def dummy_organize_client(ch, ta, re):
     return True
 
 
-def organize_client(ch, ta, re):
+def organize_client(ch, ta, re, rt):
     client = actionlib.SimpleActionClient('motion_organizer', baxterkitchen.msg.OrganizeAction)
     client.wait_for_server()
-    goal = baxterkitchen.msg.OrganizeGoal(chore = ch, target = ta, reps = re)
+    goal = baxterkitchen.msg.OrganizeGoal(chore = ch, target = ta, reps = re, return_tool = rt)
     client.send_goal(goal)
     client.wait_for_result()
     return client.get_result()
@@ -68,7 +68,10 @@ def high_level_planning():
 
     print 'BEGIN CUTTING...'
     for i in range(len(cut_list)):
-        result = organize_client('cut', cut_list[i], cut_rep_list[i])
+        if i==len(cut_list):
+            result = organize_client('cut', cut_list[i], cut_rep_list[i], True)
+        else:
+            result = organize_client('cut', cut_list[i], cut_rep_list[i], False)
         print result
     print 'DONE CUTTING.'
     print 'BEGIN WASHING...'

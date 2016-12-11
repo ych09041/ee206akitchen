@@ -221,12 +221,12 @@ class OrganizeAction(object):
                 print 'return cut object'
                 result = place_client(1, 0.75, -0.12, 0.05)
                 self.p.addBox("carrot",objectSize['carrot'][0],objectSize['carrot'][1],objectSize['carrot'][2],carrot_px+objectOffset['carrot'][0],carrot_py+objectOffset['carrot'][1],carrot_pz+objectOffset['carrot'][2])
-
-                print 'return knife'
-                result = place_client(0, 0.6, 0.4, 0.0)
-                self.p.addBox("knife",objectSize['knife'][0],objectSize['knife'][1],objectSize['knife'][2],
-                    knife_px+objectOffset['knife'][0],knife_py+objectOffset['knife'][1],knife_pz+objectOffset['knife'][2])
-                print "Finished cutting: "#, result
+                if goal.return_tool==True:
+                    print 'return knife'
+                    result = place_client(0, 0.6, 0.4, 0.0)
+                    self.p.addBox("knife",objectSize['knife'][0],objectSize['knife'][1],objectSize['knife'][2],
+                        knife_px+objectOffset['knife'][0],knife_py+objectOffset['knife'][1],knife_pz+objectOffset['knife'][2])
+                    print "Finished cutting: "#, result
             except rospy.ROSInterruptException:
                 print "program interrupted before completion"
         

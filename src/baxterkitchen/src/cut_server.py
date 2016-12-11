@@ -97,7 +97,7 @@ class CutAction(object):
 
 
 
-        for times in range(0,3):
+        for times in range(0,goal.reps):
             # aim cut
             left_arm.set_joint_value_target('left_s0',a0 + delta_a0)
             left_arm.set_joint_value_target('left_s1',a1)

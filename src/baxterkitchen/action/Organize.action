@@ -2,6 +2,7 @@
 string chore
 string target
 float32 reps
+bool return_tool
 ---
 #result definition
 int32 done
