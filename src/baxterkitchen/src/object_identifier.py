@@ -130,10 +130,10 @@ def update_inventory():
                 pass
         else:
             pass                
-        print '----------------------'
-        print 'Current objects in view'
-        print Object_list
-        print '----------------------'                                   
+        #print '----------------------'
+        #print 'Current objects in view'
+        #print Object_list
+        #print '----------------------'                                   
         pub.publish(m)
         
         
