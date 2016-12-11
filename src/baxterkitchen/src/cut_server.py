@@ -79,7 +79,7 @@ class CutAction(object):
         left_arm.set_joint_value_target('left_e1',2.26)
         left_arm.set_joint_value_target('left_w0',0.24)
         left_arm.set_joint_value_target('left_w1',0.38)
-        left_arm.set_joint_value_target('left_w2',0.5)
+        left_arm.set_joint_value_target('left_w2',0.4)
         left_arm.execute(left_arm.plan())
         print 'go to cut position'
         rospy.sleep(time_gap)
