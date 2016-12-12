@@ -7,15 +7,15 @@
         <corner x="-2.8" y="2.8" z="0.0" />
     </marker>
     <marker index="9" status="1">
-        <corner x="2.6" y="4.2" z="-6.4" />
-        <corner x="2.6" y="9.8" z="-6.4" />
-        <corner x="2.6" y="9.8" z="-0.8" />
-        <corner x="2.6" y="4.2" z="-0.8" />
+        <corner x="2.9" y="4.2" z="-6.5" />
+        <corner x="2.9" y="9.8" z="-6.5" />
+        <corner x="2.9" y="9.8" z="-0.9" />
+        <corner x="2.9" y="4.2" z="-0.9" />
     </marker>
     <marker index="10" status="1">
-        <corner x="1.2" y="5.9" z="0.0" />
-        <corner x="1.2" y="8.3" z="0.0" />
-        <corner x="-1.2" y="8.3" z="0.0" />
-        <corner x="-1.2" y="5.9" z="0.0" />
+        <corner x="1.7" y="8.6" z="0.0" />
+        <corner x="-1.7" y="8.6" z="0.0" />
+        <corner x="-1.7" y="5.2" z="0.0" />
+        <corner x="1.7" y="5.2" z="0.0" />
     </marker>
 </multimarker>

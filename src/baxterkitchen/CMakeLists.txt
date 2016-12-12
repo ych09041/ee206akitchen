@@ -71,6 +71,7 @@ add_action_files(DIRECTORY action
  Move.action
  Cut.action
  Organize.action
+ Untuck.action
 )
 
 ## Generate added messages and services with any dependencies listed here

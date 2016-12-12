@@ -6,7 +6,7 @@ import rospy
 import actionlib
 
 import baxterkitchen.msg
-import numpy as np
+
 
 import sys
 
@@ -15,18 +15,18 @@ from moveit_msgs.msg import OrientationConstraint, Constraints
 from geometry_msgs.msg import PoseStamped
 from baxter_interface import gripper as baxter_gripper
 import baxter_interface
-from moveit_msgs.msg import MoveGroupAction, MoveGroupGoal, MoveGroupFeedback, MoveGroupResult, JointConstraint
 
 
 
-class ScrubAction(object):
+
+class UntuckAction(object):
     # create messages that are used to publish feedback/result
-    _feedback = baxterkitchen.msg.ScrubFeedback()
-    _result   = baxterkitchen.msg.ScrubResult()
+    _feedback = baxterkitchen.msg.UntuckFeedback()
+    _result   = baxterkitchen.msg.UntuckResult()
 
     def __init__(self, name):
         self._action_name = name
-        self._as = actionlib.SimpleActionServer(self._action_name, baxterkitchen.msg.ScrubAction, execute_cb=self.execute_cb, auto_start = False)
+        self._as = actionlib.SimpleActionServer(self._action_name, baxterkitchen.msg.UntuckAction, execute_cb=self.execute_cb, auto_start = False)
         self._as.start()
 
     def execute_cb(self, goal): ###################### do action in this execute_cb
@@ -41,9 +41,18 @@ class ScrubAction(object):
 
         # publish info to the console for the user
         #    rospy.loginfo('%s: Executing, creating fibonacci sequence of order %i with seeds %i, %i' % (self._action_name, goal.order, self._feedback.sequence[0], self._feedback.sequence[1]))
-        rospy.loginfo('scrubbing that dish')
+        rospy.loginfo('placing stuff to moves')
+
+        ## target position
+
+
+        # start executing the action
+        print 'server received goal: '
 
         ##################################################################################
+
+
+
         #Initialize moveit_commander
         moveit_commander.roscpp_initialize(sys.argv)
         #Set up the grippers
@@ -62,62 +71,41 @@ class ScrubAction(object):
         right_arm.set_planning_time(10)
 
         limb = baxter_interface.Limb('left')
-        delta_w0 = 0.2
-        time_gap = 0.5
         
-        left_arm.set_joint_value_target('left_s0',0.023)
-        left_arm.set_joint_value_target('left_s1',0.4)
-        left_arm.set_joint_value_target('left_e0',-1.5)
-        left_arm.set_joint_value_target('left_e1',1.45)
-        left_arm.set_joint_value_target('left_w0', 0.32)
-        left_arm.set_joint_value_target('left_w1',0.82)
-        left_arm.set_joint_value_target('left_w2', 0.206)
-        print "going to scrub position"
+        left_arm.set_joint_value_target('left_s0',-0.05)
+        left_arm.set_joint_value_target('left_s1',-0.95)
+        left_arm.set_joint_value_target('left_e0', -1.21)
+        left_arm.set_joint_value_target('left_e1',1.93)
+        left_arm.set_joint_value_target('left_w0', 0.676)
+        left_arm.set_joint_value_target('left_w1',1.04)
+        left_arm.set_joint_value_target('left_w2', -0.5)
         left_arm.execute(left_arm.plan())
         rospy.sleep(2.0)
 
+        rimb = baxter_interface.Limb('right')
+        
+        right_arm.set_joint_value_target('right_s0',0.082)
+        right_arm.set_joint_value_target('right_s1',-1.0)
+        right_arm.set_joint_value_target('right_e0',1.188)
+        right_arm.set_joint_value_target('right_e1',1.938)
+        right_arm.set_joint_value_target('right_w0', -0.668)
+        right_arm.set_joint_value_target('right_w1',1.032)
+        right_arm.set_joint_value_target('right_w2', 0.498)
+        right_arm.execute(right_arm.plan())
+        rospy.sleep(2.0)
+
+
+        #####################################################################################
+        '''
+        name: ['', '', 'left_e0', 'left_e1', 'left_s0', 'left_s1', 'left_w0', 'left_w1', 'left_w2', 
+        posi: [ 0,  9,   -1.21,    1.929,     -0.0510,  -0.948357,  0.675718, 1.03697196, -0.498163, 
+        'right_e0', 'right_e1', 'right_s0', 'right_s1', 'right_w0', 'right_w1', 'right_w2', 'torso_t0']
+        1.18768465, 1.93818472, 0.0820679, -0.99862143, -0.6684369, 1.0316028, 0.49816813, -12.5659838]
+        '''
 
 
 
 
-
-
-        angles = limb.joint_angles()
-        a0 = angles['left_s0']
-        a1 = angles['left_s1']
-        a2 = angles['left_e0']
-        a3 = angles['left_e1']
-        a4 = angles['left_w0']
-        a5 = angles['left_w1']
-        a6 = angles['left_w2']
-
-        for times in range(0,3):
-            # first scrub
-            left_arm.set_joint_value_target('left_s0',a0)
-            left_arm.set_joint_value_target('left_s1',a1)
-            left_arm.set_joint_value_target('left_e0',a2)
-            left_arm.set_joint_value_target('left_e1',a3)
-            left_arm.set_joint_value_target('left_w0',a4+delta_w0)
-            left_arm.set_joint_value_target('left_w1',a5)
-            left_arm.set_joint_value_target('left_w2',a6)
-            left_arm.execute(left_arm.plan())
-            print 'first scrub'
-            rospy.sleep(time_gap)
-
-            # second scrub
-            left_arm.set_joint_value_target('left_s0',a0)
-            left_arm.set_joint_value_target('left_s1',a1)
-            left_arm.set_joint_value_target('left_e0',a2)
-            left_arm.set_joint_value_target('left_e1',a3)
-            left_arm.set_joint_value_target('left_w0',a4-delta_w0)
-            left_arm.set_joint_value_target('left_w1',a5)
-            left_arm.set_joint_value_target('left_w2',a6)
-            left_arm.execute(left_arm.plan())
-            print 'second scrub'
-            rospy.sleep(time_gap)
-
-       
-       
         # check that preempt has not been requested by the client
         if self._as.is_preempt_requested():
             rospy.loginfo('%s: Preempted' % self._action_name)
@@ -136,7 +124,7 @@ class ScrubAction(object):
             self._as.set_succeeded(self._result)
 
 if __name__ == '__main__':
-    rospy.init_node('scrub_server')
-    print 'scrub server running...'
-    ScrubAction(rospy.get_name())
+    rospy.init_node('untuck_server')
+    print 'untuck server running...'
+    UntuckAction(rospy.get_name())
     rospy.spin()
