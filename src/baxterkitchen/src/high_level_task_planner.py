@@ -27,10 +27,10 @@ def dummy_organize_client(ch, ta, re):
     return True
 
 
-def organize_client(ch, ta, re):
+def organize_client(ch, ta, re, pt, rt):
     client = actionlib.SimpleActionClient('motion_organizer', baxterkitchen.msg.OrganizeAction)
     client.wait_for_server()
-    goal = baxterkitchen.msg.OrganizeGoal(chore = ch, target = ta, reps = re)
+    goal = baxterkitchen.msg.OrganizeGoal(chore = ch, target = ta, reps = re, pick_tool = pt, return_tool = rt)
     client.send_goal(goal)
     client.wait_for_result()
     return client.get_result()
@@ -68,12 +68,22 @@ def high_level_planning():
 
     print 'BEGIN CUTTING...'
     for i in range(len(cut_list)):
-        result = organize_client('cut', cut_list[i], cut_rep_list[i])
+        if i==0:
+            print "first cut"
+            result = organize_client('cut', cut_list[i], cut_rep_list[i], True, False)
+        elif i==len(cut_list)-1:
+            print "last cut"
+            result = organize_client('cut', cut_list[i], cut_rep_list[i], False, True)
+        else:
+            "not the last cut"
+            result = organize_client('cut', cut_list[i], cut_rep_list[i], False, False)
         print result
     print 'DONE CUTTING.'
+    print 'UNTUCK'
+    result = organize_client('untuck','untuck',1,True,True)
     print 'BEGIN WASHING...'
     for i in range(len(wash_list)):
-        result = organize_client('wash', wash_list[i], wash_rep_list[i])
+        result = organize_client('wash', wash_list[i], wash_rep_list[i],True, True)
         print result
     print 'DONE WASHING.'
     print 'ALL DONE!'        

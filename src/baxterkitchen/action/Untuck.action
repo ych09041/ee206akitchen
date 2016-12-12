@@ -1,14 +1,11 @@
 #goal definition
-string chore
-string target
-float32 reps
-bool pick_tool
-bool return_tool
+int32 untuck
 ---
 #result definition
 int32 done
 ---
 #feedback
+int32 side
 float32 fb_x
 float32 fb_y
 float32 fb_z

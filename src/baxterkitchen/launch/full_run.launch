@@ -17,6 +17,7 @@
   <node name="move_server" pkg="baxterkitchen" type="move_server.py" respawn="false" output="screen" />
   <node name="scrub_server" pkg="baxterkitchen" type="scrub_server.py" respawn="false" output="screen" />
   <node name="cut_server" pkg="baxterkitchen" type="cut_server.py" respawn="false" output="screen" />
+  <node name="untuck_server" pkg="baxterkitchen" type="untuck_server.py" respawn="false" output="screen" />
   
   <node name="motion_organizer" pkg="baxterkitchen" type="motion_organizer.py" respawn="false" output="screen" />
   
