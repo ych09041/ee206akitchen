@@ -69,8 +69,10 @@ def high_level_planning():
     print 'BEGIN CUTTING...'
     for i in range(len(cut_list)):
         if i==0:
-            print "first cut"
-            result = organize_client('cut', cut_list[i], cut_rep_list[i], True, False)
+            if len(cut_list)==1:
+                result = organize_client('cut', cut_list[i], cut_rep_list[i], True, True)
+            else:
+                result = organize_client('cut', cut_list[i], cut_rep_list[i], True, False)
         elif i==len(cut_list)-1:
             print "last cut"
             result = organize_client('cut', cut_list[i], cut_rep_list[i], False, True)
