@@ -1,6 +1,8 @@
 EE 206A Fall 2016
+
 UC Berkeley
-baxterkitchen.weebly.com
+
+[a link](baxterkitchen.weebly.com)
 
 
 Baxter kitchen assistant is aimed at helping users with simple kitchen chores such as cleaning dishes and preparing ingredients for cooking. The robot receives user commands in the form of a text file, creates a list of tasks such as chopping vegetables and cleaning dishes, and completes them in an optimized sequence. 
