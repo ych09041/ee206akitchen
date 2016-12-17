@@ -1,5 +1,12 @@
 #! /usr/bin/env python
 
+'''
+UC Berkeley EE 206A Fall 2016
+Baxter Kitchen Assistant
+Tony Abdo, Xiaotian Fan, Cheng Hao Yuan
+
+'''
+
 import roslib
 import rospy
 
@@ -102,8 +109,6 @@ class UntuckAction(object):
         'right_e0', 'right_e1', 'right_s0', 'right_s1', 'right_w0', 'right_w1', 'right_w2', 'torso_t0']
         1.18768465, 1.93818472, 0.0820679, -0.99862143, -0.6684369, 1.0316028, 0.49816813, -12.5659838]
         '''
-
-
 
 
         # check that preempt has not been requested by the client

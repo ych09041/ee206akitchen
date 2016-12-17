@@ -1,5 +1,12 @@
 #! /usr/bin/env python
 
+'''
+UC Berkeley EE 206A Fall 2016
+Baxter Kitchen Assistant
+Tony Abdo, Xiaotian Fan, Cheng Hao Yuan
+
+'''
+
 import roslib
 import rospy
 
@@ -75,10 +82,7 @@ class OrganizeAction(object):
     right_gripper.set_moving_force(force_limit)
     left_gripper.set_holding_force(force_limit)
     right_gripper.set_holding_force(force_limit)
-    # setup scene
-    #p = PlanningSceneInterface("base")
-    #p.addbox("name",lx,ly,lz,px,py,pz)
-    #p.clear()
+
     
     rospy.sleep(1.0)
 

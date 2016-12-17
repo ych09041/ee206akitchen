@@ -1,5 +1,12 @@
 #! /usr/bin/env python
 
+'''
+UC Berkeley EE 206A Fall 2016
+Baxter Kitchen Assistant
+Tony Abdo, Xiaotian Fan, Cheng Hao Yuan
+
+'''
+
 import roslib
 import rospy
 
@@ -66,7 +73,7 @@ class ScrubAction(object):
         time_gap = 0.5
         
         left_arm.set_joint_value_target('left_s0',0.023)
-        left_arm.set_joint_value_target('left_s1',0.4)
+        left_arm.set_joint_value_target('left_s1',0.2)
         left_arm.set_joint_value_target('left_e0',-1.5)
         left_arm.set_joint_value_target('left_e1',1.45)
         left_arm.set_joint_value_target('left_w0', 0.32)

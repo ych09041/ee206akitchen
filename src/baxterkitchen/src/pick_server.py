@@ -1,5 +1,13 @@
 #! /usr/bin/env python
 
+'''
+UC Berkeley EE 206A Fall 2016
+Baxter Kitchen Assistant
+Tony Abdo, Xiaotian Fan, Cheng Hao Yuan
+
+'''
+
+
 import roslib
 import rospy
 
