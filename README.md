@@ -10,8 +10,11 @@ Baxter kitchen assistant is aimed at helping users with simple kitchen chores su
 Launch files:
 
 calibrate.launch: Moves Baxter arms to predefined locations. This should be run before placing the calibration bar on the table.
+
 vision.launch: Launches the camera feed and ar_track_alvar processing.
+
 vision_cory.launch: Same thing as vision.launch, but for use in Cory lab.
+
 full_run.launch: Starts the main program, nodes, and action servers. Performs the list of tasks.
 
 Nodes in baxterkitchen package:
