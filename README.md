@@ -24,6 +24,8 @@ Baxter kitchen assistant is aimed at helping users with simple kitchen chores su
 **cut_server.py**: Action server for performing the cutting motion.  
 **scrub_server.py**: Action server for performing the scrubbing motion.  
 **untuck_server.py**: Action server for resetting the arms.  
+**naval_frame.py**: TF Broadcaster that aligns the calibration bar with the Baxter base frame.  
+**motion_calibrator.py**: Issues action requests to move both arms to the calibration position.  
 
 
 ## AR tag bundles:
