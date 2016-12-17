@@ -1,4 +1,12 @@
 #!/usr/bin/env python
+
+'''
+UC Berkeley EE 206A Fall 2016
+Baxter Kitchen Assistant
+Tony Abdo, Xiaotian Fan, Cheng Hao Yuan
+
+'''
+
 import tf
 import rospy
 import roslib
@@ -9,8 +17,8 @@ from tf2_msgs.msg import TFMessage
 from geometry_msgs.msg import Transform, Vector3, Quaternion, Twist, TransformStamped
 import baxterkitchen.msg
 from baxterkitchen.msg import Inventory
-#import exp_quat_func as eqf
-#import ar_tag_subs as ar
+
+
 
 
 listener = None
@@ -58,7 +66,6 @@ def if_visible(listener,naval,frame):
 def update_inventory():
 
     pub = rospy.Publisher('inventory', Inventory, queue_size=10)
-    #sub = rospy.Subscriber('inventory', Inventory, sub_callback, queue_size=10)
     listener = tf.TransformListener()
     r = rospy.Rate(2.0) # 10hz
     

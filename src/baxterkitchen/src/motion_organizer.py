@@ -1,5 +1,12 @@
 #! /usr/bin/env python
 
+'''
+UC Berkeley EE 206A Fall 2016
+Baxter Kitchen Assistant
+Tony Abdo, Xiaotian Fan, Cheng Hao Yuan
+
+'''
+
 import roslib
 import rospy
 
@@ -171,39 +178,31 @@ class OrganizeAction(object):
             print 'washing...'
             try:       
                 print 'pick sponge'
-                #result = move_client(0, sponge_px+0.03, sponge_py-0.04, sponge_pz+0.10)
                 result = move_client(0, sponge_px, sponge_py, sponge_pz+0.08)
                 self.p.removeCollisionObject('sponge')
                 result = pick_client(0, sponge_px, sponge_py, sponge_pz-0.02)
-                #result = move_client(0, sponge_px, sponge_py, sponge_pz+0.20)
                 result = move_client(0, sponge_px, sponge_py, sponge_pz+0.10)
 
-                #p.removeCollisionObject("tall")
-                #print 'move sponge'
-                #result = move_client(0, 0.4, 0.3, 0.0)
                 for times in range(0,int(goal.reps)):
                     print 'pick dish ', times
-                    #result = move_client(1, dish_px+0.02, dish_py, dish_pz+0.10)
-                    ##result = move_client(1, dish_px, dish_py, dish_pz+0.10)
-                    ##self.p.removeCollisionObject('dish')
-                    ##result = pick_client(1, dish_px, dish_py, dish_pz-0.015)
-                    ##result = move_client(1, dish_px, dish_py, dish_pz+0.10)
-                    #p.removeCollisionObject("tall")
+                    result = move_client(1, dish_px, dish_py, dish_pz+0.10)
+                    self.p.removeCollisionObject('dish')
+                    result = pick_client(1, dish_px, dish_py, dish_pz-0.015)
+                    result = move_client(1, dish_px, dish_py, dish_pz+0.10)
                     print 'move dish to location'
-                    ##result = move_client(1, 0.75, -0.14, 0.255)
+                    result = move_client(1, 0.75, -0.14, 0.255)
                     print 'scrub the dish...'
-                    ##result = scrub_client(0.0, 0.0, 0.0) # position input doesnt matter...
+                    result = scrub_client(0.0, 0.0, 0.0) # position input doesnt matter...
                     print "after scrub..."
                     print "return dish ", times
-                    ##result = move_client(1, 0.774, -0.492, 0.18)
-                    ##result = place_client(1, 0.774, -0.492, 0.12)
-                    ##result = move_client(1, 0.774, -0.492, 0.18)
-
-                    #p.addbox("name",lx,ly,lz,px,py,pz)
+                    result = move_client(1, 0.774, -0.492, 0.18)
+                    result = place_client(1, 0.774, -0.492, 0.12)
+                    result = move_client(1, 0.774, -0.492, 0.18)
+                    self.p.addBox("dish",objectSize['dish'][0],objectSize['dish'][1],objectSize['dish'][2],dish_px+objectOffset['dish'][0],dish_py+objectOffset['dish'][1],dish_pz+objectOffset['dish'][2])
                 print 'return sponge'
                 result = place_client(0, 0.6, 0.4, 0.05)
-                #result = move_client(0, 0.6, 0.4, 0.15)
-                #p.addbox("name",lx,ly,lz,px,py,pz)
+                self.p.addBox("sponge",objectSize['sponge'][0],objectSize['sponge'][1],objectSize['sponge'][2],sponge_px+objectOffset['sponge'][0],sponge_py+objectOffset['sponge'][1],sponge_pz+objectOffset['sponge'][2])
+
                 print "Finished washing: ", result
             except rospy.ROSInterruptException:
                 print "program interrupted before completion"
@@ -232,7 +231,6 @@ class OrganizeAction(object):
                     result = pick_client(1, carrot_px+0.01, carrot_py, carrot_pz+0.02)
                     result = move_client(1, carrot_px, carrot_py, carrot_pz+0.10)
 
-                    #p.removeCollisionObject("tall")
                 else:
                     print 'cut corn'
                     self.p.removeCollisionObject('corn')
@@ -247,29 +245,25 @@ class OrganizeAction(object):
                 result = move_client(1, 0.683, -0.024, -0.03)
                 print 'cut...', goal.reps
                 result = cut_client(int(goal.reps)) # position input doesnt matter...
-                #result = scrub_client(0.0,0.0,0.0)
                 
                 print 'move knife out of the way'
                 result = move_client(0, 0.505, 0.287, 0.014)
                 
-                #print 'return ', goal.target
-                #result = place_client(1, 0.3, -0.1, 0.0)
-                #p.addbox("name",lx,ly,lz,px,py,pz)
-
                 print 'return cut object'
                 result = place_client(1, 0.75, -0.12, -0.02)
                 result = move_client(1,0.75, -0.12, 0.1)
-                self.p.addBox("carrot",objectSize['carrot'][0],objectSize['carrot'][1],objectSize['carrot'][2],carrot_px+objectOffset['carrot'][0],carrot_py+objectOffset['carrot'][1],carrot_pz+objectOffset['carrot'][2])
                 
+                if goal.target == 'carrot':
+                    self.p.addBox("carrot",objectSize['carrot'][0],objectSize['carrot'][1],objectSize['carrot'][2],carrot_px+objectOffset['carrot'][0],carrot_py+objectOffset['carrot'][1],carrot_pz+objectOffset['carrot'][2])
+                else:
+                    self.p.addBox("corn",objectSize['corn'][0],objectSize['corn'][1],objectSize['corn'][2],corn_px+objectOffset['corn'][0],corn_py+objectOffset['corn'][1],corn_pz+objectOffset['corn'][2])
+
                 if goal.return_tool==True:
                     print 'return knife'
                     result = place_client(0, 0.5, 0.28, -0.05)
                     result = move_client(0, 0.5, 0.28, 0.05)
-                    #result = place_client(0, 0.56, 0.70, -0.04)
-                    #result = move_client(0, 0.56, 0.70, 0.10)
-                    self.p.addBox("knife",objectSize['knife'][0],objectSize['knife'][1],objectSize['knife'][2],
-                        knife_px+objectOffset['knife'][0],knife_py+objectOffset['knife'][1],knife_pz+objectOffset['knife'][2])
-                    print "Finished cutting: "#, result
+                    self.p.addBox("knife",objectSize['knife'][0],objectSize['knife'][1],objectSize['knife'][2], knife_px+objectOffset['knife'][0],knife_py+objectOffset['knife'][1],knife_pz+objectOffset['knife'][2])
+                    print "Finished cutting"
             except rospy.ROSInterruptException:
                 print "program interrupted before completion"
         
